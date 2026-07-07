@@ -49,6 +49,7 @@ def assemble(raw, result):
         "region": raw["_region"], "isFin": e["ticker"] in config.FINANCIALS,
         "marketCap": price.get("market_cap"), "price": price.get("price"),
         "drawdown": price.get("drawdown"), "peNow": raw.get("pe_now"), "peHist": raw.get("pe_hist_mean"),
+        "evNow": raw.get("ev_now"), "evHist": raw.get("ev_hist_mean"),
         "impliedGrowth": None if raw.get("implied_growth") is None else round(raw["implied_growth"] * 100),
         "realistic": raw.get("realistic", True), "events": raw.get("events", []), **result,
     }
