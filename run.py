@@ -52,9 +52,15 @@ def assemble(raw, result):
         "impliedGrowth": None if raw.get("implied_growth") is None else round(raw["implied_growth"] * 100),
         "realistic": raw.get("realistic", True), "events": raw.get("events", []), **result,
     }
-    from report import build as build_report
-    row["report"] = build_report(row)
+    # Der Bericht (inkl. optionalem Anthropic-API-Aufruf fuer natuerlichere
+    # Sprache) wird bewusst NUR beim woechentlichen Lauf erzeugt -- nicht bei
+    # jedem taeglichen Score-Update. Das Dashboard hat ohnehin einen eigenen,
+    # kostenlosen Fallback-Generator (buildReportPages in FinvestFundamental.jsx),
+    # der greift, wenn "report" im JSON fehlt. So faellt der Anthropic-Verbrauch
+    # nur 1x/Woche an statt 7x/Woche.
     if os.environ.get("FINVEST_WEEKLY") == "1":
+        from report import build as build_report
+        row["report"] = build_report(row)
         from reports_archive import save_report
         try:
             save_report(row["ticker"], row["name"], row["domain"], row["region"], row["report"])

@@ -38,6 +38,21 @@ ART = {
 }
 
 
+def _variant_seed(stock: dict, salt: str) -> int:
+    """Deterministisch pro Aktie + Woche + Textbaustein -- stabil innerhalb
+    einer Woche, aber unterschiedlich zwischen Aktien und über die Wochen
+    hinweg. Python-Aequivalent des Frontend-Varianz-Systems."""
+    s = f"{stock.get('ticker', '')}-{_week_range()}-{salt}"
+    h = 0
+    for ch in s:
+        h = (h * 31 + ord(ch)) & 0xFFFFFFFF
+    return h
+
+
+def _pick(stock: dict, salt: str, variants: list):
+    return variants[_variant_seed(stock, salt) % len(variants)]
+
+
 def _week_range():
     today = dt.date.today()
     start = today - dt.timedelta(days=today.weekday() + 1)  # letzter Sonntag
@@ -65,44 +80,66 @@ def _headline(stock: dict) -> str:
 
 
 def _section_week(stock: dict) -> list[str]:
-    """Kurzfristig: was ist DIESE Woche konkret passiert."""
+    """Kurzfristig: was ist passiert, was hat es ausgeloest, was bedeutet es
+    langfristig -- als Erzaehlung, keine Kategorien-Sprache."""
     events = sorted(stock.get("events", []), key=lambda e: abs(e.get("m", e.get("move", 0))), reverse=True)
     name = stock["name"]
     if not events:
-        return [f"Für {name} gab es in dieser Woche keine grösseren Kursausschläge mit erkennbarem Auslöser. "
-                f"Der Kurs bewegte sich im Rahmen des breiten Marktes, ohne dass ein einzelnes Ereignis "
-                f"die Richtung vorgegeben hätte. Das ist an sich keine schlechte Nachricht – ruhige Wochen "
-                f"sind für langfristig orientierte Anleger oft unauffälliger, aber nicht weniger wichtig, "
-                f"weil sie zeigen, dass keine akute Störung im Geschäftsmodell vorliegt."]
+        return [_pick(stock, "week-quiet", [
+            f"Für {name} gab es in dieser Woche keine grösseren Kursausschläge mit erkennbarem Auslöser. "
+            f"Der Kurs bewegte sich im Rahmen des breiten Marktes, ohne dass ein einzelnes Ereignis die "
+            f"Richtung vorgegeben hätte. Das ist an sich keine schlechte Nachricht – ruhige Wochen sind für "
+            f"langfristig orientierte Anleger oft unauffälliger, aber nicht weniger wichtig, weil sie "
+            f"zeigen, dass keine akute Störung im Geschäftsmodell vorliegt.",
+            f"{name} zeigte diese Woche kaum Ausschläge, die über das normale Marktrauschen hinausgingen. "
+            f"Kein einzelnes Ereignis hat den Kurs spürbar bewegt. Für langfristige Anleger ist das eher "
+            f"beruhigend als langweilig: Stille Wochen bedeuten meist, dass im operativen Geschäft nichts "
+            f"Grundlegendes aus der Bahn geraten ist.",
+            f"Diese Woche verlief bei {name} unauffällig – die Bewegungen blieben im Rahmen dessen, was man "
+            f"als normales Marktrauschen bezeichnen würde. Das heisst nicht, dass nichts passiert ist, "
+            f"sondern nur, dass nichts gross genug war, um die Richtung zu bestimmen.",
+        ])]
 
-    p1_parts = []
-    for e in events[:3]:
-        move = e.get("m", e.get("move", 0))
-        typ = e.get("type", "makro")
-        title = e.get("t", e.get("title", ""))
-        richtung = "fiel" if move < 0 else "stieg"
-        p1_parts.append(f"{richtung} die Aktie um {abs(move):.1f}\u202f% – {ART.get(typ, '')} ({title})")
-    p1 = (f"Die auffälligste Bewegung dieser Woche: die Aktie " + "; ausserdem ".join(p1_parts) + ". "
-          f"Für die Einschätzung ist entscheidend, ob eine Bewegung von echten Geschäftszahlen getragen wird "
-          f"oder eher Ausdruck von Stimmung ist – nur Ersteres verändert den inneren Wert des Unternehmens "
-          f"nachhaltig, Zweiteres ist Rauschen, das sich oft wieder relativiert.")
+    top = events[0]
+    top_title = top.get("t", top.get("title", ""))
+    top_move = top.get("m", top.get("move", 0))
+    top_type = top.get("type", "makro")
+    top_sum = top.get("sum")
 
-    fun = [e for e in events if e.get("type") == "fundamental"]
-    emo = [e for e in events if e.get("type") != "fundamental"]
-    if fun and not emo:
-        p2 = ("In dieser Woche standen fundamentale Auslöser klar im Vordergrund. Das bedeutet: die "
-              "Kursbewegung spiegelt tatsächlich eine veränderte Einschätzung des operativen Geschäfts "
-              "wider, nicht nur eine Stimmungsschwankung. Solche Bewegungen verdienen mehr Gewicht in der "
-              "eigenen Einschätzung, weil sie in der Regel eine gewisse Halbwertszeit haben.")
-    elif emo and not fun:
-        p2 = ("Auffällig ist, dass die Bewegung dieser Woche überwiegend nicht durch neue Geschäftszahlen "
-              "ausgelöst wurde, sondern durch Stimmung, Positionierung oder die allgemeine Marktlage. "
-              "Solche Bewegungen sagen wenig über den langfristigen Wert des Unternehmens aus und kehren "
-              "sich häufiger wieder um, sobald sich die Aufmerksamkeit verschiebt.")
+    intro = _pick(stock, "week-intro", [
+        f"Diese Woche drehte sich bei {name} vieles um {top_title}.",
+        f"Im Zentrum der Woche stand bei {name}: {top_title}.",
+        f"Was diese Woche bei {name} auffiel: {top_title}.",
+    ])
+    p1 = intro + (f" {top_sum}" if top_sum else
+                  f" Der Kurs bewegte sich um {'+' if top_move > 0 else ''}{top_move}\u202f%.")
+
+    short_term_cause = {
+        "fundamental": "konkrete, neue Geschäftszahlen oder eine veränderte Guidance",
+        "emotional": "Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte",
+        "makro": "die Entwicklung des Gesamtmarkts, etwa Zinserwartungen oder eine Sektorrotation",
+    }.get(top_type, "eine Mischung aus mehreren Faktoren")
+    others = events[1:3]
+    others_txt = ""
+    if others:
+        titles = " und ".join(f"„{e.get('t', e.get('title', ''))}\"" for e in others)
+        others_txt = f" Daneben spielte auch {titles} eine Rolle, wenn auch mit geringerem Gewicht."
+    q = stock.get("quality", 5)
+    if q >= 6.5:
+        long_term = (f"Für die langfristige Substanz von {name} ändert das nach aktuellem Stand wenig – die "
+                     f"Kapitalrendite und die Bilanz bleiben die eigentlichen Massstäbe, nicht die "
+                     f"Kursbewegung dieser Woche.")
+    elif q >= 5:
+        long_term = ("Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf "
+                     "die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche.")
     else:
-        p2 = ("Diese Woche mischten sich fundamentale und stimmungsgetriebene Impulse. Das macht die "
-              "Einordnung etwas anspruchsvoller: ein Teil der Bewegung dürfte bestehen bleiben, ein anderer "
-              "Teil ist eher Rauschen, das sich in den kommenden Wochen wieder glätten kann.")
+        long_term = (f"Langfristig bleibt bei {name} ohnehin die wichtigere Frage, ob sich die operative "
+                     f"Substanz verbessert – und da gibt es aktuell mehr offene Punkte als diese eine "
+                     f"Kursbewegung beantworten kann.")
+    p2 = _pick(stock, "week-shortlong", [
+        f"Kurzfristig ausgelöst hat das vor allem {short_term_cause}.{others_txt} {long_term}",
+        f"Der unmittelbare Auslöser war {short_term_cause}.{others_txt} {long_term}",
+    ])
     return [p1, p2]
 
 
@@ -117,12 +154,17 @@ def _section_trend(stock: dict) -> list[str]:
     if pe and peh:
         rel = "günstiger" if pe < peh else "teurer"
         diff = abs(round((pe - peh) / peh * 100))
-        p1 = (f"Zieht man den Blick etwas weiter, zeigt sich {name} beim Kurs-Gewinn-Verhältnis mit {pe} "
-              f"gegenüber dem eigenen historischen Schnitt von {peh} rund {diff}\u202f% {rel} bewertet als "
-              f"sonst üblich. Das ist mehr als eine Momentaufnahme: es misst die Aktie an ihrer eigenen "
-              f"Vergangenheit, nicht an einem willkürlichen Schwellenwert, und ist damit eine der "
-              f"aussagekräftigsten Grössen für die Frage, ob der aktuelle Kurs eher eine Chance oder eher "
-              f"eine Warnung ist.")
+        p1 = _pick(stock, "trend-pe", [
+            f"Zieht man den Blick etwas weiter, zeigt sich {name} beim Kurs-Gewinn-Verhältnis mit {pe} "
+            f"gegenüber dem eigenen historischen Schnitt von {peh} rund {diff}\u202f% {rel} bewertet als "
+            f"sonst üblich. Das misst die Aktie an ihrer eigenen Vergangenheit, nicht an einem "
+            f"willkürlichen Schwellenwert, und ist damit eine der aussagekräftigsten Grössen für die "
+            f"Frage, ob der aktuelle Kurs eher eine Chance oder eine Warnung ist.",
+            f"Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von {name} liegt aktuell bei "
+            f"{pe}, gegenüber einem eigenen historischen Mittel von {peh} – also rund {diff}\u202f% {rel} "
+            f"als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter "
+            f"Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+        ])
     else:
         p1 = (f"Zur Einordnung der Bewertung von {name} liegen aktuell keine ausreichend verlässlichen "
               f"historischen Vergleichswerte vor.")
@@ -136,13 +178,21 @@ def _section_trend(stock: dict) -> list[str]:
         p2 = "Zum Abstand vom Allzeithoch liegen aktuell keine verlässlichen Daten vor."
 
     if v >= 6.5:
-        p3 = ("Insgesamt spricht die aktuelle Bewertung eher für die Aktie: Sie handelt mit einem gewissen "
-              "Sicherheitsabschlag gegenüber ihrem geschätzten fairen Wert, was zukünftigen Anlegern etwas "
-              "mehr Puffer nach unten verschafft.")
+        p3 = _pick(stock, "trend-cheap", [
+            "Insgesamt spricht die aktuelle Bewertung eher für die Aktie: Sie handelt mit einem gewissen "
+            "Sicherheitsabschlag gegenüber ihrem geschätzten fairen Wert, was zukünftigen Anlegern etwas "
+            "mehr Puffer nach unten verschafft.",
+            "Unter dem Strich wirkt die Bewertung derzeit eher einladend: Der Kurs liegt mit spürbarem "
+            "Abschlag zum geschätzten fairen Wert, was das Abwärtsrisiko etwas begrenzt.",
+        ])
     elif v <= 4:
-        p3 = ("Insgesamt ist die aktuelle Bewertung eher ein Gegenargument: Der Markt preist bereits recht "
-              "viel Optimismus ein, was den Spielraum für weitere Kursgewinne einschränkt und das Risiko "
-              "bei Enttäuschungen erhöht.")
+        p3 = _pick(stock, "trend-expensive", [
+            "Insgesamt ist die aktuelle Bewertung eher ein Gegenargument: Der Markt preist bereits recht "
+            "viel Optimismus ein, was den Spielraum für weitere Kursgewinne einschränkt und das Risiko "
+            "bei Enttäuschungen erhöht.",
+            "Unter dem Strich mahnt die Bewertung eher zur Vorsicht: Im aktuellen Kurs steckt schon "
+            "einiges an Optimismus, was bei einer Enttäuschung mehr Fallhöhe bedeutet.",
+        ])
     else:
         p3 = ("Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt "
               "noch eine deutliche Überhitzung.")
@@ -153,11 +203,18 @@ def _section_big_picture(stock: dict) -> list[str]:
     """Langfristig: das grosse Bild, Moat/Innovation, wohin die Reise geht."""
     name, q = stock["name"], stock.get("quality", 5)
     sector = stock.get("sector", "")
-    p1 = (f"Zoomt man ganz heraus, bleibt die eigentlich entscheidende Frage bei {name}: trägt das "
-          f"Geschäftsmodell über die kommenden Jahre einen echten, verteidigbaren Vorteil gegenüber der "
-          f"Konkurrenz – sei es durch Marke, Skaleneffekte, Netzwerkeffekte oder technologischen Vorsprung? "
-          f"Kurzfristige Kursbewegungen, wie die dieser Woche, sagen darüber praktisch nichts aus. Sie sind "
-          f"Rauschen um einen langsamer verlaufenden, aber deutlich wichtigeren Trend.")
+    p1 = _pick(stock, "big-intro", [
+        f"Zoomt man ganz heraus, bleibt die eigentlich entscheidende Frage bei {name}: trägt das "
+        f"Geschäftsmodell über die kommenden Jahre einen echten, verteidigbaren Vorteil gegenüber der "
+        f"Konkurrenz – sei es durch Marke, Skaleneffekte, Netzwerkeffekte oder technologischen Vorsprung? "
+        f"Kurzfristige Kursbewegungen, wie die dieser Woche, sagen darüber praktisch nichts aus. Sie sind "
+        f"Rauschen um einen langsamer verlaufenden, aber deutlich wichtigeren Trend.",
+        f"Mit etwas Distanz betrachtet, zählt bei {name} eigentlich nur eine Frage: Hat das Unternehmen "
+        f"über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch "
+        f"Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert "
+        f"ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber "
+        f"wichtigeren Trend.",
+    ])
     if q >= 6.5:
         p2 = (f"Die aktuellen Kennzahlen deuten darauf hin, dass dieser Vorteil bei {name} nach wie vor "
               f"intakt ist: eine überdurchschnittliche Kapitalrendite und eine stabile Bilanz sind genau die "
