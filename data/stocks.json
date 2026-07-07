@@ -1,0 +1,484 @@
+{
+  "generated": "2026-07-07T13:59:34.425184Z",
+  "regions": {
+    "US": [],
+    "CH": [
+      {
+        "ticker": "SCMN",
+        "name": "Swisscom",
+        "domain": "swisscom.ch",
+        "sector": "Telecom",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 31987699712.0,
+        "price": 617.5,
+        "drawdown": -11.7,
+        "peNow": 25.880133,
+        "peHist": 16.6,
+        "impliedGrowth": 16,
+        "realistic": false,
+        "events": [
+          {
+            "t": "TIIAY vs. SCMWY: Which Stock Is the Better Value Option?",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "A Look At Swisscom (SWX:SCMN) Valuation As Recent Returns Highlight Mixed Share Price Momentum",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "VIV vs. SCMWY: Which Stock Should Value Investors Buy Now?",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "TIIAY vs. SCMWY: Which Stock Should Value Investors Buy Now?",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Assessing Swisscom (SWX:SCMN) Valuation After A Strong Multi‑Year Shareholder Return Run",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Qualcomm leads new 6G coalition",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Swisscom AG (SCMWY) Full Year 2025 Earnings Call Highlights: Dividend Boost and Strategic ...",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Swisscom (SCMWY) Upgraded to Buy: What Does It Mean for the Stock?",
+            "d": "07.07.2026",
+            "move": 1.5,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite 1.5 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 6.4,
+        "valuation": 5.2,
+        "dislocation": 5.0,
+        "overall": 5.7,
+        "status": "Neutral",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -3.07,
+        "piotroski_raw": 5,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 1.6,
+          "roic_trend": null,
+          "piotroski": 6.6,
+          "earnings_quality": 10.0,
+          "margin_stability": 9.3,
+          "balance": 8.3,
+          "dilution": 6.6
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 1,
+          "pe_vs_sector": 10,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 4.2,
+          "margin_of_safety": 10
+        },
+        "projection": {
+          "annual": 10.3,
+          "base3": 34,
+          "low3": 4,
+          "high3": 70,
+          "prob": 48
+        }
+      },
+      {
+        "ticker": "ALC",
+        "name": "Alcon",
+        "domain": "alcon.com",
+        "sector": "Healthcare",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 26355308544.0,
+        "price": 54.040000915527344,
+        "drawdown": -35.6,
+        "peNow": 40.02963,
+        "peHist": 50.5,
+        "impliedGrowth": 29,
+        "realistic": false,
+        "events": [
+          {
+            "t": "Alcon spends up to $200m to co-develop customisable cataract lenses with RxSight",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Is it a Prudent Move to Retain ALC Stock in Your Portfolio Now?",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "How COO Is Balancing Premium Lens Growth Against Asia-Pacific Risks?",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Is COO Stock Attractive as MyDay Gains Meet Asia-Pacific Pressure",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "How COO Is Riding Myopia and Fertility Trends Amid Execution Risks",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Reasons to Add Tandem Diabetes Stock to Your Portfolio Right Now",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Evaluating Alcon (SWX:ALC) After Recent Share Price Weakness And Perceived Valuation Gap",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Does Alcon (SWX:ALC) Offer Opportunity After A 26% One Year Share Price Slide?",
+            "d": "07.07.2026",
+            "move": -2.3,
+            "type": "emotional",
+            "s": "Mittel",
+            "sum": "Abnormale Tagesrendite -2.3 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 6.0,
+        "valuation": 4.4,
+        "dislocation": 7.5,
+        "overall": 5.6,
+        "status": "Overvalued",
+        "signal": false,
+        "verdict": "Schwaeche emotional getrieben, Qualitaet aber nicht ueberzeugend.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.7,
+        "piotroski_raw": 6,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 1.1,
+          "roic_trend": null,
+          "piotroski": 7.0,
+          "earnings_quality": 9.1,
+          "margin_stability": 9.6,
+          "balance": 6.2,
+          "dilution": 6.5
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 6.3,
+          "pe_vs_sector": 4.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 1,
+          "margin_of_safety": 3.7
+        },
+        "projection": {
+          "annual": 9.8,
+          "base3": 32,
+          "low3": 2,
+          "high3": 68,
+          "prob": 47
+        }
+      },
+      {
+        "ticker": "GEBN",
+        "name": "Geberit",
+        "domain": "geberit.com",
+        "sector": "Industrials",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 17654134784.0,
+        "price": 535.4000244140625,
+        "drawdown": -22.0,
+        "peNow": 29.645628,
+        "peHist": 26.1,
+        "impliedGrowth": 19,
+        "realistic": false,
+        "events": [
+          {
+            "t": "What Does Geberit AG's (VTX:GEBN) Share Price Indicate?",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Geberit AG (GBERF) Full Year 2025 Earnings Call Highlights: Strong Sales Growth and ...",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Investors more bullish on Geberit (VTX:GEBN) this week as stock advances 3.8%, despite earnings trending downwards over past year",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Geberit AG (GBERF) Q3 2025 Earnings Call Highlights: Strong Sales Growth Amid Market Challenges",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "The Returns At Geberit (VTX:GEBN) Aren't Growing",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Can Geberit AG's (VTX:GEBN) ROE Continue To Surpass The Industry Average?",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Geberit AG Just Missed Earnings - But Analysts Have Updated Their Models",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Geberit Second Quarter 2025 Earnings: Misses Expectations",
+            "d": "07.07.2026",
+            "move": -0.1,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite -0.1 % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 7.7,
+        "valuation": 3.7,
+        "dislocation": 4.3,
+        "overall": 5.6,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Schwaeche ist fundamental begruendet - Vorsicht, kein reines Sentiment.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.77,
+        "piotroski_raw": 7,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 7.0,
+          "roic_trend": null,
+          "piotroski": 8.0,
+          "earnings_quality": 9.4,
+          "margin_stability": 8.7,
+          "balance": 6.8,
+          "dilution": 8.7
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 3.6,
+          "pe_vs_sector": 7.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 1,
+          "margin_of_safety": 1
+        },
+        "projection": {
+          "annual": 9.8,
+          "base3": 33,
+          "low3": 3,
+          "high3": 68,
+          "prob": 47
+        }
+      },
+      {
+        "ticker": "ROG",
+        "name": "Roche",
+        "domain": "roche.com",
+        "sector": "Healthcare",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": null,
+        "price": null,
+        "drawdown": null,
+        "peNow": null,
+        "peHist": null,
+        "impliedGrowth": null,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Can Anktiva's Label Expansion Unlock the Next Growth Phase for IBRX?",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why The Roche Holding (SWX:ROG) Narrative Is Shifting On Mixed Pipeline Signals And Valuation",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Recursion Pharmaceuticals Details AI-Driven Drug Pipeline, Sanofi/Roche Milestones, Runway to 2028",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Sarepta Plans FDA Filings Seeking Full Approval for Two DMD Therapies",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Roche stops work on experimental SMA drug",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Long-only funds are buying non-US stocks, BofA says",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Can Alnylam's Pipeline Drugs Sustain Long-Term Growth Ahead?",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Analysis-TrumpRx lists many medicines at prices higher than paid in UK",
+            "d": "07.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 5.5,
+        "valuation": 5.5,
+        "dislocation": 5.0,
+        "overall": 5.4,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": null,
+        "confidence": 40,
+        "coverage": 0.0,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": null,
+          "roic_trend": null,
+          "piotroski": null,
+          "earnings_quality": null,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": null
+        },
+        "valuation_sub": {
+          "pe_vs_hist": null,
+          "pe_vs_sector": null,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": null,
+          "margin_of_safety": null
+        },
+        "projection": {
+          "annual": 9.4,
+          "base3": 31,
+          "low3": 1,
+          "high3": 66,
+          "prob": 45
+        }
+      }
+    ]
+  }
+}
