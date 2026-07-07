@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-07T14:10:36.210539Z",
+  "generated": "2026-07-07T14:19:13.826795Z",
   "scores": {
     "GOOGL": {
       "overall": 4.8,
       "quality": 5.6,
       "valuation": 3.8,
       "status": "Overvalued",
-      "peNow": 28.291922,
+      "peNow": 28.30946,
       "drawdown": -7.7
     },
     "MSFT": {
@@ -14,15 +14,15 @@
       "quality": 6.4,
       "valuation": 6.7,
       "status": "Solid",
-      "peNow": 23.389742,
-      "drawdown": -27.2
+      "peNow": 23.510166,
+      "drawdown": -26.8
     },
     "AMZN": {
       "overall": 6.2,
       "quality": 5.6,
       "valuation": 6.7,
       "status": "Solid",
-      "peNow": 31.931347,
+      "peNow": 31.917099,
       "drawdown": -10.4
     },
     "JPM": {
@@ -30,7 +30,7 @@
       "quality": 5.6,
       "valuation": 4.7,
       "status": "Neutral",
-      "peNow": 16.307938,
+      "peNow": 16.288517,
       "drawdown": 0.0
     },
     "V": {
@@ -38,23 +38,23 @@
       "quality": 6.6,
       "valuation": 4.0,
       "status": "Solid",
-      "peNow": 30.851349,
-      "drawdown": -4.5
+      "peNow": 30.783346,
+      "drawdown": -4.7
     },
     "MA": {
       "overall": 6.2,
       "quality": 7.7,
       "valuation": 4.4,
       "status": "Solid",
-      "peNow": 31.271278,
-      "drawdown": -9.4
+      "peNow": 31.259407,
+      "drawdown": -9.5
     },
     "PG": {
       "overall": 5.6,
       "quality": 6.0,
       "valuation": 5.3,
       "status": "Neutral",
-      "peNow": 22.314327,
+      "peNow": 22.29532,
       "drawdown": -11.6
     },
     "SCMN": {
@@ -62,24 +62,24 @@
       "quality": 6.4,
       "valuation": 5.2,
       "status": "Neutral",
-      "peNow": 25.901089,
-      "drawdown": -11.6
+      "peNow": 25.838223,
+      "drawdown": -11.8
     },
     "ALC": {
       "overall": 5.6,
       "quality": 6.0,
       "valuation": 4.4,
       "status": "Overvalued",
-      "peNow": 40.11852,
-      "drawdown": -35.5
+      "peNow": 39.614815,
+      "drawdown": -36.3
     },
     "GEBN": {
-      "overall": 5.6,
+      "overall": 5.9,
       "quality": 7.7,
       "valuation": 3.7,
       "status": "Solid",
-      "peNow": 29.623478,
-      "drawdown": -22.1
+      "peNow": 29.6567,
+      "drawdown": -22.0
     },
     "ROG": {
       "overall": 5.4,
