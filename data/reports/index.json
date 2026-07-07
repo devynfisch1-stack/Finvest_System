@@ -1,0 +1,90 @@
+[
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Microsoft: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "domain": "amazon.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Amazon: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "domain": "google.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Alphabet: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "domain": "jpmorganchase.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "JPMorgan Chase: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa",
+    "domain": "visa.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Warum der Markt bei Visa gerade übertreibt"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "domain": "mastercard.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Mastercard: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "domain": "pg.com",
+    "region": "US",
+    "date": "2026-07-07",
+    "headline": "Procter & Gamble: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "ROG",
+    "name": "Roche",
+    "domain": "roche.com",
+    "region": "CH",
+    "date": "2026-07-07",
+    "headline": "Roche: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "ALC",
+    "name": "Alcon",
+    "domain": "alcon.com",
+    "region": "CH",
+    "date": "2026-07-07",
+    "headline": "Alcon im Ausverkauf – Substanz oder Sentiment?"
+  },
+  {
+    "ticker": "SCMN",
+    "name": "Swisscom",
+    "domain": "swisscom.ch",
+    "region": "CH",
+    "date": "2026-07-07",
+    "headline": "Swisscom: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "GEBN",
+    "name": "Geberit",
+    "domain": "geberit.com",
+    "region": "CH",
+    "date": "2026-07-07",
+    "headline": "Geberit: Ruhige Woche, klarer Trend"
+  }
+]
