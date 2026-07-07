@@ -1,0 +1,39 @@
+name: Fundamental-Analyse (taeglich)
+
+on:
+  schedule:
+    # 03:00 UTC = 05:00 Schweizer Zeit im Sommer (CEST), 04:00 im Winter (CET).
+    - cron: "0 3 * * *"
+  workflow_dispatch:            # jederzeit manuell ausloesbar (Actions-Tab -> Run workflow)
+
+# Erlaubt dem Workflow, das Ergebnis zurueck ins Repo zu committen
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhaengigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Analyse ausfuehren
+        env:
+          EDGAR_UA: "Finvest research ${{ secrets.EDGAR_CONTACT }}"
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}          # optional (US-Daten besser)
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # optional (News + Report)
+        run: python run.py
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "finvest-bot"
+          git config user.email "bot@finvest.local"
+          git add data/stocks.json data/history/
+          git commit -m "Auto-Update $(date -u +%Y-%m-%d)" || echo "keine Aenderungen"
+          git push
