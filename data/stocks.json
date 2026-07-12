@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-12T05:57:01.308258Z",
+  "generated": "2026-07-12T16:57:29.145451Z",
   "regions": {
     "US": [
       {
@@ -20,55 +20,7 @@
         "realistic": true,
         "events": [
           {
-            "t": "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Google vs Apple: Which of the 2 Biggest AI Stocks Is the Better Buy Right Now?",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks – Some Might Surprise You (CORRECTED)",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Berkshire Hathaway (BRK.A) Is Making An $8.5 Billion Bet On Homes And AI",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Meta's Most Important AI Customer Might Be Meta",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "5 Under the Radar AI Chip Stocks Powering the Data Center Boom",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Crypto Industry Steps Up Quantum Security Efforts as Encryption Risks Accelerate",
+            "t": "Google's In-House AI Chip Strategy Could Be a Bigger Threat to Nvidia Than Investors Think. Here's Why.",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "makro",
@@ -76,7 +28,55 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
           },
           {
-            "t": "SK Hynix ETFs Are Coming. Exactly Who Should Own Them.",
+            "t": "Alphabet Inc. (GOOGL) A Top AI Stock In D. E. Shaw’s Holdings",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Should You Buy Broadcom Inc. (AVGO)’s Shares?",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "The U.S. Economy Is Addicted to AI Spending. What Happens If It Slows?",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Broadcom vs. Marvell: A Valuation Showdown for the Custom AI Chip Trade",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "We Asked 4 AI Models if Saylor's Strategy (MSTR) Survives if Bitcoin Price Falls to $50K",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Bitcoin Has Two Ticking Time Bombs, Ex-Meta and Google Engineer Warns",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -121,6 +121,35 @@
           "low3": -5,
           "high3": 58,
           "prob": 40
+        },
+        "report": {
+          "headline": "Alphabet: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei Alphabet auffiel: Google's In-House AI Chip Strategy Could Be a Bigger Threat to Nvidia Than Investors Think. Here's Why.. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro.",
+                "Der unmittelbare Auslöser war die Entwicklung des Gesamtmarkts, etwa Zinserwartungen oder eine Sektorrotation. Daneben spielte auch „Alphabet Inc. (GOOGL) A Top AI Stock In D. E. Shaw’s Holdings\" und „Should You Buy Broadcom Inc. (AVGO)’s Shares?\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Alphabet liegt aktuell bei 27.244852, gegenüber einem eigenen historischen Mittel von 9.8 – also rund 178 % teurer als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 11 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Unter dem Strich mahnt die Bewertung eher zur Vorsicht: Im aktuellen Kurs steckt schon einiges an Optimismus, was bei einer Enttäuschung mehr Fallhöhe bedeutet."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Alphabet eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Communication, in der Alphabet tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -141,7 +170,7 @@
         "realistic": true,
         "events": [
           {
-            "t": "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
+            "t": "Should You Buy Microsoft Corporation (MSFT)’s Shares?",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -149,15 +178,7 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Meta Platforms Just Unveiled a Shocking New Artificial Intelligence (AI) Strategy",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "makro",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
-          },
-          {
-            "t": "Microsoft (MSFT) Faces A 25% Emissions Jump As AI Data Centers Test ESG Goals",
+            "t": "Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -165,7 +186,7 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "ChatGPT Goes From Assistant To Employee As OpenAI Launches Workplace AI Agent",
+            "t": "The U.S. Economy Is Addicted to AI Spending. What Happens If It Slows?",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -173,7 +194,7 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "5 Top AI Stocks Investors Own on Robinhood",
+            "t": "Haleon (HLN) Partners with Microsoft (MSFT) to Advance Digital and AI Capabilities",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -181,7 +202,7 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Chevron May Have Unlocked a Powerful New Growth Engine",
+            "t": "Could SpaceX Become the Next $3 Trillion Company?",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -189,15 +210,23 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "The Dividend Growth Plan That Leaves High-Yield Stocks Behind",
+            "t": "Could SpaceX's Starmind Make Amazon's, Microsoft's, and Google's Cloud Businesses Obsolete? Here's What Investors Need to Know.",
             "d": "12.07.2026",
             "move": 0.0,
-            "type": "fundamental",
+            "type": "emotional",
             "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Why Today’s Small Dividend Could Become Tomorrow’s Retirement Engine",
+            "t": "More tech workers are retiring early because they don’t want to deal with AI-related changes: ‘Many people believe it’s overblown’",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Big Tech’s Massive AI Spending Is Just Starting. Earnings Will Show It.",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "fundamental",
@@ -242,6 +271,35 @@
           "low3": 12,
           "high3": 82,
           "prob": 54
+        },
+        "report": {
+          "headline": "Microsoft: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Im Zentrum der Woche stand bei Microsoft: Should You Buy Microsoft Corporation (MSFT)’s Shares?. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?\" und „The U.S. Economy Is Addicted to AI Spending. What Happens If It Slows?\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Microsoft liegt aktuell bei 22.93627, gegenüber einem eigenen historischen Mittel von 31.6 – also rund 27 % günstiger als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 28 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Unter dem Strich wirkt die Bewertung derzeit eher einladend: Der Kurs liegt mit spürbarem Abschlag zum geschätzten fairen Wert, was das Abwärtsrisiko etwas begrenzt."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Microsoft eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Technology, in der Microsoft tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -262,12 +320,52 @@
         "realistic": true,
         "events": [
           {
-            "t": "Big Tech is paying for the AI boom, and chipmakers are cashing in: Chart of the Day",
+            "t": "Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "The U.S. Economy Is Addicted to AI Spending. What Happens If It Slows?",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Could SpaceX Become the Next $3 Trillion Company?",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Synchrony (SYF) Announces Executive Leadership Changes to Accelerate Digital and AI Growth",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Could SpaceX's Starmind Make Amazon's, Microsoft's, and Google's Cloud Businesses Obsolete? Here's What Investors Need to Know.",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Big Tech’s Massive AI Spending Is Just Starting. Earnings Will Show It.",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           },
           {
             "t": "SpaceX Stock Just Dropped Below Its Debut Price. Is the Stock a Buy?",
@@ -284,46 +382,6 @@
             "type": "makro",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
-          },
-          {
-            "t": "FedEx and UPS face a new pricing threat from an old rival",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "makro",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
-          },
-          {
-            "t": "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks – Some Might Surprise You (CORRECTED)",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Amazon is losing the battle for online groceries",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Elon Musk Says ‘Sadly, Yes’ Jeff Bezos’ Ex-Wife MacKenzie Scott Has Donated Over $26 Billion — And It’s Making the World Worse",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Skip ARKK’s Moonshots: This Fund Owns the AI Software Winners for 0.45%",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           }
         ],
         "quality": 5.6,
@@ -363,6 +421,35 @@
           "low3": 11,
           "high3": 79,
           "prob": 53
+        },
+        "report": {
+          "headline": "Amazon: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Diese Woche drehte sich bei Amazon vieles um Alphabet vs. Amazon vs. Microsoft: Which Is the Best Cloud Computing Stock to Buy Today?. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „The U.S. Economy Is Addicted to AI Spending. What Happens If It Slows?\" und „Could SpaceX Become the Next $3 Trillion Company?\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Amazon liegt aktuell bei 29.311829, gegenüber einem eigenen historischen Mittel von 35.5 – also rund 17 % günstiger als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 11 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Unter dem Strich wirkt die Bewertung derzeit eher einladend: Der Kurs liegt mit spürbarem Abschlag zum geschätzten fairen Wert, was das Abwärtsrisiko etwas begrenzt."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Amazon eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Consumer Disc, in der Amazon tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -383,15 +470,7 @@
         "realistic": false,
         "events": [
           {
-            "t": "Big bank profit engines expected to roar into earnings as Main Street keeps spending",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Dow Jones Futures: Market Sets Up But U.S. Strikes Iran; Nvidia, Micron, Sandisk Near Buy Points",
+            "t": "JPMorgan Chase (JPM) Says Its AI Agents Beat 60 40 Portfolios In Backtests",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -445,6 +524,14 @@
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "JPMorgan Tests AI Agents Against 60/40",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           }
         ],
         "quality": 5.6,
@@ -484,6 +571,35 @@
           "low3": -1,
           "high3": 62,
           "prob": 43
+        },
+        "report": {
+          "headline": "JPMorgan Chase: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei JPMorgan Chase auffiel: JPMorgan Chase (JPM) Says Its AI Agents Beat 60 40 Portfolios In Backtests. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Kurzfristig ausgelöst hat das vor allem Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „Why Lumentum (LITE) Could Benefit From AI Optical Networking Demand as Co-Packaged Optics Adoption Accelerates\" und „Fiserv Stock Seems Undervalued with a Potential Payments Infrastructure Business Sale Catalyst\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Zieht man den Blick etwas weiter, zeigt sich JPMorgan Chase beim Kurs-Gewinn-Verhältnis mit 16.10675 gegenüber dem eigenen historischen Schnitt von 9.3 rund 73 % teurer bewertet als sonst üblich. Das misst die Aktie an ihrer eigenen Vergangenheit, nicht an einem willkürlichen Schwellenwert, und ist damit eine der aussagekräftigsten Grössen für die Frage, ob der aktuelle Kurs eher eine Chance oder eine Warnung ist.",
+                "Vom letzten Allzeithoch ist der Kurs 1 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Zoomt man ganz heraus, bleibt die eigentlich entscheidende Frage bei JPMorgan Chase: trägt das Geschäftsmodell über die kommenden Jahre einen echten, verteidigbaren Vorteil gegenüber der Konkurrenz – sei es durch Marke, Skaleneffekte, Netzwerkeffekte oder technologischen Vorsprung? Kurzfristige Kursbewegungen, wie die dieser Woche, sagen darüber praktisch nichts aus. Sie sind Rauschen um einen langsamer verlaufenden, aber deutlich wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Financials, in der JPMorgan Chase tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -528,6 +644,14 @@
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
+            "t": "MarketBeat Week in Review – 07/06 - 07/10",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
             "t": "Can AmEx's AI Investments Unlock the Next Phase of Growth?",
             "d": "12.07.2026",
             "move": 0.0,
@@ -553,14 +677,6 @@
           },
           {
             "t": "The Zacks Analyst Blog Highlights Corpay, Jack Henry & Associates, Visa, Virtu Financial and JPMorgan Chase",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "How Your Income Compares With the Top 10% in the U.S.—Net Worth, Salaries, and Savings",
             "d": "12.07.2026",
             "move": 0.0,
             "type": "emotional",
@@ -605,6 +721,35 @@
           "low3": 2,
           "high3": 68,
           "prob": 47
+        },
+        "report": {
+          "headline": "Visa: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei Visa auffiel: Why Today’s Small Dividend Could Become Tomorrow’s Retirement Engine. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental.",
+                "Der unmittelbare Auslöser war konkrete, neue Geschäftszahlen oder eine veränderte Guidance. Daneben spielte auch „6% APY, Unlimited 3% Cash Back and Free ATM Withdrawals: Everything You Need to Know About Elon Musk's 'Bank Killer' X Money App\" und „Visa (V) Expands Vietnam Payments Reach With Direct 9Pay Partnership\" eine Rolle, wenn auch mit geringerem Gewicht. Für die langfristige Substanz von Visa ändert das nach aktuellem Stand wenig – die Kapitalrendite und die Bilanz bleiben die eigentlichen Massstäbe, nicht die Kursbewegung dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Visa liegt aktuell bei 30.398085, gegenüber einem eigenen historischen Mittel von 23.9 – also rund 27 % teurer als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 6 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Visa eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen deuten darauf hin, dass dieser Vorteil bei Visa nach wie vor intakt ist: eine überdurchschnittliche Kapitalrendite und eine stabile Bilanz sind genau die Signale, die auf einen funktionierenden Burggraben hindeuten, statt auf ein Geschäft, das nur von günstigen Marktbedingungen profitiert.",
+                "Strukturell prägend für die Financials, in der Visa tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -624,6 +769,14 @@
         "impliedGrowth": 20,
         "realistic": false,
         "events": [
+          {
+            "t": "MarketBeat Week in Review – 07/06 - 07/10",
+            "d": "12.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
           {
             "t": "How Mastercard’s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors",
             "d": "12.07.2026",
@@ -679,14 +832,6 @@
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Fiserv’s Debit Network Talks Raise a Bigger Question for Visa and Mastercard",
-            "d": "12.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           }
         ],
         "quality": 7.7,
@@ -726,6 +871,35 @@
           "low3": 10,
           "high3": 78,
           "prob": 53
+        },
+        "report": {
+          "headline": "Mastercard: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Im Zentrum der Woche stand bei Mastercard: MarketBeat Week in Review – 07/06 - 07/10. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „How Mastercard’s New AP4M Machine Payments Platform Will Impact Mastercard (MA) Investors\" und „Can AmEx's AI Investments Unlock the Next Phase of Growth?\" eine Rolle, wenn auch mit geringerem Gewicht. Für die langfristige Substanz von Mastercard ändert das nach aktuellem Stand wenig – die Kapitalrendite und die Bilanz bleiben die eigentlichen Massstäbe, nicht die Kursbewegung dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Mastercard liegt aktuell bei 30.482637, gegenüber einem eigenen historischen Mittel von 30.8 – also rund 1 % günstiger als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 12 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Mastercard eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen deuten darauf hin, dass dieser Vorteil bei Mastercard nach wie vor intakt ist: eine überdurchschnittliche Kapitalrendite und eine stabile Bilanz sind genau die Signale, die auf einen funktionierenden Burggraben hindeuten, statt auf ein Geschäft, das nur von günstigen Marktbedingungen profitiert.",
+                "Strukturell prägend für die Financials, in der Mastercard tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -847,6 +1021,35 @@
           "low3": 4,
           "high3": 70,
           "prob": 48
+        },
+        "report": {
+          "headline": "Procter & Gamble: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Diese Woche drehte sich bei Procter & Gamble vieles um The Dividend Growth Plan That Leaves High-Yield Stocks Behind. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental.",
+                "Kurzfristig ausgelöst hat das vor allem konkrete, neue Geschäftszahlen oder eine veränderte Guidance. Daneben spielte auch „Why Today’s Small Dividend Could Become Tomorrow’s Retirement Engine\" und „The Retirement Budget Most People Build Is Backward\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Zieht man den Blick etwas weiter, zeigt sich Procter & Gamble beim Kurs-Gewinn-Verhältnis mit 21.497074 gegenüber dem eigenen historischen Schnitt von 22.5 rund 4 % günstiger bewertet als sonst üblich. Das misst die Aktie an ihrer eigenen Vergangenheit, nicht an einem willkürlichen Schwellenwert, und ist damit eine der aussagekräftigsten Grössen für die Frage, ob der aktuelle Kurs eher eine Chance oder eine Warnung ist.",
+                "Vom letzten Allzeithoch ist der Kurs 15 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Zoomt man ganz heraus, bleibt die eigentlich entscheidende Frage bei Procter & Gamble: trägt das Geschäftsmodell über die kommenden Jahre einen echten, verteidigbaren Vorteil gegenüber der Konkurrenz – sei es durch Marke, Skaleneffekte, Netzwerkeffekte oder technologischen Vorsprung? Kurzfristige Kursbewegungen, wie die dieser Woche, sagen darüber praktisch nichts aus. Sie sind Rauschen um einen langsamer verlaufenden, aber deutlich wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Staples, in der Procter & Gamble tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       }
     ],
@@ -970,6 +1173,35 @@
           "low3": 4,
           "high3": 70,
           "prob": 48
+        },
+        "report": {
+          "headline": "Swisscom: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei Swisscom auffiel: TIIAY vs. SCMWY: Which Stock Is the Better Value Option?. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Kurzfristig ausgelöst hat das vor allem Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „A Look At Swisscom (SWX:SCMN) Valuation As Recent Returns Highlight Mixed Share Price Momentum\" und „VIV vs. SCMWY: Which Stock Should Value Investors Buy Now?\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Zieht man den Blick etwas weiter, zeigt sich Swisscom beim Kurs-Gewinn-Verhältnis mit 25.911184 gegenüber dem eigenen historischen Schnitt von 16.6 rund 56 % teurer bewertet als sonst üblich. Das misst die Aktie an ihrer eigenen Vergangenheit, nicht an einem willkürlichen Schwellenwert, und ist damit eine der aussagekräftigsten Grössen für die Frage, ob der aktuelle Kurs eher eine Chance oder eine Warnung ist.",
+                "Vom letzten Allzeithoch ist der Kurs 12 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Zoomt man ganz heraus, bleibt die eigentlich entscheidende Frage bei Swisscom: trägt das Geschäftsmodell über die kommenden Jahre einen echten, verteidigbaren Vorteil gegenüber der Konkurrenz – sei es durch Marke, Skaleneffekte, Netzwerkeffekte oder technologischen Vorsprung? Kurzfristige Kursbewegungen, wie die dieser Woche, sagen darüber praktisch nichts aus. Sie sind Rauschen um einen langsamer verlaufenden, aber deutlich wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Telecom, in der Swisscom tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -1091,6 +1323,35 @@
           "low3": -1,
           "high3": 64,
           "prob": 44
+        },
+        "report": {
+          "headline": "Alcon: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei Alcon auffiel: Wall Street Analysts Predict a 27.75% Upside in Alcon (ALC): Here's  What You Should Know. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „Is Alcon (SWX:ALC) Undervalued After Its RxSight Collaboration?\" und „Can Alcon Inc. (ALC) Stock Rebound as New Eye Care Products Approach Regulatory Milestones?\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Alcon liegt aktuell bei 40.325924, gegenüber einem eigenen historischen Mittel von 50.5 – also rund 20 % günstiger als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 35 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Solange kein grösserer Rückgang vorliegt, bleibt dieser Punkt vor allem eine Beobachtungsgrösse.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Alcon eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Healthcare, in der Alcon tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -1212,6 +1473,35 @@
           "low3": 6,
           "high3": 73,
           "prob": 50
+        },
+        "report": {
+          "headline": "Geberit: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Diese Woche drehte sich bei Geberit vieles um What Does Geberit AG's (VTX:GEBN) Share Price Indicate?. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „Geberit AG (GBERF) Full Year 2025 Earnings Call Highlights: Strong Sales Growth and ...\" und „Investors more bullish on Geberit (VTX:GEBN) this week as stock advances 3.8%, despite earnings trending downwards over past year\" eine Rolle, wenn auch mit geringerem Gewicht. Für die langfristige Substanz von Geberit ändert das nach aktuellem Stand wenig – die Kapitalrendite und die Bilanz bleiben die eigentlichen Massstäbe, nicht die Kursbewegung dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Mit etwas mehr Abstand betrachtet: Das Kurs-Gewinn-Verhältnis von Geberit liegt aktuell bei 28.90244, gegenüber einem eigenen historischen Mittel von 26.1 – also rund 11 % teurer als üblich. Dieser Vergleich mit der eigenen Historie sagt mehr aus als ein absoluter Schwellenwert, weil er berücksichtigt, wie der Markt diese Aktie normalerweise bewertet.",
+                "Vom letzten Allzeithoch ist der Kurs 24 % entfernt. Für sich allein sagt das wenig aus – ein Rückgang kann eine Kaufgelegenheit oder eine berechtigte Neubewertung sein. Entscheidend ist, wie sich dieser Abstand mit der Qualität des Geschäfts und der vorherigen Wocheneinordnung deckt: Ein deutlicher Rückgang bei intakten Fundamentaldaten ist ein Muster, das in der Vergangenheit häufiger zu überdurchschnittlichen Erholungen geführt hat.",
+                "Unter dem Strich mahnt die Bewertung eher zur Vorsicht: Im aktuellen Kurs steckt schon einiges an Optimismus, was bei einer Enttäuschung mehr Fallhöhe bedeutet."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Geberit eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen deuten darauf hin, dass dieser Vorteil bei Geberit nach wie vor intakt ist: eine überdurchschnittliche Kapitalrendite und eine stabile Bilanz sind genau die Signale, die auf einen funktionierenden Burggraben hindeuten, statt auf ein Geschäft, das nur von günstigen Marktbedingungen profitiert.",
+                "Strukturell prägend für die Industrials, in der Geberit tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       },
       {
@@ -1333,6 +1623,35 @@
           "low3": 1,
           "high3": 66,
           "prob": 45
+        },
+        "report": {
+          "headline": "Roche: Ruhige Woche, klarer Trend",
+          "weekRange": "05.07. – 11.07.2026",
+          "pages": [
+            {
+              "title": "Diese Woche",
+              "paragraphs": [
+                "Was diese Woche bei Roche auffiel: Can Anktiva's Label Expansion Unlock the Next Growth Phase for IBRX?. Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional.",
+                "Der unmittelbare Auslöser war Stimmung und Positionierung, ohne dass sich an den Zahlen etwas geändert hätte. Daneben spielte auch „Why The Roche Holding (SWX:ROG) Narrative Is Shifting On Mixed Pipeline Signals And Valuation\" und „Recursion Pharmaceuticals Details AI-Driven Drug Pipeline, Sanofi/Roche Milestones, Runway to 2028\" eine Rolle, wenn auch mit geringerem Gewicht. Ob das langfristig etwas verändert, ist noch offen – dafür lohnt sich ein Blick auf die kommenden Quartalszahlen mehr als auf den Kurs dieser Woche."
+              ]
+            },
+            {
+              "title": "Dieser Trend",
+              "paragraphs": [
+                "Zur Einordnung der Bewertung von Roche liegen aktuell keine ausreichend verlässlichen historischen Vergleichswerte vor.",
+                "Zum Abstand vom Allzeithoch liegen aktuell keine verlässlichen Daten vor.",
+                "Insgesamt bewegt sich die Bewertung in einem neutralen Bereich – weder ein klarer Rabatt noch eine deutliche Überhitzung."
+              ]
+            },
+            {
+              "title": "Das grosse Bild",
+              "paragraphs": [
+                "Mit etwas Distanz betrachtet, zählt bei Roche eigentlich nur eine Frage: Hat das Unternehmen über die kommenden Jahre einen Vorteil, den Wettbewerber nicht einfach kopieren können – durch Marke, Grösse, Netzwerkeffekte oder technologischen Vorsprung? Was diese Woche am Kurs passiert ist, beantwortet diese Frage nicht. Es ist Rauschen über einem viel langsameren, aber wichtigeren Trend.",
+                "Die aktuellen Kennzahlen liefern hier kein eindeutiges Bild – weder ein klarer Beleg für einen starken Wettbewerbsvorteil noch ein akutes Warnsignal. Das lohnt sich, in den kommenden Quartalen weiter zu beobachten, insbesondere ob sich Marge und Kapitalrendite eher verbessern oder verschlechtern.",
+                "Strukturell prägend für die Healthcare, in der Roche tätig ist, sind aktuell technologische Verschiebungen – von Automatisierung über Dateninfrastruktur bis zu neuen KI-gestützten Anwendungen, die bestehende Geschäftsmodelle sowohl bedrohen als auch neue Wege eröffnen können. Wer hier auf der richtigen Seite steht, kann seinen Vorsprung über Jahre ausbauen; wer den Anschluss verliert, sieht selbst solide Fundamentaldaten schrittweise erodieren. Das ist der eigentliche Massstab, an dem sich diese Position über die kommenden Jahre messen lassen muss – nicht die Kursbewegung dieser einen Woche."
+              ]
+            }
+          ]
         }
       }
     ]
