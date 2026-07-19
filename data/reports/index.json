@@ -4,6 +4,94 @@
     "name": "Microsoft",
     "domain": "microsoft.com",
     "region": "US",
+    "date": "2026-07-19",
+    "headline": "Microsoft: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "domain": "amazon.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "Amazon: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "domain": "google.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "Alphabet: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "domain": "jpmorganchase.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "JPMorgan Chase: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa",
+    "domain": "visa.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "Visa: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "domain": "mastercard.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "Mastercard: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "domain": "pg.com",
+    "region": "US",
+    "date": "2026-07-19",
+    "headline": "Procter & Gamble: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "ROG",
+    "name": "Roche",
+    "domain": "roche.com",
+    "region": "CH",
+    "date": "2026-07-19",
+    "headline": "Roche: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "ALC",
+    "name": "Alcon",
+    "domain": "alcon.com",
+    "region": "CH",
+    "date": "2026-07-19",
+    "headline": "Alcon: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "SCMN",
+    "name": "Swisscom",
+    "domain": "swisscom.ch",
+    "region": "CH",
+    "date": "2026-07-19",
+    "headline": "Swisscom: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "GEBN",
+    "name": "Geberit",
+    "domain": "geberit.com",
+    "region": "CH",
+    "date": "2026-07-19",
+    "headline": "Geberit: Ruhige Woche, klarer Trend"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "region": "US",
     "date": "2026-07-12",
     "headline": "Microsoft: Ruhige Woche, klarer Trend"
   },
