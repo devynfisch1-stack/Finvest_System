@@ -1,0 +1,1340 @@
+{
+  "generated": "2026-07-21T05:49:19.608232Z",
+  "regions": {
+    "US": [
+      {
+        "ticker": "GOOGL",
+        "name": "Alphabet",
+        "domain": "google.com",
+        "sector": "Communication",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 4295183564800.0,
+        "price": 351.989990234375,
+        "drawdown": -12.5,
+        "peNow": 26.445528,
+        "peHist": 9.8,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 17,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Stock market today: Dow, S&P 500, Nasdaq rally fizzles as chip stock momentum fades, oil rises",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Earnings live: AMC stock soars 26% on 'superb' Q2, Domino's stock rises",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "AMD, Micron, SK Hynix climb as semiconductor complex attempt recovery",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why it's time to retire the 'Magnificent 7' name: Strategist",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Big Tech earnings test tech's big rotation: What to watch this week",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Alphabet (GOOGL) To Report Earnings Tomorrow: Here Is What To Expect",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Asia stocks up as chip stocks recover, oil eases",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Cramer Says Dump Tech Before Intel, Tesla, Alphabet Earnings: Will Inverse-Cramer Strike?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 5.6,
+        "valuation": 3.9,
+        "dislocation": 5.0,
+        "overall": 4.8,
+        "status": "Overvalued",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": 6,
+        "confidence": 68,
+        "coverage": 0.69,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 7.2,
+          "roic_trend": 2.0,
+          "piotroski": 7.8,
+          "earnings_quality": 5.7,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": 1
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 1,
+          "pe_vs_sector": 6.1,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 5.9,
+          "margin_of_safety": 1
+        },
+        "projection": {
+          "annual": 7.4,
+          "base3": 24,
+          "low3": -5,
+          "high3": 58,
+          "prob": 41
+        }
+      },
+      {
+        "ticker": "MSFT",
+        "name": "Microsoft",
+        "domain": "microsoft.com",
+        "sector": "Technology",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 2988385239040.0,
+        "price": 402.2900085449219,
+        "drawdown": -25.3,
+        "peNow": 23.470829,
+        "peHist": 31.6,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 14,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Tech stocks live: Chip stocks recover from last week's losses on Google, AMD news",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Why it's time to retire the 'Magnificent 7' name: Strategist",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "2 'big' misconceptions about AI's long-term impact on the software sector",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "AI infrastructure stock surges after landing massive $2.8B win",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "China’s GigaAI Seeks 2026 Hong Kong IPO in First for World Model",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "CleanSpark (CLSK) Soars on Fresh Multi-Billion AI Investments",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "IREN Signs $2.8B in AI Cloud Contracts, Lifts 2026 Target Above $4B",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Better \"Magnificent Seven\" Stock: Alphabet vs. Microsoft",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 6.4,
+        "valuation": 6.7,
+        "dislocation": 6.5,
+        "overall": 6.5,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": 6,
+        "confidence": 68,
+        "coverage": 0.69,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 7.4,
+          "roic_trend": 2.1,
+          "piotroski": 8.7,
+          "earnings_quality": 6.5,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": 7.8
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 10,
+          "pe_vs_sector": 7.4,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 7.9,
+          "margin_of_safety": 1
+        },
+        "projection": {
+          "annual": 13.0,
+          "base3": 44,
+          "low3": 12,
+          "high3": 81,
+          "prob": 54
+        }
+      },
+      {
+        "ticker": "AMZN",
+        "name": "Amazon",
+        "domain": "amazon.com",
+        "sector": "Consumer Disc",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 2689169883136.0,
+        "price": 249.99000549316406,
+        "drawdown": -9.1,
+        "peNow": 29.584618,
+        "peHist": 35.5,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 19,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Why it's time to retire the 'Magnificent 7' name: Strategist",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Amazon may be losing its biggest competitive edge",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Review & Preview: Rough Start",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Behind the Ticker: RISE Ditches the Usual EM Playbook",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Maria Sharapova Once Revealed Her 'Steely Mentality' Made People Uncomfortable— It Also Built a Tennis Dynasty and a Portfolio of Winning Bets",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "3 Reasons I’m Buying Amazon Over and Over Until Late 2026",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "US judge approves Anthropic's $1.5 billion settlement of copyright lawsuit",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Who is the tenant for Hut 8’s 1 GW Beacon Point data center?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 5.6,
+        "valuation": 7.3,
+        "dislocation": 6.5,
+        "overall": 6.4,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.63,
+        "piotroski_raw": 5,
+        "confidence": 71,
+        "coverage": 0.77,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 3.5,
+          "roic_trend": 1.5,
+          "piotroski": 6.6,
+          "earnings_quality": 9.6,
+          "margin_stability": null,
+          "balance": 8.5,
+          "dilution": 1
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 7.7,
+          "pe_vs_sector": 4.9,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 10,
+          "margin_of_safety": 8.2
+        },
+        "projection": {
+          "annual": 12.4,
+          "base3": 42,
+          "low3": 11,
+          "high3": 79,
+          "prob": 53
+        }
+      },
+      {
+        "ticker": "JPM",
+        "name": "JPMorgan Chase",
+        "domain": "jpmorganchase.com",
+        "sector": "Financials",
+        "region": "US",
+        "isFin": true,
+        "marketCap": 900784259072.0,
+        "price": 338.8699951171875,
+        "drawdown": -2.3,
+        "peNow": 14.619068,
+        "peHist": 9.3,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 6,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Chip stocks have been routed — but investors are forgetting one thing",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "JP Morgan boss warns Burnham against bank tax",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "The Man Who Runs the IRS Spied on Colleagues When He Worked at JPMorgan",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "JPMorgan Chase (JPM) Helps Drive $60 Billion In U.S. Iraq Deals",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "BlackRock Leads $12 Billion Financing for New Meta Data Centers in Texas",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "The Zacks Analyst Blog Highlights Apple, JPMorgan Chase, ExxonMobil, Smith-Midland and Coffee Holding",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Zacks Market Edge Highlights: Goldman Sachs, Wells Fargo, JPMorgan Chase , Citigroup  and Bank of America",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Trump Lawsuits Reach Key Stages After Pair of Recent Setbacks",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 5.6,
+        "valuation": 4.8,
+        "dislocation": 5.0,
+        "overall": 5.2,
+        "status": "Neutral",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": 3,
+        "confidence": 54,
+        "coverage": 0.46,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": null,
+          "roic_trend": null,
+          "piotroski": 4.9,
+          "earnings_quality": 5.6,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": 9.4
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 1,
+          "pe_vs_sector": 10,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 5.0,
+          "margin_of_safety": null
+        },
+        "projection": {
+          "annual": 8.6,
+          "base3": 28,
+          "low3": -1,
+          "high3": 63,
+          "prob": 44
+        }
+      },
+      {
+        "ticker": "V",
+        "name": "Visa",
+        "domain": "visa.com",
+        "sector": "Financials",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 685711753216.0,
+        "price": 360.57000732421875,
+        "drawdown": -2.6,
+        "peNow": 31.245235,
+        "peHist": 23.9,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 21,
+        "realistic": false,
+        "events": [
+          {
+            "t": "Visa (V) Launches A Stablecoin Platform For Banks And Fintechs",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Zions Bancorporation, N.A. Q2 Earnings Call Highlights",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Samsung launches first US credit card with Barclays, signals ambitions for deeper financial services push",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Circle Drops 75% as Analyst Sees 18% More Downside",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "3 Dividend Stocks That Pass Buffett’s Test: Buy, Sell or Hold?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Visa vs. American Express: Which Payments Giant Is the Better Pick?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why pricey credit cards may soon cost more",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Take a $15,000 Income Cut Today. Gain a $55,000 Raise Tomorrow.",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 6.6,
+        "valuation": 4.0,
+        "dislocation": 6.5,
+        "overall": 5.5,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": 4,
+        "confidence": 56,
+        "coverage": 0.54,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 10,
+          "roic_trend": 1.2,
+          "piotroski": 6.1,
+          "earnings_quality": 7.9,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": null
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 1,
+          "pe_vs_sector": 7.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 3.0,
+          "margin_of_safety": null
+        },
+        "projection": {
+          "annual": 9.8,
+          "base3": 32,
+          "low3": 2,
+          "high3": 67,
+          "prob": 46
+        }
+      },
+      {
+        "ticker": "MA",
+        "name": "Mastercard",
+        "domain": "mastercard.com",
+        "sector": "Financials",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 483709157376.0,
+        "price": 547.4400024414062,
+        "drawdown": -8.0,
+        "peNow": 31.443998,
+        "peHist": 30.8,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 21,
+        "realistic": false,
+        "events": [
+          {
+            "t": "2 Mega-Cap Stocks with Impressive Fundamentals and 1 We Turn Down",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "EPAA and HSBC launch APAC working group on agentic payments",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Grayscale Highlights Ripple’s Elite Deals, but Why Won’t XRP’s Price Rally?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why pricey credit cards may soon cost more",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Berkshire Hathaway Sold Mastercard Stock. Should You Follow?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "American Express (AXP) Joins X402 And Raises Platinum Card Fee To $895",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Down 22% In A Year: Is PayPal A Value Trap Or A Turnaround Play?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why Trump Is Going After Brazil’s Beloved Payment System",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 7.7,
+        "valuation": 4.2,
+        "dislocation": 6.5,
+        "overall": 6.1,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": 7,
+        "confidence": 65,
+        "coverage": 0.77,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 10,
+          "roic_trend": 4.0,
+          "piotroski": 8.9,
+          "earnings_quality": 10.0,
+          "margin_stability": null,
+          "balance": 7.5,
+          "dilution": 1
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 4.5,
+          "pe_vs_sector": 4.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 3.3,
+          "margin_of_safety": 2.5
+        },
+        "projection": {
+          "annual": 11.6,
+          "base3": 39,
+          "low3": 8,
+          "high3": 76,
+          "prob": 51
+        }
+      },
+      {
+        "ticker": "PG",
+        "name": "Procter & Gamble",
+        "domain": "pg.com",
+        "sector": "Staples",
+        "region": "US",
+        "isFin": false,
+        "marketCap": 347263991808.0,
+        "price": 149.1300048828125,
+        "drawdown": -13.6,
+        "peNow": 21.930883,
+        "peHist": 22.5,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 13,
+        "realistic": true,
+        "events": [
+          {
+            "t": "CLX Paid Holders $3.8 billion While The Stock Went Nowhere",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Sector Update: Consumer Stocks Softer Late Afternoon",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "As the AI Selloff Worsens, Time-Tested Procter & Gamble Stock Could Be the Biggest Winner",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Procter & Gamble Investors Bracing for Fiscal Q4 Organic Sales to Fall Short of Estimates, UBS Says",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Walmart Bets vs Procter & Gamble: Two Consumer Titans, Two Strategies, One Winner",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Would You Rather Earn $55,000 Today or $110,000 in 20 Years?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "From a $38,000 Income to $84,000 Without Investing Another Dollar",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "The Portfolio That Lets You Ignore Inflation",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          }
+        ],
+        "quality": 6.0,
+        "valuation": 5.5,
+        "dislocation": 5.0,
+        "overall": 5.7,
+        "status": "Neutral",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.53,
+        "piotroski_raw": 6,
+        "confidence": 71,
+        "coverage": 0.77,
+        "source": "edgar",
+        "quality_sub": {
+          "roic": 6.3,
+          "roic_trend": 1.6,
+          "piotroski": 7.8,
+          "earnings_quality": 6.9,
+          "margin_stability": null,
+          "balance": 5.9,
+          "dilution": 8.4
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 6.4,
+          "pe_vs_sector": 8.7,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 4.9,
+          "margin_of_safety": 2.0
+        },
+        "projection": {
+          "annual": 10.1,
+          "base3": 34,
+          "low3": 3,
+          "high3": 69,
+          "prob": 47
+        }
+      }
+    ],
+    "CH": [
+      {
+        "ticker": "SCMN",
+        "name": "Swisscom",
+        "domain": "swisscom.ch",
+        "sector": "Telecom",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 32635224064.0,
+        "price": 634.0,
+        "drawdown": -9.3,
+        "peNow": 26.426174,
+        "peHist": 16.6,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 17,
+        "realistic": false,
+        "events": [
+          {
+            "t": "TIIAY vs. SCMWY: Which Stock Is the Better Value Option?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "A Look At Swisscom (SWX:SCMN) Valuation As Recent Returns Highlight Mixed Share Price Momentum",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "VIV vs. SCMWY: Which Stock Should Value Investors Buy Now?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "TIIAY vs. SCMWY: Which Stock Should Value Investors Buy Now?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Assessing Swisscom (SWX:SCMN) Valuation After A Strong Multi‑Year Shareholder Return Run",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Qualcomm leads new 6G coalition",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Swisscom AG (SCMWY) Full Year 2025 Earnings Call Highlights: Dividend Boost and Strategic ...",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "Swisscom (SCMWY) Upgraded to Buy: What Does It Mean for the Stock?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 6.4,
+        "valuation": 5.2,
+        "dislocation": 5.0,
+        "overall": 5.7,
+        "status": "Neutral",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -3.07,
+        "piotroski_raw": 5,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 1.6,
+          "roic_trend": null,
+          "piotroski": 6.6,
+          "earnings_quality": 10.0,
+          "margin_stability": 9.3,
+          "balance": 8.3,
+          "dilution": 6.6
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 1,
+          "pe_vs_sector": 10,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 4.1,
+          "margin_of_safety": 10
+        },
+        "projection": {
+          "annual": 10.3,
+          "base3": 34,
+          "low3": 4,
+          "high3": 70,
+          "prob": 48
+        }
+      },
+      {
+        "ticker": "ALC",
+        "name": "Alcon",
+        "domain": "alcon.com",
+        "sector": "Healthcare",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 27681851392.0,
+        "price": 56.70000076293945,
+        "drawdown": -32.5,
+        "peNow": 42.04444,
+        "peHist": 50.5,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 31,
+        "realistic": false,
+        "events": [
+          {
+            "t": "Will Higher Expenses Impact HCA Healthcare's Q2 Earnings?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Edwards' Q2 Earnings on the Horizon: What's in the Cards?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Reasons to Retain Doximity Stock in Your Portfolio for Now",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "ISRG Q2 Earnings Beat Estimates, Stock Falls on Slow Procedure Growth",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "GMED Stock Surges 43.6% in a Year: What's Driving the Rally?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Will Declining Membership Affect Molina Healthcare's Q2 Earnings?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "3 Medical Instrument Stocks Betting on GenAI to Ease Industry Hurdles",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Integra LifeSciences Holdings Corporation (IART) Soars to 52-Week High, Time to Cash Out?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 6.0,
+        "valuation": 4.2,
+        "dislocation": 5.5,
+        "overall": 5.2,
+        "status": "Overvalued",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.7,
+        "piotroski_raw": 6,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 1.1,
+          "roic_trend": null,
+          "piotroski": 7.0,
+          "earnings_quality": 9.1,
+          "margin_stability": 9.6,
+          "balance": 6.2,
+          "dilution": 6.5
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 6.1,
+          "pe_vs_sector": 4.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 1,
+          "margin_of_safety": 3.0
+        },
+        "projection": {
+          "annual": 8.7,
+          "base3": 28,
+          "low3": -1,
+          "high3": 63,
+          "prob": 44
+        }
+      },
+      {
+        "ticker": "GEBN",
+        "name": "Geberit",
+        "domain": "geberit.com",
+        "sector": "Industrials",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": 17126554624.0,
+        "price": 524.4000244140625,
+        "drawdown": -23.6,
+        "peNow": 28.791574,
+        "peHist": 26.1,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": 19,
+        "realistic": false,
+        "events": [
+          {
+            "t": "What Does Geberit AG's (VTX:GEBN) Share Price Indicate?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Geberit AG (GBERF) Full Year 2025 Earnings Call Highlights: Strong Sales Growth and ...",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Investors more bullish on Geberit (VTX:GEBN) this week as stock advances 3.8%, despite earnings trending downwards over past year",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Geberit AG (GBERF) Q3 2025 Earnings Call Highlights: Strong Sales Growth Amid Market Challenges",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "The Returns At Geberit (VTX:GEBN) Aren't Growing",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Can Geberit AG's (VTX:GEBN) ROE Continue To Surpass The Industry Average?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Geberit AG Just Missed Earnings - But Analysts Have Updated Their Models",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Geberit Second Quarter 2025 Earnings: Misses Expectations",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          }
+        ],
+        "quality": 7.7,
+        "valuation": 3.8,
+        "dislocation": 6.5,
+        "overall": 6.0,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": -2.77,
+        "piotroski_raw": 7,
+        "confidence": 58,
+        "coverage": 0.77,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": 7.0,
+          "roic_trend": null,
+          "piotroski": 8.0,
+          "earnings_quality": 9.4,
+          "margin_stability": 8.7,
+          "balance": 6.8,
+          "dilution": 8.7
+        },
+        "valuation_sub": {
+          "pe_vs_hist": 4.1,
+          "pe_vs_sector": 7.0,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": 1,
+          "margin_of_safety": 1
+        },
+        "projection": {
+          "annual": 11.0,
+          "base3": 37,
+          "low3": 6,
+          "high3": 73,
+          "prob": 50
+        }
+      },
+      {
+        "ticker": "ROG",
+        "name": "Roche",
+        "domain": "roche.com",
+        "sector": "Healthcare",
+        "region": "CH",
+        "isFin": false,
+        "marketCap": null,
+        "price": null,
+        "drawdown": null,
+        "peNow": null,
+        "peHist": null,
+        "evNow": null,
+        "evHist": null,
+        "impliedGrowth": null,
+        "realistic": true,
+        "events": [
+          {
+            "t": "Can Anktiva's Label Expansion Unlock the Next Growth Phase for IBRX?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why The Roche Holding (SWX:ROG) Narrative Is Shifting On Mixed Pipeline Signals And Valuation",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Recursion Pharmaceuticals Details AI-Driven Drug Pipeline, Sanofi/Roche Milestones, Runway to 2028",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Sarepta Plans FDA Filings Seeking Full Approval for Two DMD Therapies",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Roche stops work on experimental SMA drug",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Long-only funds are buying non-US stocks, BofA says",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Can Alnylam's Pipeline Drugs Sustain Long-Term Growth Ahead?",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Analysis-TrumpRx lists many medicines at prices higher than paid in UK",
+            "d": "21.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          }
+        ],
+        "quality": 5.5,
+        "valuation": 5.5,
+        "dislocation": 5.0,
+        "overall": 5.4,
+        "status": "Solid",
+        "signal": false,
+        "verdict": "Juengste Bewegung fundamental gestuetzt.",
+        "gate_ok": true,
+        "beneish_flag": false,
+        "mscore": null,
+        "piotroski_raw": null,
+        "confidence": 40,
+        "coverage": 0.0,
+        "source": "yfinance",
+        "quality_sub": {
+          "roic": null,
+          "roic_trend": null,
+          "piotroski": null,
+          "earnings_quality": null,
+          "margin_stability": null,
+          "balance": null,
+          "dilution": null
+        },
+        "valuation_sub": {
+          "pe_vs_hist": null,
+          "pe_vs_sector": null,
+          "ev_vs_hist": null,
+          "pfcf_vs_hist": null,
+          "reverse_dcf": null,
+          "margin_of_safety": null
+        },
+        "projection": {
+          "annual": 9.4,
+          "base3": 31,
+          "low3": 1,
+          "high3": 66,
+          "prob": 45
+        }
+      }
+    ]
+  }
+}
