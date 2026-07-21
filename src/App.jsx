@@ -400,7 +400,7 @@ const Dot = ({ v }) => <span style={{ width: 9, height: 9, borderRadius: 5, back
    Passe LIVE_DATA_URL an dein Repo an, falls der Name abweicht.
    Schlägt der Abruf fehl (z. B. noch kein Lauf passiert), bleiben die
    eingebauten Beispieldaten unten als Fallback aktiv -- nichts bricht. */
-const LIVE_DATA_URL = "https://raw.githubusercontent.com/devynfisch1-stack/Finvest_System/main/data/stocks.json";
+const LIVE_DATA_URL = "https://raw.githubusercontent.com/devynfisch1-stack/Finvest_System/main/backend/data/stocks.json";
 
 /* Übersetzt eine Zeile aus dem Backend (run.py -> assemble()) in die
    Feldnamen, die das Frontend erwartet (q/v/disl/qIn/gate statt

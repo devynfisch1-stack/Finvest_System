@@ -1,52 +1,60 @@
 # Ablauf: hochladen, laufen lassen, Dashboard nutzen
 
+## Struktur (neu, seit der Umstellung auf Vercel)
+```
+/                       <- React/Vite-Frontend liegt HIER im Hauptverzeichnis
+  package.json
+  vite.config.js
+  index.html
+  src/App.jsx           <- das Dashboard
+  src/main.jsx
+  backend/              <- das komplette Python-System, in einem Unterordner
+    run.py, config.py, scoring.py, ...
+    requirements.txt
+    data/                (stocks.json + history/ landen hier)
+  .github/workflows/     <- die zwei automatischen Ablaeufe
+```
+Der Grund fuer diese Aufteilung: Deploy-Dienste wie Vercel suchen automatisch im
+**Hauptverzeichnis** nach einer `package.json`. Laege das Frontend in einem
+Unterordner, muesste man das manuell konfigurieren (Root Directory) -- das hat
+oefter zu Verwirrung gefuehrt. So funktioniert Vercel ohne jede Zusatzeinstellung.
+
 ## 1. Repo anlegen & Code hochladen
-1. Auf GitHub ein neues (privates) Repository erstellen, z. B. `finvest-fundamental`.
-2. Den kompletten Inhalt des Ordners `finvest-backend/` hochladen (inkl. dem
-   versteckten Ordner `.github/`). Am einfachsten:
-   ```bash
-   cd finvest-backend
-   git init && git add . && git commit -m "init"
-   git branch -M main
-   git remote add origin https://github.com/DEINNAME/finvest-fundamental.git
-   git push -u origin main
-   ```
+1. Auf GitHub ein neues (privates) Repository erstellen.
+2. Den kompletten Ordnerinhalt hochladen (inkl. `.github/`, `backend/`, `src/`).
 
-## 2. Secrets setzen (Repo → Settings → Secrets and variables → Actions)
-- `EDGAR_CONTACT` = deine E-Mail (SEC verlangt einen Kontakt im User-Agent) — **Pflicht**
-- `FMP_API_KEY` = dein gratis FMP-Key (financialmodelingprep.com, 250 Calls/Tag) — optional, macht US-Daten besser
-- `ANTHROPIC_API_KEY` = dein Anthropic-Key — optional, macht News-Klassifikation + Wochenbericht natürlicher
+## 2. Secrets setzen (Repo -> Settings -> Secrets and variables -> Actions)
+- `EDGAR_CONTACT` = deine E-Mail (SEC verlangt einen Kontakt im User-Agent) -- **Pflicht**
+- `FMP_API_KEY` = dein gratis FMP-Key (financialmodelingprep.com, 250 Calls/Tag) -- optional
+- `ANTHROPIC_API_KEY` = dein Anthropic-Key -- optional, macht Texte natuerlicher
 
-## 3. Erster Lauf
-- **Manuell auf GitHub:** Tab **Actions** → Workflow „Fundamental-Analyse (täglich)" → **Run workflow**.
-  Danach läuft er automatisch **jeden Morgen um ~05:00** (03:00 UTC).
-- **Oder lokal testen:**
-  ```bash
-  pip install -r requirements.txt
-  export EDGAR_UA="Finvest research deine@mail.ch"
-  export FMP_API_KEY=...        # optional
-  export ANTHROPIC_API_KEY=...  # optional
-  python run.py                 # -> data/stocks.json
-  ```
-- Ergebnis: der Bot committet `data/stocks.json` (+ Snapshot in `data/history/`) zurück ins Repo.
+## 3. Erster Lauf (Backend)
+- **Auf GitHub:** Tab **Actions** -> Workflow "Fundamental-Analyse (taeglich)" -> **Run workflow**.
+  Danach laeuft er automatisch **jeden Morgen um ~05:00** (03:00 UTC).
+- Ergebnis: der Bot committet `backend/data/stocks.json` zurueck ins Repo.
+- Wochenbericht separat testen: Workflow "Wochenbericht (Sonntag 18:00)" -> **Run workflow**.
+  Ergebnis: zusaetzlich `backend/data/reports/` mit dem Berichts-Archiv.
 
-## 4. Dashboard mit echten Daten verbinden
-Die Datei ist öffentlich abrufbar unter der **Raw-URL**:
+## 4. Frontend auf Vercel deployen
+1. Auf vercel.com mit GitHub einloggen, "Add New Project", das Repo auswaehlen.
+2. Vercel erkennt automatisch **Vite** als Framework, weil `package.json` jetzt im
+   Hauptverzeichnis liegt -- **keine Root-Directory-Einstellung noetig.**
+3. "Deploy" klicken. Nach ein paar Minuten gibt es eine Live-URL (`etwas.vercel.app`).
+4. Jeder weitere Push auf `main` loest automatisch einen neuen Deploy aus.
+
+Das Dashboard laedt die echten Daten selbst zur Laufzeit von:
 ```
-https://raw.githubusercontent.com/DEINNAME/finvest-fundamental/main/data/stocks.json
+https://raw.githubusercontent.com/DEINNAME/DEINREPO/main/backend/data/stocks.json
 ```
-Im Dashboard beim Start diese URL laden und die Beispieldaten ersetzen:
-```js
-const res = await fetch("https://raw.githubusercontent.com/DEINNAME/finvest-fundamental/main/data/stocks.json");
-const data = await res.json();      // data.regions.US / data.regions.CH
-```
-Jeder Titel bringt bereits `report` (Wochenbericht) mit — der Button im Dashboard
-zeigt ihn automatisch an; ohne Backend baut das Dashboard den Bericht selbst.
+Das ist in `src/App.jsx` als `LIVE_DATA_URL` hinterlegt -- anpassen, falls sich
+dein GitHub-Nutzername oder Repo-Name aendert.
 
 ## Wichtig
-- Der **Live-Lauf braucht offenes Internet** (sec.gov, Yahoo, FMP). GitHub Actions
-  hat das — läuft dort ganz normal. Nur die Test-Sandbox, in der der Code gebaut
-  wurde, hatte keinen Netzzugang.
+- Der **Live-Lauf braucht offenes Internet** (sec.gov, Yahoo, FMP) -- auf GitHub
+  Actions kein Problem.
 - FMP-Budget: ~88 Calls pro Tageslauf, klar unter 250/Tag.
-- Läuft der Bot ohne Secrets, nutzt er die Gratis-Quellen (EDGAR + yfinance) und
-  die Text-Vorlage für den Bericht — funktioniert, ist nur etwas weniger fein.
+- Laeuft der Bot ohne `ANTHROPIC_API_KEY`, nutzt er die Gratis-Quellen (EDGAR +
+  yfinance) und die eingebaute Text-Vorlage mit sprachlicher Varianz -- voll
+  funktionsfaehig, nur sprachlich etwas weniger vielfaeltig.
+- Findet das Dashboard keine `stocks.json` (z. B. weil der erste Lauf noch nicht
+  passiert ist), zeigt es automatisch die eingebauten Beispieldaten -- nichts bricht.

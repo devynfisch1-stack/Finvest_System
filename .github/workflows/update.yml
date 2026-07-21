@@ -13,6 +13,9 @@ permissions:
 jobs:
   analyse:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
     steps:
       - uses: actions/checkout@v4
 
@@ -31,9 +34,10 @@ jobs:
         run: python run.py
 
       - name: Ergebnis committen
+        working-directory: .
         run: |
           git config user.name "finvest-bot"
           git config user.email "bot@finvest.local"
-          git add data/stocks.json data/history/
+          git add backend/data/stocks.json backend/data/history/
           git commit -m "Auto-Update $(date -u +%Y-%m-%d)" || echo "keine Aenderungen"
           git push
