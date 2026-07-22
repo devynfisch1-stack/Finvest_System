@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Abhaengigkeiten installieren
-        run: pip install -r requirements.txt
+        run: pip install -r pip-requirements.txt
 
       - name: Analyse ausfuehren
         env:
