@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T05:41:58.020392Z",
+  "generated": "2026-07-26T06:03:12.523969Z",
   "regions": {
     "US": [
       {
@@ -10,9 +10,9 @@
         "region": "US",
         "isFin": false,
         "marketCap": 3910399426560.0,
-        "price": 319.739990234375,
-        "drawdown": -20.5,
-        "peNow": 15.947132,
+        "price": 317.69000244140625,
+        "drawdown": -21.0,
+        "peNow": 16.051205,
         "peHist": 9.8,
         "evNow": null,
         "evHist": null,
@@ -20,68 +20,68 @@
         "realistic": true,
         "events": [
           {
-            "t": "What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "makro",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
-          },
-          {
-            "t": "OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'",
-            "d": "25.07.2026",
+            "t": "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Capex fears trigger biggest Tech sell-off since 'Liberation Day'",
-            "d": "25.07.2026",
+            "t": "Google and Tesla lost half a trillion dollars this week as their suppliers cashed in: Chart of the Day",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Earnings live: American Express, Verizon stocks slip despite earnings beats",
-            "d": "25.07.2026",
+            "t": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           },
           {
-            "t": "Google’s AI Waitlist Just Hit $514 Billion. That’s Bigger Than the GDP of Most Countries.",
-            "d": "25.07.2026",
+            "t": "3 Stocks Smart Quantum Computing Investors Are Buying",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Some Investors Have Dropped Alphabet Stock Over the Delayed Release of Its Gemini 3.5 Pro Model. Here Are 900 Million Reasons Why They're Wrong.",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Google (GOOGL) Faces $1 Billion EU Antitrust Fine And New Trade Friction",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "10 Stocks Make Up 60% of This $220 Billion Vanguard ETF. Here's What That Means If the AI Trade Cracks.",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "makro",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
-          },
-          {
-            "t": "Waymo vs. human drivers: Experts reveal which is safer",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Why Apple Stock Is Up Today",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Verizon Just Signed a More Than $1 Billion Dark Fiber Deal With Google. Here's What It Means for the 6.3% Dividend.",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           }
         ],
         "quality": 5.6,
@@ -131,8 +131,8 @@
         "region": "US",
         "isFin": false,
         "marketCap": 2835433652224.0,
-        "price": 381.70001220703125,
-        "drawdown": -29.1,
+        "price": 381.5799865722656,
+        "drawdown": -29.2,
         "peNow": 22.73377,
         "peHist": 31.6,
         "evNow": null,
@@ -141,68 +141,68 @@
         "realistic": true,
         "events": [
           {
-            "t": "What to watch next week: Big Tech earnings, the Fed, and Consumer Confidence",
-            "d": "25.07.2026",
+            "t": "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Google and Tesla lost half a trillion dollars this week as their suppliers cashed in: Chart of the Day",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Why Nvidia CEO Jensen Huang Is Defending Chinese AI Models",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "makro",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
           },
           {
-            "t": "AMD CEO Lisa Su isn't worried about an AI house of cards",
-            "d": "25.07.2026",
+            "t": "The Nuclear Trade Is Entering Phase 2 and These 3 ETFs Own Everything From Uranium Miners to Reactor Restarts",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Meta quits clean energy pledge amid gas-powered data center push",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Nvidia, Microsoft, Palantir Lead Big Tech Revolt Against AI Restrictions",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Review & Preview: An Earnings Week to Forget",
-            "d": "25.07.2026",
+            "t": "3 Major Reasons to Buy Microsoft Before July 29 Q4 Earnings",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Mag 7 Earnings Preview: Alphabet's Cloud Surge and CapEx Hike Raise the Stakes",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Trump Is Expanding a Pledge That Could Stop AI Data Centers From Hiking Your Electricity Bill— Here's Who Just Signed On",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           }
         ],
         "quality": 6.4,
@@ -252,9 +252,9 @@
         "region": "US",
         "isFin": false,
         "marketCap": 2496832733184.0,
-        "price": 232.11000061035156,
-        "drawdown": -15.6,
-        "peNow": 27.931406,
+        "price": 233.66000366210938,
+        "drawdown": -15.0,
+        "peNow": 27.764355,
         "peHist": 35.5,
         "evNow": null,
         "evHist": null,
@@ -262,64 +262,64 @@
         "realistic": true,
         "events": [
           {
-            "t": "Why Tesla, Google, and other Mag 7 stocks are losing billions in valuation",
-            "d": "25.07.2026",
+            "t": "Alphabet flops, Intel shocks, and Tesla tanks: AlphaSpace weekly recap",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "OpenAI president Greg Brockman: 'We will remain in this compute shortage no matter what'",
-            "d": "25.07.2026",
+            "t": "Google and Tesla lost half a trillion dollars this week as their suppliers cashed in: Chart of the Day",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
           },
           {
-            "t": "Waymo vs. human drivers: Experts reveal which is safer",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Why Apple Stock Is Up Today",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Amazon CEO Jassy may deliver a July 30 AWS earnings shock",
-            "d": "25.07.2026",
+            "t": "Amazon vs. Booking: Comparing Revenue Trends Between a Retail Giant and a Travel Titan",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           },
           {
-            "t": "Review & Preview: An Earnings Week to Forget",
-            "d": "25.07.2026",
+            "t": "Mamdani's Pied-À-Terre Tax Is Now Real— NYC Mayor Tells Owners of Luxury Second Homes Worth Over $5 Million: 'You've Got Mail'",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Dow Jones Futures: Market Triggers Sell Signal; Apple Earnings, Iran News, Fed Meeting In Focus",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "makro",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: makro."
+          },
+          {
+            "t": "The Nuclear Trade Is Entering Phase 2 and These 3 ETFs Own Everything From Uranium Miners to Reactor Restarts",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Warner Bros. lawsuit accuses Amazon of illegally poaching executives",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           },
           {
-            "t": "Mag 7 Earnings Preview: Alphabet's Cloud Surge and CapEx Hike Raise the Stakes",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "SpaceX Lands With a Thud",
-            "d": "25.07.2026",
+            "t": "Why UPS Is Betting $48 Million on Temperature-Controlled Logistics Growth",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -350,7 +350,7 @@
           "dilution": 1
         },
         "valuation_sub": {
-          "pe_vs_hist": 8.3,
+          "pe_vs_hist": 8.4,
           "pe_vs_sector": 4.9,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
@@ -358,10 +358,10 @@
           "margin_of_safety": 8.8
         },
         "projection": {
-          "annual": 12.7,
+          "annual": 12.8,
           "base3": 43,
           "low3": 12,
-          "high3": 80,
+          "high3": 81,
           "prob": 54
         }
       },
@@ -373,9 +373,9 @@
         "region": "US",
         "isFin": true,
         "marketCap": 938902814720.0,
-        "price": 353.2099914550781,
+        "price": 349.8999938964844,
         "drawdown": 0.0,
-        "peNow": 15.133247,
+        "peNow": 15.126766,
         "peHist": 9.3,
         "evNow": null,
         "evHist": null,
@@ -383,8 +383,56 @@
         "realistic": true,
         "events": [
           {
+            "t": "What Big Bank Earnings Just Revealed About the Health of the U.S. Consumer",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "JPMorgan Chase (JPM) Faces Fresh Questions Over Jes Staley And Jeffrey Epstein Ties",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "JPMorgan warns cheap money's over as most Americans missed 22,700% rally",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "JPMorgan CEO Jamie Dimon Just Sent an Ominous Warning to Wall Street: \"Close to as Good as It Gets\"",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "Jim Cramer: These Two Financial Stocks Are Outrageously Cheap",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Blackstone, Brookfield, KKR Ink $16 Billion Kuwait Pipeline Deal",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
             "t": "Why Shattuck Labs Stock Flew Nearly 5% Higher on Friday",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -392,55 +440,7 @@
           },
           {
             "t": "SpaceX at $100 Would Imply Zero AI Value, Morgan Stanley Says",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Are You Looking for a Top Momentum Pick? Why JPMorgan Chase & Co. (JPM) is a Great Choice",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "JPMorgan cuts Rollins to Neutral on demand uncertainty, slashes price target",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Should Jamie Dimon’s Latest Comments Should Frighten You?",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Wall Street Analysts Think JPMorgan Chase & Co. (JPM) Is a Good Investment: Is It?",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Infosys downgraded by JPMorgan, HSBC after earnings miss and weaker growth outlook",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "How Is Erica Powering Bank of America's Digital Banking Momentum?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -494,26 +494,18 @@
         "region": "US",
         "isFin": false,
         "marketCap": 676526292992.0,
-        "price": 355.739990234375,
-        "drawdown": -4.0,
-        "peNow": 30.66724,
+        "price": 351.6000061035156,
+        "drawdown": -5.1,
+        "peNow": 31.068995,
         "peHist": 23.9,
         "evNow": null,
         "evHist": null,
-        "impliedGrowth": 20,
+        "impliedGrowth": 21,
         "realistic": false,
         "events": [
           {
-            "t": "Why investors should be 'really excited' about this form of agentic AI trading",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
             "t": "Visa (V) Just Completed Greater China’s First AI Powered B2B Agentic Payment",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -521,7 +513,7 @@
           },
           {
             "t": "Why Visa (V) Outpaced the Stock Market Today",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -529,7 +521,7 @@
           },
           {
             "t": "Visa and Apple: Cash-Generating Machines",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -537,7 +529,7 @@
           },
           {
             "t": "PayPal to Report Q2 Earnings: What Should Investors Do?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -545,7 +537,7 @@
           },
           {
             "t": "Veralto Gears Up to Report Q2 Earnings: What's in the Cards?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -553,15 +545,23 @@
           },
           {
             "t": "American Express Sinks 6% After Q2 Earnings Beat as Visa, Mastercard Hold Steady",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           },
           {
+            "t": "Why investors should be 'really excited' about this form of agentic AI trading",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
             "t": "Visa and Lianlian complete Greater China’s first live agentic B2B payment",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -596,7 +596,7 @@
           "pe_vs_sector": 7.0,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 3.2,
+          "reverse_dcf": 3.1,
           "margin_of_safety": null
         },
         "projection": {
@@ -615,9 +615,9 @@
         "region": "US",
         "isFin": false,
         "marketCap": 476834856960.0,
-        "price": 539.6599731445312,
-        "drawdown": -9.3,
-        "peNow": 31.212257,
+        "price": 530.2899780273438,
+        "drawdown": -10.9,
+        "peNow": 31.248405,
         "peHist": 30.8,
         "evNow": null,
         "evHist": null,
@@ -625,16 +625,8 @@
         "realistic": false,
         "events": [
           {
-            "t": "Capex fears trigger biggest Tech sell-off since 'Liberation Day'",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
             "t": "MasterCard (MA) Surpasses Market Returns: Some Facts Worth Knowing",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -642,7 +634,7 @@
           },
           {
             "t": "PayPal to Report Q2 Earnings: What Should Investors Do?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -650,7 +642,15 @@
           },
           {
             "t": "Mastercard expands virtual card platform with new controls and embedded ecosystem partnerships",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Capex fears trigger biggest Tech sell-off since 'Liberation Day'",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -658,7 +658,7 @@
           },
           {
             "t": "American Express Sinks 6% After Q2 Earnings Beat as Visa, Mastercard Hold Steady",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -666,7 +666,7 @@
           },
           {
             "t": "Coinbase vs. SoFi: Two High-Growth Stocks, One Better Investment",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -674,7 +674,7 @@
           },
           {
             "t": "Mastercard (MA) Expands Virtual Card Platform As Citi Prepares Global Launch",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -682,7 +682,7 @@
           },
           {
             "t": "Why this marketer believes ‘less is more’ in marketing",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -713,7 +713,7 @@
           "dilution": 1
         },
         "valuation_sub": {
-          "pe_vs_hist": 4.9,
+          "pe_vs_hist": 4.8,
           "pe_vs_sector": 4.0,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
@@ -725,7 +725,7 @@
           "base3": 40,
           "low3": 9,
           "high3": 76,
-          "prob": 52
+          "prob": 51
         }
       },
       {
@@ -736,9 +736,9 @@
         "region": "US",
         "isFin": false,
         "marketCap": 343258791936.0,
-        "price": 147.41000366210938,
-        "drawdown": -13.9,
-        "peNow": 21.582724,
+        "price": 145.88099670410156,
+        "drawdown": -14.8,
+        "peNow": 21.55117,
         "peHist": 22.3,
         "evNow": null,
         "evHist": null,
@@ -746,8 +746,32 @@
         "realistic": true,
         "events": [
           {
+            "t": "Procter & Gamble (PG) Dividend News Puts Valuation Back In Focus Ahead Of Earnings",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
+            "t": "The $2 Million Retirement Mistake: Confusing Yield With Income You Can Actually Spend",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "emotional",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
+          },
+          {
+            "t": "Claiming Social Security at 62 vs. Building a Dividend Bridge: Which Leaves You Richer at 75?",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
             "t": "How Much Do You Need Invested to Match the Maximum Social Security Benefit With Dividends?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -755,7 +779,7 @@
           },
           {
             "t": "2 Profitable Stocks to Keep an Eye On and 1 That Underwhelm",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -763,7 +787,7 @@
           },
           {
             "t": "Colgate-Palmolive (CL) Earnings Expected to Grow: Should You Buy?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -771,7 +795,7 @@
           },
           {
             "t": "What Analyst Projections for Key Metrics Reveal About P&G (PG) Q4 Earnings",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -779,41 +803,17 @@
           },
           {
             "t": "Why Procter & Gamble (PG) Dipped More Than Broader Market Today",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
             "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "HDV Delivers 3.1% Yield While Beating SPY Year to Date by 9 Points",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "emotional",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: emotional."
-          },
-          {
-            "t": "Procter & Gamble to Report Q4 Earnings: What Should You Know?",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Analysts Estimate Procter & Gamble (PG) to Report a Decline in Earnings: What to Look Out for",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
           }
         ],
         "quality": 6.0,
-        "valuation": 5.4,
+        "valuation": 5.5,
         "dislocation": 5.0,
-        "overall": 5.6,
+        "overall": 5.7,
         "status": "Neutral",
         "signal": false,
         "verdict": "Juengste Bewegung fundamental gestuetzt.",
@@ -859,9 +859,9 @@
         "region": "CH",
         "isFin": false,
         "marketCap": 32246710272.0,
-        "price": 625.0,
-        "drawdown": -10.6,
-        "peNow": 26.06784,
+        "price": 622.5,
+        "drawdown": -11.0,
+        "peNow": 26.111576,
         "peHist": 16.6,
         "evNow": null,
         "evHist": null,
@@ -870,7 +870,7 @@
         "events": [
           {
             "t": "TIIAY vs. SCMWY: Which Stock Is the Better Value Option?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -878,7 +878,7 @@
           },
           {
             "t": "A Look At Swisscom (SWX:SCMN) Valuation As Recent Returns Highlight Mixed Share Price Momentum",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -886,7 +886,7 @@
           },
           {
             "t": "VIV vs. SCMWY: Which Stock Should Value Investors Buy Now?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -894,7 +894,7 @@
           },
           {
             "t": "TIIAY vs. SCMWY: Which Stock Should Value Investors Buy Now?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -902,7 +902,7 @@
           },
           {
             "t": "Assessing Swisscom (SWX:SCMN) Valuation After A Strong Multi‑Year Shareholder Return Run",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -910,7 +910,7 @@
           },
           {
             "t": "Qualcomm leads new 6G coalition",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -918,7 +918,7 @@
           },
           {
             "t": "Swisscom AG (SCMWY) Full Year 2025 Earnings Call Highlights: Dividend Boost and Strategic ...",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "makro",
             "s": "Tief",
@@ -926,7 +926,7 @@
           },
           {
             "t": "Swisscom (SCMWY) Upgraded to Buy: What Does It Mean for the Stock?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -980,8 +980,8 @@
         "region": "CH",
         "isFin": false,
         "marketCap": 27184398336.0,
-        "price": 54.70000076293945,
-        "drawdown": -34.9,
+        "price": 55.7400016784668,
+        "drawdown": -33.6,
         "peNow": 40.985294,
         "peHist": 50.5,
         "evNow": null,
@@ -990,8 +990,16 @@
         "realistic": false,
         "events": [
           {
+            "t": "RxSight (RXST) Stock Fair Value Falls After Soft Q2 Trends And Guidance Cut",
+            "d": "26.07.2026",
+            "move": 0.0,
+            "type": "fundamental",
+            "s": "Tief",
+            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
+          },
+          {
             "t": "Ecolab Gears Up to Report Q2 Results: How to Play the Stock?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -999,7 +1007,7 @@
           },
           {
             "t": "IQVIA Gears Up to Report Q2 Earnings: What's in the Offing?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1007,7 +1015,7 @@
           },
           {
             "t": "Reasons to Retain Align Technology Stock in Your Portfolio for Now",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1015,7 +1023,7 @@
           },
           {
             "t": "Can Acute Care Strength Offset Universal Health's Rising Q2 Costs?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1023,7 +1031,7 @@
           },
           {
             "t": "Alcon (SWX:ALC) Stock Looks Undervalued On Cash Flow But Fair On Earnings",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1031,7 +1039,7 @@
           },
           {
             "t": "Reasons to Retain Globus Medical Stock in Your Portfolio for Now",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1039,15 +1047,7 @@
           },
           {
             "t": "Labcorp Prepares to Report Q2 Earnings: What's in the Cards?",
-            "d": "25.07.2026",
-            "move": 0.0,
-            "type": "fundamental",
-            "s": "Tief",
-            "sum": "Abnormale Tagesrendite n/a % (firmenspezifisch, marktbereinigt). Automatische Klassifikation: fundamental."
-          },
-          {
-            "t": "Will Lower Patient Days Affect Tenet Healthcare's Q2 Earnings?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1101,9 +1101,9 @@
         "region": "CH",
         "isFin": false,
         "marketCap": 16948496384.0,
-        "price": 510.79998779296875,
-        "drawdown": -25.6,
-        "peNow": 28.508041,
+        "price": 514.0,
+        "drawdown": -25.1,
+        "peNow": 28.492237,
         "peHist": 26.1,
         "evNow": null,
         "evHist": null,
@@ -1112,7 +1112,7 @@
         "events": [
           {
             "t": "What Does Geberit AG's (VTX:GEBN) Share Price Indicate?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1120,7 +1120,7 @@
           },
           {
             "t": "Geberit AG (GBERF) Full Year 2025 Earnings Call Highlights: Strong Sales Growth and ...",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1128,7 +1128,7 @@
           },
           {
             "t": "Investors more bullish on Geberit (VTX:GEBN) this week as stock advances 3.8%, despite earnings trending downwards over past year",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1136,7 +1136,7 @@
           },
           {
             "t": "Geberit AG (GBERF) Q3 2025 Earnings Call Highlights: Strong Sales Growth Amid Market Challenges",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1144,7 +1144,7 @@
           },
           {
             "t": "The Returns At Geberit (VTX:GEBN) Aren't Growing",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1152,7 +1152,7 @@
           },
           {
             "t": "Can Geberit AG's (VTX:GEBN) ROE Continue To Surpass The Industry Average?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1160,7 +1160,7 @@
           },
           {
             "t": "Geberit AG Just Missed Earnings - But Analysts Have Updated Their Models",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1168,7 +1168,7 @@
           },
           {
             "t": "Geberit Second Quarter 2025 Earnings: Misses Expectations",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1233,7 +1233,7 @@
         "events": [
           {
             "t": "Can Anktiva's Label Expansion Unlock the Next Growth Phase for IBRX?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1241,7 +1241,7 @@
           },
           {
             "t": "Why The Roche Holding (SWX:ROG) Narrative Is Shifting On Mixed Pipeline Signals And Valuation",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1249,7 +1249,7 @@
           },
           {
             "t": "Recursion Pharmaceuticals Details AI-Driven Drug Pipeline, Sanofi/Roche Milestones, Runway to 2028",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1257,7 +1257,7 @@
           },
           {
             "t": "Sarepta Plans FDA Filings Seeking Full Approval for Two DMD Therapies",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "fundamental",
             "s": "Tief",
@@ -1265,7 +1265,7 @@
           },
           {
             "t": "Roche stops work on experimental SMA drug",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1273,7 +1273,7 @@
           },
           {
             "t": "Long-only funds are buying non-US stocks, BofA says",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1281,7 +1281,7 @@
           },
           {
             "t": "Can Alnylam's Pipeline Drugs Sustain Long-Term Growth Ahead?",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
@@ -1289,7 +1289,7 @@
           },
           {
             "t": "Analysis-TrumpRx lists many medicines at prices higher than paid in UK",
-            "d": "25.07.2026",
+            "d": "26.07.2026",
             "move": 0.0,
             "type": "emotional",
             "s": "Tief",
