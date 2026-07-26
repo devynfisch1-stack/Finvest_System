@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T06:03:12.523969Z",
+  "generated": "2026-07-26T16:58:00.495680Z",
   "scores": {
     "GOOGL": {
       "overall": 5.1,
@@ -7,7 +7,7 @@
       "valuation": 4.6,
       "status": "Neutral",
       "peNow": 16.051205,
-      "drawdown": -21.0
+      "drawdown": -20.5
     },
     "MSFT": {
       "overall": 6.5,
@@ -15,7 +15,7 @@
       "valuation": 6.6,
       "status": "Solid",
       "peNow": 22.73377,
-      "drawdown": -29.2
+      "drawdown": -29.1
     },
     "AMZN": {
       "overall": 6.5,
@@ -23,7 +23,7 @@
       "valuation": 7.5,
       "status": "Solid",
       "peNow": 27.764355,
-      "drawdown": -15.0
+      "drawdown": -15.6
     },
     "JPM": {
       "overall": 5.2,
@@ -47,7 +47,7 @@
       "valuation": 4.3,
       "status": "Solid",
       "peNow": 31.248405,
-      "drawdown": -10.9
+      "drawdown": -9.3
     },
     "PG": {
       "overall": 5.7,
@@ -55,7 +55,7 @@
       "valuation": 5.5,
       "status": "Neutral",
       "peNow": 21.55117,
-      "drawdown": -14.8
+      "drawdown": -13.9
     },
     "SCMN": {
       "overall": 5.7,
