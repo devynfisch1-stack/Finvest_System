@@ -13,7 +13,10 @@ from config import (
     GATE_MIN_BALANCE, GATE_MIN_EARNINGS_QUALITY, GATE_BENEISH_M, GATE_CAP,
     Q_HIGH, V_CHEAP, SOURCE_QUALITY,
 )
-from metrics_extra import piotroski_score, accruals_score
+from metrics_extra import (
+    piotroski_score, accruals_score, predictability_score, fcf_generative_score,
+    moat_score, extrinsic_risk_score, management_score,
+)
 
 
 def clamp(x, lo, hi):
@@ -37,25 +40,36 @@ def zscore_cheap(now, mean, std):
 # ------------------------------- QUALITAET -------------------------------- #
 def score_quality(r):
     s = {}
+    # Prinzip 4: High Returns on Capital
     s["roic"] = lin(r["roic"] - WACC, -0.05, 0.20) if r.get("roic") is not None else None
-    s["roic_trend"] = lin(r.get("incremental_roic"), 0.0, 0.25)
-    # Piotroski
-    s["piotroski"] = piotroski_score(r.get("piotroski_raw"), r.get("piotroski_max"))
-    # Ertragsqualitaet = Mittel aus Cash Conversion und Accruals-Score
+    roic_trend = lin(r.get("incremental_roic"), 0.0, 0.25)
+
+    # Prinzip 1: Simple, Predictable
+    s["predictability"] = predictability_score(r.get("revenue_series"))
+
+    # Prinzip 2: Free-Cashflow-generativ
+    s["fcf_generative"] = fcf_generative_score(r.get("fcf"), r.get("revenue_latest"))
+
+    # Prinzip 3: Dominant, hohe Eintrittsbarrieren (Moat)
+    s["moat"] = moat_score(r.get("gm_sector_pct"), r.get("mcap_sector_pct"))
+
+    # Prinzip 5: begrenzte, unkontrollierbare Fremdrisiken
+    s["extrinsic_risk"] = extrinsic_risk_score(r.get("events"))
+
+    # Prinzip 6: starke Bilanz, kein Kapitalzugang noetig (zugleich Gate)
+    s["balance"] = lin(-(r["netdebt_ebitda"]) if r.get("netdebt_ebitda") is not None else None, -4.0, 1.0)
+
+    # Prinzip 7: exzellentes Management / Kapitalallokation
+    sc = r.get("shares_cagr")
+    dilution = lin(-sc if sc is not None else None, -0.05, 0.03)
+    s["management"] = management_score(roic_trend, dilution)
+
+    # Cross-Checks (stuetzen mehrere Prinzipien gleichzeitig, kein 1:1-Mapping)
     cc = lin(r.get("cash_conversion"), 0.4, 1.2)
     ac = accruals_score(r.get("accruals"))
     eq = [x for x in (cc, ac) if x is not None]
     s["earnings_quality"] = sum(eq) / len(eq) if eq else None
-    # Margenstabilitaet
-    gm = r.get("gross_margin_series")
-    if gm and len(gm) >= 3 and st.mean(gm):
-        cv = st.pstdev(gm) / abs(st.mean(gm))
-        s["margin_stability"] = clamp(10 - cv * 45, 1, 10)
-    else:
-        s["margin_stability"] = None
-    s["balance"] = lin(-(r["netdebt_ebitda"]) if r.get("netdebt_ebitda") is not None else None, -4.0, 1.0)
-    sc = r.get("shares_cagr")
-    s["dilution"] = lin(-sc if sc is not None else None, -0.05, 0.03)
+    s["piotroski"] = piotroski_score(r.get("piotroski_raw"), r.get("piotroski_max"))
     return s
 
 

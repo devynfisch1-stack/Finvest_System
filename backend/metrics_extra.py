@@ -11,6 +11,7 @@ Alle Funktionen sind rein (keine Netzwerkzugriffe) und damit offline testbar.
 Fehlen Eingaben, wird None/Teilscore zurückgegeben – nie ein erzwungener Wert.
 """
 from __future__ import annotations
+import statistics as st
 
 
 def _safe_div(a, b):
@@ -20,6 +21,46 @@ def _safe_div(a, b):
         return a / b
     except Exception:
         return None
+
+
+# --------------------------------------------------------------------------- #
+#  BEWERTUNGS-HISTORIE (KGV / EV-EBITDA): rezenz-gewichtet + Zeitfenster
+# --------------------------------------------------------------------------- #
+def valuation_history_stats(values_recent_first: list, decay: float = 0.85) -> dict:
+    """
+    values_recent_first: KGV- oder EV/EBITDA-Werte je Geschaeftsjahr, mit dem
+    JUENGSTEN Jahr an Index 0.
+
+    Ersetzt das vorherige, stur flache Mittel ueber ein einzelnes 8-10-Jahres-
+    Fenster (das z.B. die Nullzins-Aera unveraendert mitzieht und heutige
+    Bewertungen dagegen verzerrt vergleicht). Liefert stattdessen:
+
+    - "mean"/"std": rezenz-gewichteter Mittelwert/Streuung (juengere Jahre
+      zaehlen exponentiell staerker, Halbwertszeit ~4-5 Jahre bei decay=0.85)
+      -> das ist die Basis fuer den Score (zscore_cheap).
+    - "w3"/"w6"/"w10": einfache Fenster-Mittel ueber 3/6/10 Jahre, rein
+      informativ fuers Dashboard (Nutzer kann selbst vergleichen).
+
+    Braucht mindestens 3 gueltige Jahre, sonst gibt es ueberall None zurueck
+    (wie zuvor).
+    """
+    vals = [v for v in values_recent_first if v is not None and v > 0]
+    if len(vals) < 3:
+        return {"mean": None, "std": None, "w3": None, "w6": None, "w10": None}
+
+    def window_mean(n):
+        sub = vals[:n]
+        return round(st.mean(sub), 1) if len(sub) >= min(3, n) else None
+
+    weights = [decay ** i for i in range(len(vals))]
+    wsum = sum(weights)
+    wmean = sum(v * w for v, w in zip(vals, weights)) / wsum
+    wvar = sum(w * (v - wmean) ** 2 for v, w in zip(vals, weights)) / wsum
+    wstd = wvar ** 0.5 or 1.0
+    return {
+        "mean": round(wmean, 1), "std": round(wstd, 2),
+        "w3": window_mean(3), "w6": window_mean(6), "w10": window_mean(10),
+    }
 
 
 # --------------------------------------------------------------------------- #
@@ -147,6 +188,80 @@ def pct_to_score(pct):
     return None if pct is None else max(1, min(10, 1 + pct * 9))
 
 
+# --------------------------------------------------------------------------- #
+#  ACKMAN-PRINZIPIEN: neue, eigenstaendige Kennzahlen
+# --------------------------------------------------------------------------- #
+def predictability_score(revenue_series: dict):
+    """Prinzip 1 (Simple, Predictable): Variationskoeffizient der jaehrlichen
+    Umsatzwachstumsraten. Niedrige Schwankung = vorhersagbares Geschaeft.
+    Erwartet {jahr: umsatz}. Braucht mind. 4 Jahre fuer 3 Wachstumsraten."""
+    if not revenue_series or len(revenue_series) < 4:
+        return None
+    years = sorted(revenue_series)
+    growth = []
+    for a, b in zip(years, years[1:]):
+        prev, cur = revenue_series[a], revenue_series[b]
+        if prev and prev > 0:
+            growth.append((cur - prev) / prev)
+    if len(growth) < 3:
+        return None
+    mean_g = sum(growth) / len(growth)
+    if abs(mean_g) < 1e-6:
+        return None
+    cv = (sum((g - mean_g) ** 2 for g in growth) / len(growth)) ** 0.5 / abs(mean_g)
+    # cv < 0.3 -> sehr vorhersagbar (10), cv > 2.5 -> sehr unberechenbar (1)
+    return max(1, min(10, 10 - (cv - 0.3) / (2.5 - 0.3) * 9))
+
+
+def fcf_generative_score(fcf, revenue):
+    """Prinzip 2 (Free-Cashflow-generativ): FCF-Marge = FCF / Umsatz.
+    0% Marge -> 1, 25%+ Marge -> 10."""
+    if fcf is None or not revenue:
+        return None
+    margin = fcf / revenue
+    return max(1, min(10, 1 + (margin - 0.0) / 0.25 * 9))
+
+
+def moat_score(gm_sector_pct, mcap_sector_pct):
+    """Prinzip 3 (Dominant, hohe Eintrittsbarrieren): kombiniert Bruttomargen-
+    Niveau im Sektorvergleich (Preissetzungsmacht) und Marktkapitalisierungs-
+    Rang im Sektor (Groessen-/Marktdominanz). Beides als Perzentil 0..1."""
+    parts = [pct_to_score(p) for p in (gm_sector_pct, mcap_sector_pct) if p is not None]
+    return sum(parts) / len(parts) if parts else None
+
+
+def extrinsic_risk_score(events: list):
+    """Prinzip 5 (begrenzte, unkontrollierbare Fremdrisiken): Anteil der
+    grossen historischen Kursbewegungen, die makro-getrieben waren (Zinsen,
+    Sektorrotation, Gesamtmarkt) statt firmenspezifisch. Nutzt die eigene
+    News-Event-Klassifikation. Niedriger Makro-Anteil = das Unternehmen
+    bestimmt sein Schicksal staerker selbst -> hoeherer Score."""
+    if not events:
+        return None
+    total = sum(abs(e.get("move", e.get("m", 0))) for e in events)
+    if not total:
+        return None
+    macro = sum(abs(e.get("move", e.get("m", 0))) for e in events if e.get("type") == "makro")
+    macro_share = macro / total
+    return max(1, min(10, 10 - macro_share * 10.5))
+
+
+def management_score(incremental_roic_score, dilution_score):
+    """Prinzip 7 (exzellentes Management): kombiniert inkrementellen ROIC
+    (verdient das Management auf NEU investiertes Kapital gut?) mit
+    Verwaesserungs-Disziplin (Rueckkaeufe statt Aktien-Inflation). Beides
+    bereits 1..10-Scores."""
+    parts = [x for x in (incremental_roic_score, dilution_score) if x is not None]
+    return sum(parts) / len(parts) if parts else None
+
+
+def governance_note(ticker: str):
+    """Prinzip 8 (Good Governance): rein informativ, NICHT Teil des Scores --
+    siehe Begruendung in config.GOVERNANCE_WATCHLIST."""
+    from config import GOVERNANCE_WATCHLIST
+    return GOVERNANCE_WATCHLIST.get(ticker)
+
+
 def inject_sector_percentiles(raws: list[dict]):
     """
     Ergänzt je Titel Sektor-Perzentil-Scores (KGV, ROIC, FCF-Rendite).
@@ -165,4 +280,10 @@ def inject_sector_percentiles(raws: list[dict]):
             percentile(r.get("roic"), [p.get("roic") for p in peers], higher_is_better=True))
         r["fcf_sector_score"] = pct_to_score(
             percentile(r.get("fcf_yield"), [p.get("fcf_yield") for p in peers], higher_is_better=True))
+        # Fuer Prinzip 3 (Moat/Dominanz): rohe Perzentile 0..1, werden in
+        # scoring.moat_score() zu einem 1..10-Score kombiniert.
+        r["gm_sector_pct"] = percentile(
+            r.get("gross_margin_latest"), [p.get("gross_margin_latest") for p in peers], higher_is_better=True)
+        r["mcap_sector_pct"] = percentile(
+            r.get("market_cap"), [p.get("market_cap") for p in peers], higher_is_better=True)
     return raws

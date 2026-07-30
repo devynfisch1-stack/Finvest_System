@@ -12,8 +12,8 @@ Budget: ~4 Calls/Titel x 22 US-Titel ~= 90 Calls pro Wochenlauf < 250/Tag.
 """
 from __future__ import annotations
 import os
-import statistics as st
 import requests
+from metrics_extra import valuation_history_stats
 
 BASE = "https://financialmodelingprep.com/api"
 KEY = os.environ.get("FMP_API_KEY")
@@ -44,20 +44,32 @@ def fmp_block(symbol: str) -> dict:
         out["market_cap"] = quote[0].get("marketCap")
         out["price"] = quote[0].get("price")
 
-    # historische Verhaeltniszahlen (Jahresreihe) -> KGV/EV-EBITDA Mittel & Streuung
-    ratios = _get(f"v3/ratios/{symbol}", limit=8)
+    # historische Verhaeltniszahlen (Jahresreihe, juengstes Jahr zuerst) ->
+    # KGV/EV-EBITDA rezenz-gewichtet + 3/6/10-Jahres-Fenster (ersetzt das
+    # vorherige stur flache 8-Jahres-Mittel, siehe valuation_history_stats()).
+    ratios = _get(f"v3/ratios/{symbol}", limit=10)
     if isinstance(ratios, list) and len(ratios) >= 3:
         pes = [x.get("priceEarningsRatio") for x in ratios if x.get("priceEarningsRatio")]
         evs = [x.get("enterpriseValueMultiple") for x in ratios if x.get("enterpriseValueMultiple")]
-        pes = [p for p in pes if p and p > 0]
-        evs = [e for e in evs if e and e > 0]
-        if len(pes) >= 3:
-            out["pe_hist_mean"] = round(st.mean(pes), 1)
-            out["pe_hist_std"] = round(st.pstdev(pes) or 1.0, 2)
-        if len(evs) >= 3:
-            out["ev_hist_mean"] = round(st.mean(evs), 1)
-            out["ev_hist_std"] = round(st.pstdev(evs) or 1.0, 2)
-            out["ev_now"] = evs[0]
+
+        pe_stats = valuation_history_stats(pes)
+        if pe_stats["mean"] is not None:
+            out["pe_hist_mean"] = pe_stats["mean"]
+            out["pe_hist_std"] = pe_stats["std"]
+            out["pe_hist_3y"] = pe_stats["w3"]
+            out["pe_hist_6y"] = pe_stats["w6"]
+            out["pe_hist_10y"] = pe_stats["w10"]
+
+        ev_stats = valuation_history_stats(evs)
+        if ev_stats["mean"] is not None:
+            out["ev_hist_mean"] = ev_stats["mean"]
+            out["ev_hist_std"] = ev_stats["std"]
+            out["ev_hist_3y"] = ev_stats["w3"]
+            out["ev_hist_6y"] = ev_stats["w6"]
+            out["ev_hist_10y"] = ev_stats["w10"]
+            evs_valid = [e for e in evs if e and e > 0]
+            if evs_valid:
+                out["ev_now"] = evs_valid[0]
 
     km = _get(f"v3/key-metrics/{symbol}", limit=1)
     if isinstance(km, list) and km:

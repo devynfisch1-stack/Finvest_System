@@ -8,8 +8,8 @@ Liefert:
 - Benchmark-Tagesrenditen für die Event-Study
 """
 from __future__ import annotations
-import statistics as st
 import yfinance as yf
+from metrics_extra import valuation_history_stats
 
 
 def _safe(fn, default=None):
@@ -50,7 +50,7 @@ def historical_pe(yf_symbol: str) -> dict:
     if fin is None or hist is None or not len(hist):
         return {"pe_hist_mean": None, "pe_hist_std": None}
     shares = _safe(lambda: float(tk.info.get("sharesOutstanding")), None)
-    pes = []
+    pes_by_year = []  # [(year, pe), ...]
     try:
         ni_row = "Net Income" if "Net Income" in fin.index else None
         for col in fin.columns:
@@ -63,12 +63,22 @@ def historical_pe(yf_symbol: str) -> dict:
                 continue
             year_prices = hist.loc[hist.index.year == year, "Close"]
             if len(year_prices):
-                pes.append(float(year_prices.mean()) / eps)
+                pes_by_year.append((year, float(year_prices.mean()) / eps))
     except Exception:
         pass
-    if len(pes) >= 3:
-        return {"pe_hist_mean": round(st.mean(pes), 1), "pe_hist_std": round(st.pstdev(pes) or 1.0, 2)}
-    return {"pe_hist_mean": None, "pe_hist_std": None}
+    # yfinance liefert Spalten nicht garantiert sortiert -> explizit juengstes
+    # Jahr zuerst, wie es valuation_history_stats() erwartet (siehe SMI/CH-
+    # Titel: die haben kein FMP-Overlay und haengen komplett an diesem Pfad).
+    pes_by_year.sort(key=lambda t: t[0], reverse=True)
+    pes = [p for _, p in pes_by_year]
+    stats = valuation_history_stats(pes)
+    if stats["mean"] is not None:
+        return {
+            "pe_hist_mean": stats["mean"], "pe_hist_std": stats["std"],
+            "pe_hist_3y": stats["w3"], "pe_hist_6y": stats["w6"], "pe_hist_10y": stats["w10"],
+        }
+    return {"pe_hist_mean": None, "pe_hist_std": None,
+            "pe_hist_3y": None, "pe_hist_6y": None, "pe_hist_10y": None}
 
 
 def benchmark_returns(bench_symbol: str):

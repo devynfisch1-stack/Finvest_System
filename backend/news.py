@@ -18,6 +18,7 @@ from __future__ import annotations
 import os
 import datetime as dt
 import yfinance as yf
+import config
 
 FUNDAMENTAL_KW = ["guidance", "earnings", "revenue", "profit", "margin", "forecast",
                   "results", "beats", "misses", "downgrade", "upgrade", "order",
@@ -88,8 +89,77 @@ def strength_from(abn):
     return "Hoch" if a >= 4 else "Mittel" if a >= 2 else "Tief"
 
 
-def fetch_events(yf_symbol: str, stock_ret, bench_ret, limit=8):
-    """Liste klassifizierter Ereignisse mit abnormaler Rendite."""
+_TYPE_LABEL = {"fundamental": "Fundamental", "emotional": "Emotional / Sentiment", "makro": "Makro / Marktweit"}
+
+
+def _fact_bullets(title: str, type_: str, abn: float, strength: str, date_str: str) -> list[str]:
+    """Reine Fakten (kein Urteil): was ist gemeldet worden, wie hat der Kurs
+    reagiert, wie ist das Ereignis eingeordnet. Die Einschaetzung kommt
+    bewusst NICHT hier rein, sondern separat ueber _assessment()."""
+    richtung = "Anstieg" if abn > 0 else "Rückgang"
+    return [
+        f"Auslöser: {title}",
+        f"Kursreaktion am {date_str}: {abn:+.1f}\u202f% {richtung} (marktbereinigt gegenüber dem Referenzindex)",
+        f"Einordnung: {_TYPE_LABEL.get(type_, 'Makro / Marktweit')} · Stärke {strength}",
+    ]
+
+
+def _assessment(type_: str, abn: float, strength: str) -> str:
+    """GENAU EIN Satz -- unsere Einschaetzung, getrennt von den Fakten oben.
+    Wird im Frontend optisch abgesetzt dargestellt (eigenes Feld, nicht Teil
+    der bullets-Liste)."""
+    if type_ == "fundamental":
+        meaning = ("ein konkreter operativer Fortschritt, der sich bei anhaltendem Trend in den kommenden "
+                   "Quartalszahlen bestätigen sollte" if abn > 0 else
+                   "ein echter geschäftlicher Rückschlag, der sich erst in den kommenden Quartalszahlen "
+                   "bestätigen oder relativieren wird")
+    elif type_ == "emotional":
+        meaning = "vor allem Stimmung und Positionierung — an der operativen Substanz hat sich nichts geändert"
+    else:
+        meaning = "eine Bewegung, die Gesamtmarkt oder Sektor gleichermassen betrifft und wenig unternehmensspezifisch aussagt"
+    weight = {"Hoch": "Wir stufen die Tragweite als hoch ein.",
+              "Mittel": "Wir stufen die Tragweite als spürbar, aber nicht dramatisch ein."}.get(
+              strength, "Wir stufen die Tragweite als begrenzt ein.")
+    return f"Unsere Einschätzung: Für das Unternehmen bedeutet das {meaning}. {weight}"
+
+
+def _narrative(name: str, title: str, type_: str, abn: float, strength: str, date_str: str) -> str:
+    """Der ausfuehrliche 'Bericht'-Text, klar dreiteilig:
+    (a) was ist passiert, (b) was bedeutet das fuer das Unternehmen kuenftig,
+    (c) wie gravierend schaetzen wir das ein."""
+    richtung = "stieg" if abn > 0 else "fiel"
+    a = (f"Am {date_str} {richtung} der Kurs von {name} marktbereinigt um {abn:+.1f}\u202f% "
+         f"infolge der Meldung: {title}.")
+
+    if type_ == "fundamental":
+        b = ("Das ist durch echte Geschäftszahlen oder eine veränderte Guidance gestützt und damit ein Signal, "
+             "das über den Tag hinaus relevant sein kann — entscheidend wird, ob sich der Trend in den "
+             "kommenden Quartalszahlen bestätigt.")
+    elif type_ == "emotional":
+        b = ("Das ist überwiegend sentimentgetrieben, ohne dass sich an den zugrunde liegenden Geschäftszahlen "
+             "etwas verändert hätte — solche Bewegungen klingen erfahrungsgemäss ab, sobald sich die Stimmung "
+             "wieder normalisiert.")
+    else:
+        b = ("Das hängt in erster Linie an der Entwicklung des Gesamtmarkts oder Sektors, etwa Zinserwartungen "
+             "oder einer Rotation zwischen Branchen, und sagt für sich genommen wenig über das Unternehmen "
+             "selbst aus.")
+
+    c = {
+        "Hoch": "Angesichts der Stärke der Kursreaktion stufen wir das als eine der gewichtigeren Meldungen der letzten Zeit ein.",
+        "Mittel": "In der Gesamtschau ist das spürbar, aber nicht dramatisch — eine Beobachtungsgrösse, kein Alarmsignal.",
+    }.get(strength, "Die Tragweite schätzen wir insgesamt als begrenzt ein.")
+
+    return f"{a} {b} {c}"
+
+
+def fetch_events(yf_symbol: str, stock_ret, bench_ret, limit=8, name: str | None = None):
+    """Liste klassifizierter Ereignisse mit abnormaler Rendite.
+
+    Rauschfilter: Ereignisse ohne verlaessliche oder spuerbare marktbereinigte
+    Kursreaktion (< config.NEWS_MIN_ABS_MOVE) werden aussortiert, statt als
+    "Tief"-Eintrag trotzdem zu erscheinen -- sonst ertrinkt die eine wichtige
+    Meldung der Woche in vielen belanglosen."""
+    display_name = name or yf_symbol
     tk = yf.Ticker(yf_symbol)
     try:
         raw = tk.news or []
@@ -104,14 +174,19 @@ def fetch_events(yf_symbol: str, stock_ret, bench_ret, limit=8):
         ts = n.get("providerPublishTime")
         date = dt.datetime.fromtimestamp(ts) if ts else dt.datetime.now()
         abn = _abnormal_return(date, stock_ret, bench_ret)
+        if abn is None or abs(abn) < config.NEWS_MIN_ABS_MOVE:
+            continue
+        type_ = classify(title)
+        strength = strength_from(abn)
+        date_str = date.strftime("%d.%m.%Y")
         events.append({
             "t": title,
-            "d": date.strftime("%d.%m.%Y"),
-            "move": abn if abn is not None else 0.0,
-            "type": classify(title),
-            "s": strength_from(abn),
-            "sum": f"Abnormale Tagesrendite {abn if abn is not None else 'n/a'} % "
-                   f"(firmenspezifisch, marktbereinigt). Automatische Klassifikation: "
-                   f"{classify(title)}.",
+            "d": date_str,
+            "move": abn,
+            "type": type_,
+            "s": strength,
+            "bullets": _fact_bullets(title, type_, abn, strength, date_str),
+            "assessment": _assessment(type_, abn, strength),
+            "sum": _narrative(display_name, title, type_, abn, strength, date_str),
         })
     return events

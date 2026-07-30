@@ -109,11 +109,16 @@ def from_edgar(ed: dict, price: dict, ticker: str, sector: str, fmp: dict | None
     gm_series = [gp[y] / rev[y] for y in sorted(set(gp) & set(rev)) if rev[y]]
     if gm_series:
         r["gross_margin_series"] = gm_series
+        r["gross_margin_latest"] = gm_series[-1]
     ebitda = (op + da) if (op is not None and da is not None) else None
     if ebitda:
         r["netdebt_ebitda"] = ((ltd + std) - (cash or 0)) / ebitda
     r["shares_cagr"] = _cagr(shares)
     r["expected_growth"] = _cagr(rev) or price.get("forward_growth")
+    # Fuer die neuen Ackman-Kennzahlen (Prinzip 1 & 2):
+    r["revenue_series"] = rev
+    r["revenue_latest"] = _latest(rev)
+    r["fcf"] = fcf
 
     r.update(_extras(ed, ticker))
     _valuation_common(r, price, ni, fcf)
@@ -163,12 +168,16 @@ def from_yfinance(tk_symbol: str, price: dict, ticker: str, sector: str) -> dict
                  for y in sorted(set(ed["gross_profit"]) & set(ed["revenue"])) if ed["revenue"][y]]
     if gm_series:
         r["gross_margin_series"] = gm_series
+        r["gross_margin_latest"] = gm_series[-1]
     da = _latest(ed["dep_amort"])
     ebitda = (op + da) if (op is not None and da is not None) else None
     if ebitda:
         r["netdebt_ebitda"] = ((_latest(ed["long_term_debt"]) or 0) +
                                (_latest(ed["short_term_debt"]) or 0) - (_latest(ed["cash"]) or 0)) / ebitda
     r["shares_cagr"] = _cagr(ed["shares"])
+    r["revenue_series"] = ed["revenue"]
+    r["revenue_latest"] = _latest(ed["revenue"])
+    r["fcf"] = fcf
     r["expected_growth"] = _cagr(ed["revenue"]) or price.get("forward_growth")
     r.update(_extras(ed, ticker))
     _valuation_common(r, price, ni, fcf)
@@ -177,8 +186,9 @@ def from_yfinance(tk_symbol: str, price: dict, ticker: str, sector: str) -> dict
 
 def _overlay_fmp(r, fmp):
     """Bessere FMP-Werte ueberschreiben Naeherungen (KGV-Historie, Piotroski, ROIC)."""
-    for k in ("pe_now", "pe_hist_mean", "pe_hist_std", "ev_now", "ev_hist_mean",
-              "ev_hist_std", "market_cap", "roic", "piotroski_raw", "piotroski_max"):
+    for k in ("pe_now", "pe_hist_mean", "pe_hist_std", "pe_hist_3y", "pe_hist_6y", "pe_hist_10y",
+              "ev_now", "ev_hist_mean", "ev_hist_std", "ev_hist_3y", "ev_hist_6y", "ev_hist_10y",
+              "market_cap", "roic", "piotroski_raw", "piotroski_max"):
         if fmp.get(k) is not None:
             r[k] = fmp[k]
     r["source"] = "fmp"
@@ -188,9 +198,13 @@ def _valuation_common(r, price, ni, fcf):
     r["pe_now"] = price.get("pe_now")
     r["pe_hist_mean"] = price.get("pe_hist_mean")
     r["pe_hist_std"] = price.get("pe_hist_std")
+    r["pe_hist_3y"] = price.get("pe_hist_3y")
+    r["pe_hist_6y"] = price.get("pe_hist_6y")
+    r["pe_hist_10y"] = price.get("pe_hist_10y")
     r["drawdown"] = price.get("drawdown")
     r["events"] = price.get("events", [])
     mcap = price.get("market_cap")
+    r["market_cap"] = mcap
     if mcap and fcf and fcf > 0:
         r["pfcf_now"] = mcap / fcf
         r["fcf_yield"] = fcf / mcap

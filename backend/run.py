@@ -15,6 +15,7 @@ import json, os, sys, time, datetime as dt
 import config
 from config import UNIVERSE, BENCHMARK
 import scoring
+import metrics_extra
 from metrics_extra import inject_sector_percentiles
 
 HERE = os.path.dirname(__file__)
@@ -25,7 +26,7 @@ def fetch_raw(entry, region):
     from fundamentals import from_edgar, from_yfinance
     price = P.price_block(entry["yf"]); price.update(P.historical_pe(entry["yf"]))
     price["events"] = NEWS.fetch_events(entry["yf"], P.stock_returns(entry["yf"]),
-                                        P.benchmark_returns(BENCHMARK[region]))
+                                        P.benchmark_returns(BENCHMARK[region]), name=entry["name"])
     fmp = {}
     if config.FMP_ENABLED and entry["edgar"]:
         try:
@@ -49,9 +50,12 @@ def assemble(raw, result):
         "region": raw["_region"], "isFin": e["ticker"] in config.FINANCIALS,
         "marketCap": price.get("market_cap"), "price": price.get("price"),
         "drawdown": price.get("drawdown"), "peNow": raw.get("pe_now"), "peHist": raw.get("pe_hist_mean"),
+        "peHist3y": raw.get("pe_hist_3y"), "peHist6y": raw.get("pe_hist_6y"), "peHist10y": raw.get("pe_hist_10y"),
         "evNow": raw.get("ev_now"), "evHist": raw.get("ev_hist_mean"),
+        "evHist3y": raw.get("ev_hist_3y"), "evHist6y": raw.get("ev_hist_6y"), "evHist10y": raw.get("ev_hist_10y"),
         "impliedGrowth": None if raw.get("implied_growth") is None else round(raw["implied_growth"] * 100),
-        "realistic": raw.get("realistic", True), "events": raw.get("events", []), **result,
+        "realistic": raw.get("realistic", True), "events": raw.get("events", []),
+        "governance_note": metrics_extra.governance_note(e["ticker"]), **result,
     }
     # Der Bericht (inkl. optionalem Anthropic-API-Aufruf fuer natuerlichere
     # Sprache) wird bewusst NUR beim woechentlichen Lauf erzeugt -- nicht bei
@@ -105,19 +109,34 @@ def _snapshot(payload):
 
 # ------------------------------- Offline-Test ----------------------------- #
 def _mock_raw(qb, cheap, sector, region, manip=False):
+    base_rev = 100.0
+    # Umsatzreihe: qualitativ hochwertige Faelle wachsen glatter (vorhersagbar),
+    # schwache Faelle schwanken staerker (fuer den predictability-Score).
+    growth_steps = [0.08, 0.09, 0.07, 0.08, 0.10] if qb >= 0 else [0.15, -0.05, 0.20, -0.10, 0.25]
+    rev_series, v = {}, base_rev
+    for i, g in enumerate(growth_steps):
+        rev_series[2020 + i] = v
+        v *= (1 + g)
+    rev_series[2020 + len(growth_steps)] = v
+    fcf = v * (0.18 + qb * 0.02)  # FCF-Marge variiert mit Qualitaet
     return {
         "roic": 0.10 + qb * 0.03, "incremental_roic": 0.08 + qb * 0.02, "cash_conversion": 0.7 + qb * 0.1,
         "accruals": 0.02 if not manip else 0.18, "gross_margin_series": [0.44, 0.45, 0.46, 0.45, 0.46],
-        "netdebt_ebitda": 1.5 - qb * 0.4, "shares_cagr": -0.01,
+        "gross_margin_latest": 0.46, "netdebt_ebitda": 1.5 - qb * 0.4, "shares_cagr": -0.01,
         "piotroski_raw": 4 + qb, "piotroski_max": 9,
         "pe_now": (22 if cheap else 34), "pe_hist_mean": 30, "pe_hist_std": 5,
         "pe_sector_score": (8.0 if cheap else 3.5), "fcf_yield": 0.05, "roic_val": 0.13,
         "implied_growth": 0.10, "expected_growth": 0.12, "mos": (0.2 if cheap else -0.1),
         "drawdown": (-32 if cheap else -6), "mscore": (-1.2 if manip else -2.6),
         "sector": sector, "region": region, "source": "mock", "is_financial": False, "realistic": True,
+        # Neu fuer die Ackman-Prinzipien:
+        "revenue_series": rev_series, "revenue_latest": v, "fcf": fcf,
+        "market_cap": 500_000_000_000 + qb * 100_000_000_000,
+        "gm_sector_pct": 0.5 + qb * 0.1, "mcap_sector_pct": 0.5 + qb * 0.1,
         "events": [
             {"t": "Angst vor KI-Investitionen", "d": "02.04.2026", "move": -6.1, "type": "emotional", "s": "Tief", "sum": ""},
             {"t": "Cloud ueber Erwartung", "d": "15.02.2026", "move": 4.8, "type": "fundamental", "s": "Hoch", "sum": ""},
+            {"t": "Zinssorgen belasten Sektor", "d": "20.01.2026", "move": -3.2, "type": "makro", "s": "Tief", "sum": ""},
         ],
     }
 
@@ -132,6 +151,10 @@ def run_mock():
         print(f"{name:22s} Q={res['quality']:>4} V={res['valuation']:>4} D={res['dislocation']:>4} "
               f"=>{res['overall']:>4} {res['status']:11s} sig={str(res['signal']):5s} "
               f"F={res['piotroski_raw']} M={res['mscore']} gate={res['gate_ok']} conf={res['confidence']}%")
+        qs = res["quality_sub"]
+        print(f"  Ackman-Kennzahlen: predictability={qs.get('predictability')} "
+              f"fcf_generative={qs.get('fcf_generative')} moat={qs.get('moat')} "
+              f"extrinsic_risk={qs.get('extrinsic_risk')} management={qs.get('management')}")
     os.makedirs(os.path.join(HERE, "data"), exist_ok=True)
     with open(os.path.join(HERE, "data", "mock_output.json"), "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
