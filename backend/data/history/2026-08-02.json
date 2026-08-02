@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T05:56:32.665997Z",
+  "generated": "2026-08-02T16:56:20.135031Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -346,10 +346,10 @@
       "drawdown": -18.0
     },
     "XOM": {
-      "overall": 5.1,
+      "overall": 6.1,
       "quality": 5.5,
-      "valuation": 4.8,
-      "status": "Neutral",
+      "valuation": 6.6,
+      "status": "Solid",
       "peNow": 26.16835,
       "drawdown": -8.7
     },
