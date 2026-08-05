@@ -1,0 +1,805 @@
+{
+  "generated": "2026-08-05T05:44:33.270637Z",
+  "scores": {
+    "NVDA": {
+      "overall": 4.0,
+      "quality": 7.3,
+      "valuation": 6.6,
+      "status": "Overvalued",
+      "peNow": 31.632837,
+      "drawdown": -10.0
+    },
+    "GOOGL": {
+      "overall": 5.4,
+      "quality": 6.3,
+      "valuation": 4.7,
+      "status": "Neutral",
+      "peNow": 18.939318,
+      "drawdown": -6.1
+    },
+    "AAPL": {
+      "overall": 5.9,
+      "quality": 7.1,
+      "valuation": 4.4,
+      "status": "Solid",
+      "peNow": 34.84009,
+      "drawdown": -9.0
+    },
+    "MSFT": {
+      "overall": 6.8,
+      "quality": 6.8,
+      "valuation": 6.5,
+      "status": "Outlier",
+      "peNow": 26.185442,
+      "drawdown": -8.5
+    },
+    "AMZN": {
+      "overall": 6.8,
+      "quality": 5.6,
+      "valuation": 8.4,
+      "status": "Solid",
+      "peNow": 22.300646,
+      "drawdown": -2.3
+    },
+    "AVGO": {
+      "overall": 5.6,
+      "quality": 6.0,
+      "valuation": 5.4,
+      "status": "Neutral",
+      "peNow": 65.3375,
+      "drawdown": -13.0
+    },
+    "SPCX": {
+      "overall": 5.6,
+      "quality": 5.8,
+      "valuation": 5.5,
+      "status": "Solid",
+      "peNow": null,
+      "drawdown": -40.7
+    },
+    "META": {
+      "overall": 6.4,
+      "quality": 6.9,
+      "valuation": 5.8,
+      "status": "Solid",
+      "peNow": 22.136295,
+      "drawdown": -25.3
+    },
+    "TSLA": {
+      "overall": 4.3,
+      "quality": 4.8,
+      "valuation": 3.3,
+      "status": "Overvalued",
+      "peNow": 300.3211,
+      "drawdown": -33.2
+    },
+    "BRK.B": {
+      "overall": 4.9,
+      "quality": 5.7,
+      "valuation": 4.1,
+      "status": "Overvalued",
+      "peNow": 15.2662325,
+      "drawdown": -4.2
+    },
+    "WMT": {
+      "overall": 4.6,
+      "quality": 5.1,
+      "valuation": 3.9,
+      "status": "Overvalued",
+      "peNow": 38.8676,
+      "drawdown": -16.9
+    },
+    "V": {
+      "overall": 4.8,
+      "quality": 5.9,
+      "valuation": 3.4,
+      "status": "Overvalued",
+      "peNow": 31.454468,
+      "drawdown": -0.2
+    },
+    "JNJ": {
+      "overall": 5.3,
+      "quality": 5.7,
+      "valuation": 5.0,
+      "status": "Neutral",
+      "peNow": 29.505785,
+      "drawdown": -4.6
+    },
+    "INTC": {
+      "overall": 4.6,
+      "quality": 3.7,
+      "valuation": 5.5,
+      "status": "Neutral",
+      "peNow": null,
+      "drawdown": -28.4
+    },
+    "MA": {
+      "overall": 5.8,
+      "quality": 7.1,
+      "valuation": 4.0,
+      "status": "Solid",
+      "peNow": 31.448236,
+      "drawdown": -4.1
+    },
+    "CSCO": {
+      "overall": 4.5,
+      "quality": 5.9,
+      "valuation": 2.9,
+      "status": "Overvalued",
+      "peNow": 40.579998,
+      "drawdown": -6.0
+    },
+    "BAC": {
+      "overall": 5.0,
+      "quality": 5.5,
+      "valuation": 4.4,
+      "status": "Overvalued",
+      "peNow": 14.52656,
+      "drawdown": 0.0
+    },
+    "AMAT": {
+      "overall": 5.2,
+      "quality": 6.8,
+      "valuation": 2.9,
+      "status": "Solid",
+      "peNow": 48.761818,
+      "drawdown": -24.4
+    },
+    "ABBV": {
+      "overall": 4.9,
+      "quality": 5.9,
+      "valuation": 3.7,
+      "status": "Overvalued",
+      "peNow": 68.870056,
+      "drawdown": -7.4
+    },
+    "COST": {
+      "overall": 4.7,
+      "quality": 5.7,
+      "valuation": 3.4,
+      "status": "Overvalued",
+      "peNow": 47.654602,
+      "drawdown": -13.2
+    },
+    "ORCL": {
+      "overall": 5.6,
+      "quality": 4.4,
+      "valuation": 6.4,
+      "status": "Value Trap",
+      "peNow": 24.330553,
+      "drawdown": -55.1
+    },
+    "LRCX": {
+      "overall": 5.1,
+      "quality": 5.9,
+      "valuation": 4.1,
+      "status": "Overvalued",
+      "peNow": 51.001602,
+      "drawdown": -26.7
+    },
+    "GE": {
+      "overall": 4.0,
+      "quality": 6.3,
+      "valuation": 3.7,
+      "status": "Overvalued",
+      "peNow": 44.385883,
+      "drawdown": -0.4
+    },
+    "PLTR": {
+      "overall": 5.6,
+      "quality": 7.3,
+      "valuation": 3.4,
+      "status": "Solid",
+      "peNow": 182.76405,
+      "drawdown": -21.5
+    },
+    "CVX": {
+      "overall": 5.3,
+      "quality": 5.4,
+      "valuation": 5.2,
+      "status": "Neutral",
+      "peNow": 18.59375,
+      "drawdown": -9.0
+    },
+    "KO": {
+      "overall": 4.0,
+      "quality": 4.3,
+      "valuation": 3.3,
+      "status": "Overvalued",
+      "peNow": 26.072289,
+      "drawdown": -2.8
+    },
+    "UNH": {
+      "overall": 4.3,
+      "quality": 3.8,
+      "valuation": 4.5,
+      "status": "Neutral",
+      "peNow": 31.253834,
+      "drawdown": -32.0
+    },
+    "MS": {
+      "overall": 4.3,
+      "quality": 4.9,
+      "valuation": 3.4,
+      "status": "Overvalued",
+      "peNow": 17.531502,
+      "drawdown": -4.5
+    },
+    "GS": {
+      "overall": 5.4,
+      "quality": 5.6,
+      "valuation": 5.3,
+      "status": "Neutral",
+      "peNow": 16.25722,
+      "drawdown": -8.6
+    },
+    "NFLX": {
+      "overall": 6.0,
+      "quality": 5.4,
+      "valuation": 6.4,
+      "status": "Neutral",
+      "peNow": 23.062695,
+      "drawdown": -45.1
+    },
+    "DELL": {
+      "overall": 4.9,
+      "quality": 5.5,
+      "valuation": 4.2,
+      "status": "Overvalued",
+      "peNow": 37.173428,
+      "drawdown": 0.0
+    },
+    "PANW": {
+      "overall": 4.3,
+      "quality": 5.3,
+      "valuation": 3.0,
+      "status": "Overvalued",
+      "peNow": 302.7603,
+      "drawdown": 0.0
+    },
+    "RTX": {
+      "overall": 3.6,
+      "quality": 3.5,
+      "valuation": 3.2,
+      "status": "Overvalued",
+      "peNow": 38.367958,
+      "drawdown": -0.3
+    },
+    "PM": {
+      "overall": 5.5,
+      "quality": 5.8,
+      "valuation": 5.3,
+      "status": "Neutral",
+      "peNow": 25.709766,
+      "drawdown": -6.6
+    },
+    "GEV": {
+      "overall": 5.0,
+      "quality": 4.6,
+      "valuation": 5.5,
+      "status": "Neutral",
+      "peNow": 28.902666,
+      "drawdown": -13.3
+    },
+    "WFC": {
+      "overall": 4.8,
+      "quality": 5.0,
+      "valuation": 4.6,
+      "status": "Neutral",
+      "peNow": 12.773121,
+      "drawdown": -7.3
+    },
+    "TXN": {
+      "overall": 4.6,
+      "quality": 5.0,
+      "valuation": 3.9,
+      "status": "Overvalued",
+      "peNow": 40.810074,
+      "drawdown": -14.2
+    },
+    "KLAC": {
+      "overall": 4.5,
+      "quality": 4.8,
+      "valuation": 3.8,
+      "status": "Overvalued",
+      "peNow": 53.401638,
+      "drawdown": -35.2
+    },
+    "ANET": {
+      "overall": 5.3,
+      "quality": 6.5,
+      "valuation": 3.4,
+      "status": "Solid",
+      "peNow": 63.715717,
+      "drawdown": 0.0
+    },
+    "AXP": {
+      "overall": 4.0,
+      "quality": 5.7,
+      "valuation": 4.7,
+      "status": "Overvalued",
+      "peNow": 21.038229,
+      "drawdown": -9.2
+    },
+    "SNDK": {
+      "overall": 4.7,
+      "quality": 3.7,
+      "valuation": 5.4,
+      "status": "Neutral",
+      "peNow": 44.04875,
+      "drawdown": -38.9
+    },
+    "MU": {
+      "overall": 6.6,
+      "quality": 6.3,
+      "valuation": 6.9,
+      "status": "Solid",
+      "peNow": 18.761454,
+      "drawdown": -26.4
+    },
+    "LLY": {
+      "overall": 5.0,
+      "quality": 5.5,
+      "valuation": 4.5,
+      "status": "Overvalued",
+      "peNow": 39.845715,
+      "drawdown": -9.7
+    },
+    "JPM": {
+      "overall": 5.6,
+      "quality": 5.9,
+      "valuation": 5.5,
+      "status": "Solid",
+      "peNow": 15.331046,
+      "drawdown": 0.0
+    },
+    "AMD": {
+      "overall": 4.8,
+      "quality": 5.2,
+      "valuation": 4.2,
+      "status": "Overvalued",
+      "peNow": 172.86,
+      "drawdown": -10.7
+    },
+    "XOM": {
+      "overall": 6.1,
+      "quality": 5.5,
+      "valuation": 6.5,
+      "status": "Solid",
+      "peNow": 26.094915,
+      "drawdown": -9.6
+    },
+    "CAT": {
+      "overall": 4.9,
+      "quality": 5.2,
+      "valuation": 4.6,
+      "status": "Neutral",
+      "peNow": 42.925564,
+      "drawdown": -17.5
+    },
+    "PG": {
+      "overall": 5.6,
+      "quality": 5.6,
+      "valuation": 5.9,
+      "status": "Solid",
+      "peNow": 21.894968,
+      "drawdown": -13.6
+    },
+    "HD": {
+      "overall": 5.5,
+      "quality": 6.4,
+      "valuation": 4.8,
+      "status": "Neutral",
+      "peNow": 24.149792,
+      "drawdown": -16.1
+    },
+    "MRK": {
+      "overall": 5.3,
+      "quality": 5.9,
+      "valuation": 4.7,
+      "status": "Neutral",
+      "peNow": 35.955055,
+      "drawdown": -2.9
+    },
+    "NOVN": {
+      "overall": 6.5,
+      "quality": 8.1,
+      "valuation": 4.8,
+      "status": "Solid",
+      "peNow": 23.333332,
+      "drawdown": -4.4
+    },
+    "NESN": {
+      "overall": 5.3,
+      "quality": 6.9,
+      "valuation": 3.1,
+      "status": "Solid",
+      "peNow": 27.910034,
+      "drawdown": -27.2
+    },
+    "ABBN": {
+      "overall": 4.7,
+      "quality": 6.5,
+      "valuation": 2.6,
+      "status": "Overvalued",
+      "peNow": 37.28767,
+      "drawdown": -9.6
+    },
+    "UBSG": {
+      "overall": 6.0,
+      "quality": 7.7,
+      "valuation": 4.0,
+      "status": "Solid",
+      "peNow": 33.658913,
+      "drawdown": -11.5
+    },
+    "CFR": {
+      "overall": 5.7,
+      "quality": 6.6,
+      "valuation": 4.3,
+      "status": "Solid",
+      "peNow": 35.480072,
+      "drawdown": -0.9
+    },
+    "LISN": {
+      "overall": 4.4,
+      "quality": 5.6,
+      "valuation": 2.8,
+      "status": "Overvalued",
+      "peNow": 29.692972,
+      "drawdown": -28.6
+    },
+    "ZURN": {
+      "overall": 6.2,
+      "quality": 6.2,
+      "valuation": 6.1,
+      "status": "Solid",
+      "peNow": 16.153847,
+      "drawdown": -2.5
+    },
+    "GALD": {
+      "overall": 5.0,
+      "quality": 6.3,
+      "valuation": 3.6,
+      "status": "Overvalued",
+      "peNow": 58.905724,
+      "drawdown": -6.4
+    },
+    "HOLN": {
+      "overall": 4.0,
+      "quality": 5.2,
+      "valuation": 2.5,
+      "status": "Overvalued",
+      "peNow": 104.54286,
+      "drawdown": -25.3
+    },
+    "SREN": {
+      "overall": 6.1,
+      "quality": 5.9,
+      "valuation": 6.1,
+      "status": "Solid",
+      "peNow": 10.784861,
+      "drawdown": -6.6
+    },
+    "LONN": {
+      "overall": 4.9,
+      "quality": 4.4,
+      "valuation": 5.4,
+      "status": "Neutral",
+      "peNow": 35.850517,
+      "drawdown": -26.4
+    },
+    "SCMN": {
+      "overall": 5.6,
+      "quality": 6.4,
+      "valuation": 4.8,
+      "status": "Neutral",
+      "peNow": 26.025965,
+      "drawdown": -11.1
+    },
+    "GIVN": {
+      "overall": 4.7,
+      "quality": 5.2,
+      "valuation": 4.0,
+      "status": "Overvalued",
+      "peNow": 32.460327,
+      "drawdown": -26.9
+    },
+    "SIKA": {
+      "overall": 5.1,
+      "quality": 5.0,
+      "valuation": 5.2,
+      "status": "Neutral",
+      "peNow": 29.398148,
+      "drawdown": -47.0
+    },
+    "ALC": {
+      "overall": 5.1,
+      "quality": 5.8,
+      "valuation": 4.2,
+      "status": "Overvalued",
+      "peNow": 42.385185,
+      "drawdown": -32.6
+    },
+    "SDZ": {
+      "overall": 4.6,
+      "quality": 5.1,
+      "valuation": 4.0,
+      "status": "Overvalued",
+      "peNow": 37.8,
+      "drawdown": -12.3
+    },
+    "SCHP": {
+      "overall": 5.4,
+      "quality": 7.1,
+      "valuation": 3.1,
+      "status": "Solid",
+      "peNow": 27.104166,
+      "drawdown": -15.0
+    },
+    "SLHN": {
+      "overall": 5.4,
+      "quality": 6.2,
+      "valuation": 4.5,
+      "status": "Neutral",
+      "peNow": 22.038656,
+      "drawdown": -0.2
+    },
+    "KNIN": {
+      "overall": 4.8,
+      "quality": 5.8,
+      "valuation": 3.3,
+      "status": "Overvalued",
+      "peNow": 27.82369,
+      "drawdown": -30.7
+    },
+    "HBAN": {
+      "overall": 5.4,
+      "quality": 5.1,
+      "valuation": 5.9,
+      "status": "Neutral",
+      "peNow": 20.930233,
+      "drawdown": -0.5
+    },
+    "SGSN": {
+      "overall": 5.1,
+      "quality": 6.6,
+      "valuation": 2.9,
+      "status": "Solid",
+      "peNow": 28.835293,
+      "drawdown": -0.7
+    },
+    "EMSN": {
+      "overall": 5.6,
+      "quality": 7.7,
+      "valuation": 2.8,
+      "status": "Solid",
+      "peNow": 41.203007,
+      "drawdown": -11.4
+    },
+    "VACN": {
+      "overall": 5.1,
+      "quality": 7.0,
+      "valuation": 2.4,
+      "status": "Solid",
+      "peNow": 87.731094,
+      "drawdown": -11.7
+    },
+    "PGHN": {
+      "overall": 7.9,
+      "quality": 7.7,
+      "valuation": 7.8,
+      "status": "Outlier",
+      "peNow": 14.805946,
+      "drawdown": -48.8
+    },
+    "GEBN": {
+      "overall": 5.5,
+      "quality": 7.0,
+      "valuation": 3.4,
+      "status": "Solid",
+      "peNow": 30.842571,
+      "drawdown": -19.0
+    },
+    "STMN": {
+      "overall": 5.1,
+      "quality": 6.0,
+      "valuation": 4.0,
+      "status": "Overvalued",
+      "peNow": 46.636772,
+      "drawdown": -48.5
+    },
+    "BAER": {
+      "overall": 6.1,
+      "quality": 6.7,
+      "valuation": 5.2,
+      "status": "Solid",
+      "peNow": 13.019608,
+      "drawdown": -30.4
+    },
+    "SOON": {
+      "overall": 5.4,
+      "quality": 6.3,
+      "valuation": 4.5,
+      "status": "Overvalued",
+      "peNow": 25.39054,
+      "drawdown": -36.6
+    },
+    "LOGN": {
+      "overall": 6.3,
+      "quality": 7.3,
+      "valuation": 4.9,
+      "status": "Solid",
+      "peNow": 19.397322,
+      "drawdown": -78.5
+    },
+    "BCVN": {
+      "overall": 5.2,
+      "quality": 6.3,
+      "valuation": 4.1,
+      "status": "Overvalued",
+      "peNow": 25.380001,
+      "drawdown": -2.4
+    },
+    "BEAN": {
+      "overall": 5.2,
+      "quality": 7.0,
+      "valuation": 2.8,
+      "status": "Solid",
+      "peNow": 50.999413,
+      "drawdown": -11.4
+    },
+    "SPSN": {
+      "overall": 4.0,
+      "quality": 4.6,
+      "valuation": 3.0,
+      "status": "Overvalued",
+      "peNow": 27.274635,
+      "drawdown": -8.9
+    },
+    "UHR": {
+      "overall": 4.4,
+      "quality": 5.2,
+      "valuation": 3.2,
+      "status": "Overvalued",
+      "peNow": 1166.2501,
+      "drawdown": -59.3
+    },
+    "FHZN": {
+      "overall": 4.7,
+      "quality": 4.9,
+      "valuation": 4.4,
+      "status": "Overvalued",
+      "peNow": 21.080603,
+      "drawdown": -6.2
+    },
+    "BKW": {
+      "overall": 4.4,
+      "quality": 4.6,
+      "valuation": 4.0,
+      "status": "Overvalued",
+      "peNow": 19.850302,
+      "drawdown": -26.2
+    },
+    "AVOL": {
+      "overall": 6.1,
+      "quality": 4.8,
+      "valuation": 7.2,
+      "status": "Neutral",
+      "peNow": 34.573425,
+      "drawdown": -60.5
+    },
+    "ACLN": {
+      "overall": 5.4,
+      "quality": 6.8,
+      "valuation": 3.5,
+      "status": "Solid",
+      "peNow": 36.467663,
+      "drawdown": -18.6
+    },
+    "PSPN": {
+      "overall": 5.2,
+      "quality": 5.6,
+      "valuation": 4.7,
+      "status": "Neutral",
+      "peNow": 16.011112,
+      "drawdown": -10.9
+    },
+    "SQN": {
+      "overall": 6.8,
+      "quality": 6.7,
+      "valuation": 6.3,
+      "status": "Outlier",
+      "peNow": 17.53719,
+      "drawdown": -25.8
+    },
+    "VZN": {
+      "overall": 5.2,
+      "quality": 6.4,
+      "valuation": 3.9,
+      "status": "Overvalued",
+      "peNow": 26.902357,
+      "drawdown": -12.3
+    },
+    "BARN": {
+      "overall": 4.0,
+      "quality": 3.4,
+      "valuation": 6.7,
+      "status": "Overvalued",
+      "peNow": 25.0,
+      "drawdown": -49.1
+    },
+    "BANB": {
+      "overall": 4.9,
+      "quality": 4.7,
+      "valuation": 5.0,
+      "status": "Neutral",
+      "peNow": 37.727272,
+      "drawdown": -52.7
+    },
+    "LUKN": {
+      "overall": 4.2,
+      "quality": 3.9,
+      "valuation": 4.2,
+      "status": "Overvalued",
+      "peNow": 18.543047,
+      "drawdown": -3.7
+    },
+    "SFSN": {
+      "overall": 4.9,
+      "quality": 5.6,
+      "valuation": 4.1,
+      "status": "Overvalued",
+      "peNow": 20.303953,
+      "drawdown": -5.5
+    },
+    "SUN": {
+      "overall": 5.3,
+      "quality": 5.4,
+      "valuation": 5.3,
+      "status": "Neutral",
+      "peNow": 17.850468,
+      "drawdown": -12.4
+    },
+    "EFGN": {
+      "overall": 4.7,
+      "quality": 4.8,
+      "valuation": 4.2,
+      "status": "Overvalued",
+      "peNow": 19.581396,
+      "drawdown": -51.9
+    },
+    "TEMN": {
+      "overall": 6.2,
+      "quality": 6.8,
+      "valuation": 5.3,
+      "status": "Solid",
+      "peNow": 20.457226,
+      "drawdown": -58.1
+    },
+    "HUBN": {
+      "overall": 4.3,
+      "quality": 5.4,
+      "valuation": 2.5,
+      "status": "Overvalued",
+      "peNow": 47.338127,
+      "drawdown": -31.2
+    },
+    "ROG": {
+      "overall": 5.4,
+      "quality": 5.5,
+      "valuation": 5.5,
+      "status": "Solid",
+      "peNow": null,
+      "drawdown": null
+    },
+    "GLEN": {
+      "overall": 5.4,
+      "quality": 5.5,
+      "valuation": 5.5,
+      "status": "Solid",
+      "peNow": null,
+      "drawdown": null
+    }
+  }
+}
