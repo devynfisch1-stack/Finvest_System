@@ -4,6 +4,806 @@
     "name": "NVIDIA",
     "domain": "nvidia.com",
     "region": "US",
+    "date": "2026-08-09",
+    "headline": "NVIDIA im Wochenüberblick"
+  },
+  {
+    "ticker": "AAPL",
+    "name": "Apple",
+    "domain": "apple.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Apple im Wochenüberblick"
+  },
+  {
+    "ticker": "GOOGL",
+    "name": "Alphabet",
+    "domain": "google.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Alphabet im Wochenüberblick"
+  },
+  {
+    "ticker": "MSFT",
+    "name": "Microsoft",
+    "domain": "microsoft.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Microsoft im Wochenüberblick"
+  },
+  {
+    "ticker": "AMZN",
+    "name": "Amazon",
+    "domain": "amazon.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Amazon im Wochenüberblick"
+  },
+  {
+    "ticker": "AVGO",
+    "name": "Broadcom",
+    "domain": "broadcom.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Broadcom im Wochenüberblick"
+  },
+  {
+    "ticker": "SPCX",
+    "name": "SpaceX",
+    "domain": "spacex.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "SpaceX im Wochenüberblick"
+  },
+  {
+    "ticker": "META",
+    "name": "Meta Platforms",
+    "domain": "meta.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Meta Platforms im Wochenüberblick"
+  },
+  {
+    "ticker": "TSLA",
+    "name": "Tesla",
+    "domain": "tesla.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Tesla im Wochenüberblick"
+  },
+  {
+    "ticker": "MU",
+    "name": "Micron Technology",
+    "domain": "micron.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Micron Technology im Wochenüberblick"
+  },
+  {
+    "ticker": "BRK.B",
+    "name": "Berkshire Hathaway",
+    "domain": "berkshirehathaway.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Berkshire Hathaway im Wochenüberblick"
+  },
+  {
+    "ticker": "LLY",
+    "name": "Eli Lilly",
+    "domain": "lilly.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Eli Lilly im Wochenüberblick"
+  },
+  {
+    "ticker": "JPM",
+    "name": "JPMorgan Chase",
+    "domain": "jpmorganchase.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "JPMorgan Chase im Wochenüberblick"
+  },
+  {
+    "ticker": "AMD",
+    "name": "Advanced Micro Devices",
+    "domain": "amd.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Advanced Micro Devices im Wochenüberblick"
+  },
+  {
+    "ticker": "WMT",
+    "name": "Walmart",
+    "domain": "walmart.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Walmart im Wochenüberblick"
+  },
+  {
+    "ticker": "V",
+    "name": "Visa",
+    "domain": "visa.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Visa im Wochenüberblick"
+  },
+  {
+    "ticker": "XOM",
+    "name": "Exxon Mobil",
+    "domain": "exxonmobil.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Exxon Mobil im Wochenüberblick"
+  },
+  {
+    "ticker": "JNJ",
+    "name": "Johnson & Johnson",
+    "domain": "jnj.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Johnson & Johnson im Wochenüberblick"
+  },
+  {
+    "ticker": "INTC",
+    "name": "Intel",
+    "domain": "intel.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Intel im Wochenüberblick"
+  },
+  {
+    "ticker": "MA",
+    "name": "Mastercard",
+    "domain": "mastercard.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Mastercard im Wochenüberblick"
+  },
+  {
+    "ticker": "ABBV",
+    "name": "AbbVie",
+    "domain": "abbvie.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "AbbVie im Wochenüberblick"
+  },
+  {
+    "ticker": "AMAT",
+    "name": "Applied Materials",
+    "domain": "appliedmaterials.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Applied Materials im Wochenüberblick"
+  },
+  {
+    "ticker": "CSCO",
+    "name": "Cisco Systems",
+    "domain": "cisco.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Cisco Systems im Wochenüberblick"
+  },
+  {
+    "ticker": "BAC",
+    "name": "Bank of America",
+    "domain": "bankofamerica.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Bank of America im Wochenüberblick"
+  },
+  {
+    "ticker": "CAT",
+    "name": "Caterpillar",
+    "domain": "caterpillar.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Caterpillar im Wochenüberblick"
+  },
+  {
+    "ticker": "COST",
+    "name": "Costco",
+    "domain": "costco.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Costco im Wochenüberblick"
+  },
+  {
+    "ticker": "LRCX",
+    "name": "Lam Research",
+    "domain": "lamresearch.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Lam Research im Wochenüberblick"
+  },
+  {
+    "ticker": "CVX",
+    "name": "Chevron",
+    "domain": "chevron.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Chevron im Wochenüberblick"
+  },
+  {
+    "ticker": "UNH",
+    "name": "UnitedHealth",
+    "domain": "unitedhealthgroup.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "UnitedHealth im Wochenüberblick"
+  },
+  {
+    "ticker": "GE",
+    "name": "GE Aerospace",
+    "domain": "ge.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "GE Aerospace im Wochenüberblick"
+  },
+  {
+    "ticker": "KO",
+    "name": "Coca-Cola",
+    "domain": "coca-colacompany.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Coca-Cola im Wochenüberblick"
+  },
+  {
+    "ticker": "ORCL",
+    "name": "Oracle",
+    "domain": "oracle.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Oracle im Wochenüberblick"
+  },
+  {
+    "ticker": "PG",
+    "name": "Procter & Gamble",
+    "domain": "pg.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Procter & Gamble im Wochenüberblick"
+  },
+  {
+    "ticker": "MS",
+    "name": "Morgan Stanley",
+    "domain": "morganstanley.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Morgan Stanley im Wochenüberblick"
+  },
+  {
+    "ticker": "HD",
+    "name": "Home Depot",
+    "domain": "homedepot.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Home Depot im Wochenüberblick"
+  },
+  {
+    "ticker": "MRK",
+    "name": "Merck & Co",
+    "domain": "merck.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Merck & Co im Wochenüberblick"
+  },
+  {
+    "ticker": "GS",
+    "name": "Goldman Sachs",
+    "domain": "goldmansachs.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Goldman Sachs im Wochenüberblick"
+  },
+  {
+    "ticker": "PM",
+    "name": "Philip Morris International",
+    "domain": "pmi.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Philip Morris International im Wochenüberblick"
+  },
+  {
+    "ticker": "PLTR",
+    "name": "Palantir Technologies",
+    "domain": "palantir.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Palantir Technologies im Wochenüberblick"
+  },
+  {
+    "ticker": "NFLX",
+    "name": "Netflix",
+    "domain": "netflix.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Netflix im Wochenüberblick"
+  },
+  {
+    "ticker": "KLAC",
+    "name": "KLA Corporation",
+    "domain": "kla.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "KLA Corporation im Wochenüberblick"
+  },
+  {
+    "ticker": "DELL",
+    "name": "Dell Technologies",
+    "domain": "dell.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Dell Technologies im Wochenüberblick"
+  },
+  {
+    "ticker": "RTX",
+    "name": "RTX Corp",
+    "domain": "rtx.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "RTX Corp im Wochenüberblick"
+  },
+  {
+    "ticker": "GEV",
+    "name": "GE Vernova",
+    "domain": "gevernova.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "GE Vernova im Wochenüberblick"
+  },
+  {
+    "ticker": "PANW",
+    "name": "Palo Alto Networks",
+    "domain": "paloaltonetworks.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Palo Alto Networks im Wochenüberblick"
+  },
+  {
+    "ticker": "WFC",
+    "name": "Wells Fargo",
+    "domain": "wellsfargo.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Wells Fargo im Wochenüberblick"
+  },
+  {
+    "ticker": "TXN",
+    "name": "Texas Instruments",
+    "domain": "ti.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Texas Instruments im Wochenüberblick"
+  },
+  {
+    "ticker": "SNDK",
+    "name": "Sandisk",
+    "domain": "sandisk.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Sandisk im Wochenüberblick"
+  },
+  {
+    "ticker": "AXP",
+    "name": "American Express",
+    "domain": "americanexpress.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "American Express im Wochenüberblick"
+  },
+  {
+    "ticker": "ANET",
+    "name": "Arista Networks",
+    "domain": "arista.com",
+    "region": "US",
+    "date": "2026-08-09",
+    "headline": "Arista Networks im Wochenüberblick"
+  },
+  {
+    "ticker": "ROG",
+    "name": "Roche",
+    "domain": "roche.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Roche im Wochenüberblick"
+  },
+  {
+    "ticker": "NOVN",
+    "name": "Novartis",
+    "domain": "novartis.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Novartis im Wochenüberblick"
+  },
+  {
+    "ticker": "NESN",
+    "name": "Nestle",
+    "domain": "nestle.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Nestle im Wochenüberblick"
+  },
+  {
+    "ticker": "ABBN",
+    "name": "ABB",
+    "domain": "abb.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "ABB im Wochenüberblick"
+  },
+  {
+    "ticker": "UBSG",
+    "name": "UBS Group",
+    "domain": "ubs.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "UBS Group im Wochenüberblick"
+  },
+  {
+    "ticker": "CFR",
+    "name": "Richemont",
+    "domain": "richemont.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Richemont im Wochenüberblick"
+  },
+  {
+    "ticker": "ZURN",
+    "name": "Zurich Insurance",
+    "domain": "zurich.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Zurich Insurance im Wochenüberblick"
+  },
+  {
+    "ticker": "GLEN",
+    "name": "Glencore",
+    "domain": "glencore.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Glencore im Wochenüberblick"
+  },
+  {
+    "ticker": "HOLN",
+    "name": "Holcim",
+    "domain": "holcim.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Holcim im Wochenüberblick"
+  },
+  {
+    "ticker": "GALD",
+    "name": "Galderma Group",
+    "domain": "galderma.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Galderma Group im Wochenüberblick"
+  },
+  {
+    "ticker": "SREN",
+    "name": "Swiss Re",
+    "domain": "swissre.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swiss Re im Wochenüberblick"
+  },
+  {
+    "ticker": "LONN",
+    "name": "Lonza",
+    "domain": "lonza.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Lonza im Wochenüberblick"
+  },
+  {
+    "ticker": "SCMN",
+    "name": "Swisscom",
+    "domain": "swisscom.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swisscom im Wochenüberblick"
+  },
+  {
+    "ticker": "SDZ",
+    "name": "Sandoz Group",
+    "domain": "sandoz.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Sandoz Group im Wochenüberblick"
+  },
+  {
+    "ticker": "SCHP",
+    "name": "Schindler Group",
+    "domain": "schindler.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Schindler Group im Wochenüberblick"
+  },
+  {
+    "ticker": "GIVN",
+    "name": "Givaudan",
+    "domain": "givaudan.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Givaudan im Wochenüberblick"
+  },
+  {
+    "ticker": "ALC",
+    "name": "Alcon",
+    "domain": "alcon.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Alcon im Wochenüberblick"
+  },
+  {
+    "ticker": "SIKA",
+    "name": "Sika",
+    "domain": "sika.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Sika im Wochenüberblick"
+  },
+  {
+    "ticker": "SLHN",
+    "name": "Swiss Life",
+    "domain": "swisslife.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swiss Life im Wochenüberblick"
+  },
+  {
+    "ticker": "KNIN",
+    "name": "Kuehne+Nagel",
+    "domain": "kuehne-nagel.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Kuehne+Nagel im Wochenüberblick"
+  },
+  {
+    "ticker": "LISN",
+    "name": "Lindt & Spruengli",
+    "domain": "lindt-spruengli.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Lindt & Spruengli im Wochenüberblick"
+  },
+  {
+    "ticker": "HBAN",
+    "name": "Helvetia Baloise",
+    "domain": "helvetiabaloise.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Helvetia Baloise im Wochenüberblick"
+  },
+  {
+    "ticker": "PGHN",
+    "name": "Partners Group",
+    "domain": "partnersgroup.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Partners Group im Wochenüberblick"
+  },
+  {
+    "ticker": "VACN",
+    "name": "VAT Group",
+    "domain": "vatgroup.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "VAT Group im Wochenüberblick"
+  },
+  {
+    "ticker": "SGSN",
+    "name": "SGS",
+    "domain": "sgs.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "SGS im Wochenüberblick"
+  },
+  {
+    "ticker": "GEBN",
+    "name": "Geberit",
+    "domain": "geberit.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Geberit im Wochenüberblick"
+  },
+  {
+    "ticker": "EMSN",
+    "name": "Ems-Chemie",
+    "domain": "ems-group.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Ems-Chemie im Wochenüberblick"
+  },
+  {
+    "ticker": "STMN",
+    "name": "Straumann",
+    "domain": "straumann.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Straumann im Wochenüberblick"
+  },
+  {
+    "ticker": "BAER",
+    "name": "Julius Baer",
+    "domain": "juliusbaer.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Julius Baer im Wochenüberblick"
+  },
+  {
+    "ticker": "LOGN",
+    "name": "Logitech",
+    "domain": "logitech.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Logitech im Wochenüberblick"
+  },
+  {
+    "ticker": "SOON",
+    "name": "Sonova",
+    "domain": "sonova.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Sonova im Wochenüberblick"
+  },
+  {
+    "ticker": "BEAN",
+    "name": "Belimo Holding",
+    "domain": "belimo.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Belimo Holding im Wochenüberblick"
+  },
+  {
+    "ticker": "UHR",
+    "name": "Swatch Group",
+    "domain": "swatchgroup.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swatch Group im Wochenüberblick"
+  },
+  {
+    "ticker": "SPSN",
+    "name": "Swiss Prime Site",
+    "domain": "sps.swiss",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swiss Prime Site im Wochenüberblick"
+  },
+  {
+    "ticker": "BCVN",
+    "name": "Banque Cantonale Vaudoise",
+    "domain": "bcv.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Banque Cantonale Vaudoise im Wochenüberblick"
+  },
+  {
+    "ticker": "BKW",
+    "name": "BKW",
+    "domain": "bkw.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "BKW im Wochenüberblick"
+  },
+  {
+    "ticker": "ACLN",
+    "name": "Accelleron Industries",
+    "domain": "accelleron.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Accelleron Industries im Wochenüberblick"
+  },
+  {
+    "ticker": "FHZN",
+    "name": "Zurich Airport",
+    "domain": "flughafen-zuerich.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Zurich Airport im Wochenüberblick"
+  },
+  {
+    "ticker": "AVOL",
+    "name": "Avolta",
+    "domain": "avolta.net",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Avolta im Wochenüberblick"
+  },
+  {
+    "ticker": "PSPN",
+    "name": "PSP Swiss Property",
+    "domain": "psp.info",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "PSP Swiss Property im Wochenüberblick"
+  },
+  {
+    "ticker": "BARN",
+    "name": "Barry Callebaut",
+    "domain": "barry-callebaut.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Barry Callebaut im Wochenüberblick"
+  },
+  {
+    "ticker": "SQN",
+    "name": "Swissquote",
+    "domain": "swissquote.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Swissquote im Wochenüberblick"
+  },
+  {
+    "ticker": "VZN",
+    "name": "VZ Holding",
+    "domain": "vzch.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "VZ Holding im Wochenüberblick"
+  },
+  {
+    "ticker": "LUKN",
+    "name": "Luzerner Kantonalbank",
+    "domain": "lukb.ch",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Luzerner Kantonalbank im Wochenüberblick"
+  },
+  {
+    "ticker": "SUN",
+    "name": "Sulzer",
+    "domain": "sulzer.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Sulzer im Wochenüberblick"
+  },
+  {
+    "ticker": "BANB",
+    "name": "Bachem",
+    "domain": "bachem.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Bachem im Wochenüberblick"
+  },
+  {
+    "ticker": "EFGN",
+    "name": "EFG International",
+    "domain": "efginternational.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "EFG International im Wochenüberblick"
+  },
+  {
+    "ticker": "SFSN",
+    "name": "SFS Group",
+    "domain": "sfs.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "SFS Group im Wochenüberblick"
+  },
+  {
+    "ticker": "TEMN",
+    "name": "Temenos",
+    "domain": "temenos.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Temenos im Wochenüberblick"
+  },
+  {
+    "ticker": "HUBN",
+    "name": "Huber+Suhner",
+    "domain": "hubersuhner.com",
+    "region": "CH",
+    "date": "2026-08-09",
+    "headline": "Huber+Suhner im Wochenüberblick"
+  },
+  {
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "domain": "nvidia.com",
+    "region": "US",
     "date": "2026-08-02",
     "headline": "NVIDIA im Wochenüberblick"
   },
@@ -798,805 +1598,5 @@
     "region": "CH",
     "date": "2026-08-02",
     "headline": "Huber+Suhner im Wochenüberblick"
-  },
-  {
-    "ticker": "NVDA",
-    "name": "NVIDIA",
-    "domain": "nvidia.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "NVIDIA im Wochenüberblick"
-  },
-  {
-    "ticker": "AAPL",
-    "name": "Apple",
-    "domain": "apple.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Apple: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "GOOGL",
-    "name": "Alphabet",
-    "domain": "google.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Warum der Markt bei Alphabet gerade übertreibt"
-  },
-  {
-    "ticker": "MSFT",
-    "name": "Microsoft",
-    "domain": "microsoft.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Microsoft: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "AMZN",
-    "name": "Amazon",
-    "domain": "amazon.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Amazon liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "AVGO",
-    "name": "Broadcom",
-    "domain": "broadcom.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Broadcom: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "SPCX",
-    "name": "SpaceX",
-    "domain": "spacex.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "SpaceX im Wochenüberblick"
-  },
-  {
-    "ticker": "META",
-    "name": "Meta Platforms",
-    "domain": "meta.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Warum der Markt bei Meta Platforms gerade übertreibt"
-  },
-  {
-    "ticker": "TSLA",
-    "name": "Tesla",
-    "domain": "tesla.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Tesla im Wochenüberblick"
-  },
-  {
-    "ticker": "MU",
-    "name": "Micron Technology",
-    "domain": "micron.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Micron Technology liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "BRK.B",
-    "name": "Berkshire Hathaway",
-    "domain": "berkshirehathaway.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Berkshire Hathaway im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "LLY",
-    "name": "Eli Lilly",
-    "domain": "lilly.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Eli Lilly im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "JPM",
-    "name": "JPMorgan Chase",
-    "domain": "jpmorganchase.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "JPMorgan Chase im Wochenüberblick"
-  },
-  {
-    "ticker": "AMD",
-    "name": "Advanced Micro Devices",
-    "domain": "amd.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Advanced Micro Devices liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "WMT",
-    "name": "Walmart",
-    "domain": "walmart.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Walmart im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "V",
-    "name": "Visa",
-    "domain": "visa.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Visa: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "XOM",
-    "name": "Exxon Mobil",
-    "domain": "exxonmobil.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Exxon Mobil im Wochenüberblick"
-  },
-  {
-    "ticker": "JNJ",
-    "name": "Johnson & Johnson",
-    "domain": "jnj.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Johnson & Johnson: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "INTC",
-    "name": "Intel",
-    "domain": "intel.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Intel: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "MA",
-    "name": "Mastercard",
-    "domain": "mastercard.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Mastercard im Wochenüberblick"
-  },
-  {
-    "ticker": "ABBV",
-    "name": "AbbVie",
-    "domain": "abbvie.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "AbbVie: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "AMAT",
-    "name": "Applied Materials",
-    "domain": "appliedmaterials.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Applied Materials: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "CSCO",
-    "name": "Cisco Systems",
-    "domain": "cisco.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Cisco Systems im Wochenüberblick"
-  },
-  {
-    "ticker": "BAC",
-    "name": "Bank of America",
-    "domain": "bankofamerica.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Bank of America im Wochenüberblick"
-  },
-  {
-    "ticker": "CAT",
-    "name": "Caterpillar",
-    "domain": "caterpillar.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Caterpillar liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "COST",
-    "name": "Costco",
-    "domain": "costco.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Costco: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "LRCX",
-    "name": "Lam Research",
-    "domain": "lamresearch.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Lam Research: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "CVX",
-    "name": "Chevron",
-    "domain": "chevron.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Chevron im Wochenüberblick"
-  },
-  {
-    "ticker": "UNH",
-    "name": "UnitedHealth",
-    "domain": "unitedhealthgroup.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "UnitedHealth im Wochenüberblick"
-  },
-  {
-    "ticker": "GE",
-    "name": "GE Aerospace",
-    "domain": "ge.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "GE Aerospace im Wochenüberblick"
-  },
-  {
-    "ticker": "KO",
-    "name": "Coca-Cola",
-    "domain": "coca-colacompany.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Coca-Cola: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "ORCL",
-    "name": "Oracle",
-    "domain": "oracle.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Oracle: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "PG",
-    "name": "Procter & Gamble",
-    "domain": "pg.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Procter & Gamble im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "MS",
-    "name": "Morgan Stanley",
-    "domain": "morganstanley.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Morgan Stanley im Wochenüberblick"
-  },
-  {
-    "ticker": "HD",
-    "name": "Home Depot",
-    "domain": "homedepot.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Warum der Markt bei Home Depot gerade übertreibt"
-  },
-  {
-    "ticker": "MRK",
-    "name": "Merck & Co",
-    "domain": "merck.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Merck & Co im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "GS",
-    "name": "Goldman Sachs",
-    "domain": "goldmansachs.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Goldman Sachs im Wochenüberblick"
-  },
-  {
-    "ticker": "PM",
-    "name": "Philip Morris International",
-    "domain": "pmi.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Philip Morris International: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "PLTR",
-    "name": "Palantir Technologies",
-    "domain": "palantir.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Palantir Technologies: Ein Rückgang, den man ernst nehmen sollte"
-  },
-  {
-    "ticker": "NFLX",
-    "name": "Netflix",
-    "domain": "netflix.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Netflix im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "KLAC",
-    "name": "KLA Corporation",
-    "domain": "kla.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "KLA Corporation: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "DELL",
-    "name": "Dell Technologies",
-    "domain": "dell.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Dell Technologies liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "RTX",
-    "name": "RTX Corp",
-    "domain": "rtx.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "RTX Corp im Ausverkauf – Substanz oder Sentiment?"
-  },
-  {
-    "ticker": "GEV",
-    "name": "GE Vernova",
-    "domain": "gevernova.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "GE Vernova liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "PANW",
-    "name": "Palo Alto Networks",
-    "domain": "paloaltonetworks.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Palo Alto Networks im Wochenüberblick"
-  },
-  {
-    "ticker": "WFC",
-    "name": "Wells Fargo",
-    "domain": "wellsfargo.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Wells Fargo im Wochenüberblick"
-  },
-  {
-    "ticker": "TXN",
-    "name": "Texas Instruments",
-    "domain": "ti.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Texas Instruments liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "SNDK",
-    "name": "Sandisk",
-    "domain": "sandisk.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Sandisk liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "AXP",
-    "name": "American Express",
-    "domain": "americanexpress.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "American Express im Wochenüberblick"
-  },
-  {
-    "ticker": "ANET",
-    "name": "Arista Networks",
-    "domain": "arista.com",
-    "region": "US",
-    "date": "2026-07-30",
-    "headline": "Arista Networks liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "ROG",
-    "name": "Roche",
-    "domain": "roche.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Roche im Wochenüberblick"
-  },
-  {
-    "ticker": "NOVN",
-    "name": "Novartis",
-    "domain": "novartis.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Novartis im Wochenüberblick"
-  },
-  {
-    "ticker": "NESN",
-    "name": "Nestle",
-    "domain": "nestle.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Nestle im Wochenüberblick"
-  },
-  {
-    "ticker": "ABBN",
-    "name": "ABB",
-    "domain": "abb.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "ABB: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "UBSG",
-    "name": "UBS Group",
-    "domain": "ubs.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "UBS Group im Wochenüberblick"
-  },
-  {
-    "ticker": "CFR",
-    "name": "Richemont",
-    "domain": "richemont.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Richemont im Wochenüberblick"
-  },
-  {
-    "ticker": "ZURN",
-    "name": "Zurich Insurance",
-    "domain": "zurich.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Zurich Insurance im Wochenüberblick"
-  },
-  {
-    "ticker": "GLEN",
-    "name": "Glencore",
-    "domain": "glencore.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Glencore im Wochenüberblick"
-  },
-  {
-    "ticker": "HOLN",
-    "name": "Holcim",
-    "domain": "holcim.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Holcim: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "GALD",
-    "name": "Galderma Group",
-    "domain": "galderma.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Galderma Group liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "SREN",
-    "name": "Swiss Re",
-    "domain": "swissre.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swiss Re im Wochenüberblick"
-  },
-  {
-    "ticker": "LONN",
-    "name": "Lonza",
-    "domain": "lonza.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Lonza im Wochenüberblick"
-  },
-  {
-    "ticker": "SCMN",
-    "name": "Swisscom",
-    "domain": "swisscom.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swisscom im Wochenüberblick"
-  },
-  {
-    "ticker": "SDZ",
-    "name": "Sandoz Group",
-    "domain": "sandoz.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Sandoz Group im Wochenüberblick"
-  },
-  {
-    "ticker": "SCHP",
-    "name": "Schindler Group",
-    "domain": "schindler.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Schindler Group im Wochenüberblick"
-  },
-  {
-    "ticker": "GIVN",
-    "name": "Givaudan",
-    "domain": "givaudan.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Givaudan im Wochenüberblick"
-  },
-  {
-    "ticker": "ALC",
-    "name": "Alcon",
-    "domain": "alcon.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Alcon im Wochenüberblick"
-  },
-  {
-    "ticker": "SIKA",
-    "name": "Sika",
-    "domain": "sika.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Sika im Wochenüberblick"
-  },
-  {
-    "ticker": "SLHN",
-    "name": "Swiss Life",
-    "domain": "swisslife.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swiss Life im Wochenüberblick"
-  },
-  {
-    "ticker": "KNIN",
-    "name": "Kuehne+Nagel",
-    "domain": "kuehne-nagel.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Kuehne+Nagel im Wochenüberblick"
-  },
-  {
-    "ticker": "LISN",
-    "name": "Lindt & Spruengli",
-    "domain": "lindt-spruengli.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Lindt & Spruengli im Wochenüberblick"
-  },
-  {
-    "ticker": "HBAN",
-    "name": "Helvetia Baloise",
-    "domain": "helvetiabaloise.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Helvetia Baloise im Wochenüberblick"
-  },
-  {
-    "ticker": "PGHN",
-    "name": "Partners Group",
-    "domain": "partnersgroup.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Partners Group im Wochenüberblick"
-  },
-  {
-    "ticker": "VACN",
-    "name": "VAT Group",
-    "domain": "vatgroup.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "VAT Group: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "SGSN",
-    "name": "SGS",
-    "domain": "sgs.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "SGS im Wochenüberblick"
-  },
-  {
-    "ticker": "GEBN",
-    "name": "Geberit",
-    "domain": "geberit.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Geberit im Wochenüberblick"
-  },
-  {
-    "ticker": "EMSN",
-    "name": "Ems-Chemie",
-    "domain": "ems-group.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Ems-Chemie im Wochenüberblick"
-  },
-  {
-    "ticker": "STMN",
-    "name": "Straumann",
-    "domain": "straumann.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Straumann im Wochenüberblick"
-  },
-  {
-    "ticker": "BAER",
-    "name": "Julius Baer",
-    "domain": "juliusbaer.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Julius Baer: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "LOGN",
-    "name": "Logitech",
-    "domain": "logitech.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Warum der Markt bei Logitech gerade übertreibt"
-  },
-  {
-    "ticker": "SOON",
-    "name": "Sonova",
-    "domain": "sonova.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Sonova im Wochenüberblick"
-  },
-  {
-    "ticker": "BEAN",
-    "name": "Belimo Holding",
-    "domain": "belimo.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Belimo Holding: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "UHR",
-    "name": "Swatch Group",
-    "domain": "swatchgroup.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swatch Group liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "SPSN",
-    "name": "Swiss Prime Site",
-    "domain": "sps.swiss",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swiss Prime Site im Wochenüberblick"
-  },
-  {
-    "ticker": "BCVN",
-    "name": "Banque Cantonale Vaudoise",
-    "domain": "bcv.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Banque Cantonale Vaudoise im Wochenüberblick"
-  },
-  {
-    "ticker": "BKW",
-    "name": "BKW",
-    "domain": "bkw.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "BKW im Wochenüberblick"
-  },
-  {
-    "ticker": "ACLN",
-    "name": "Accelleron Industries",
-    "domain": "accelleron.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Accelleron Industries liefert – und der Kurs zieht nach"
-  },
-  {
-    "ticker": "FHZN",
-    "name": "Zurich Airport",
-    "domain": "flughafen-zuerich.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Zurich Airport: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "AVOL",
-    "name": "Avolta",
-    "domain": "avolta.net",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Avolta im Wochenüberblick"
-  },
-  {
-    "ticker": "PSPN",
-    "name": "PSP Swiss Property",
-    "domain": "psp.info",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "PSP Swiss Property im Wochenüberblick"
-  },
-  {
-    "ticker": "BARN",
-    "name": "Barry Callebaut",
-    "domain": "barry-callebaut.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Barry Callebaut im Wochenüberblick"
-  },
-  {
-    "ticker": "SQN",
-    "name": "Swissquote",
-    "domain": "swissquote.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Swissquote im Wochenüberblick"
-  },
-  {
-    "ticker": "VZN",
-    "name": "VZ Holding",
-    "domain": "vzch.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "VZ Holding im Wochenüberblick"
-  },
-  {
-    "ticker": "LUKN",
-    "name": "Luzerner Kantonalbank",
-    "domain": "lukb.ch",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Luzerner Kantonalbank im Wochenüberblick"
-  },
-  {
-    "ticker": "SUN",
-    "name": "Sulzer",
-    "domain": "sulzer.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Sulzer im Wochenüberblick"
-  },
-  {
-    "ticker": "BANB",
-    "name": "Bachem",
-    "domain": "bachem.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Bachem: Ruhige Woche, klarer Trend"
-  },
-  {
-    "ticker": "EFGN",
-    "name": "EFG International",
-    "domain": "efginternational.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "EFG International im Wochenüberblick"
-  },
-  {
-    "ticker": "SFSN",
-    "name": "SFS Group",
-    "domain": "sfs.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "SFS Group im Wochenüberblick"
-  },
-  {
-    "ticker": "TEMN",
-    "name": "Temenos",
-    "domain": "temenos.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Temenos im Wochenüberblick"
-  },
-  {
-    "ticker": "HUBN",
-    "name": "Huber+Suhner",
-    "domain": "hubersuhner.com",
-    "region": "CH",
-    "date": "2026-07-30",
-    "headline": "Huber+Suhner: Ruhige Woche, klarer Trend"
   }
 ]
