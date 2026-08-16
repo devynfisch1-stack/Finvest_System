@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T03:46:42.799594Z",
+  "generated": "2026-08-16T16:21:07.362777Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -559,7 +559,7 @@
       "valuation": 5.9,
       "status": "Neutral",
       "peNow": 20.832527,
-      "drawdown": -1.8
+      "drawdown": -1.2
     },
     "VACN": {
       "overall": 5.1,
@@ -639,7 +639,7 @@
       "valuation": 4.1,
       "status": "Overvalued",
       "peNow": 24.82,
-      "drawdown": -4.3
+      "drawdown": -4.6
     },
     "BEAN": {
       "overall": 5.2,
@@ -711,7 +711,7 @@
       "valuation": 4.7,
       "status": "Neutral",
       "peNow": 15.977778,
-      "drawdown": -11.4
+      "drawdown": -11.7
     },
     "BARN": {
       "overall": 4.0,
@@ -735,7 +735,7 @@
       "valuation": 6.8,
       "status": "Outlier",
       "peNow": 15.512397,
-      "drawdown": -34.1
+      "drawdown": -32.7
     },
     "LUKN": {
       "overall": 4.2,
