@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T03:48:53.705315Z",
+  "generated": "2026-08-23T16:21:46.768359Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -538,11 +538,11 @@
       "drawdown": -14.8
     },
     "KNIN": {
-      "overall": 4.5,
+      "overall": 4.6,
       "quality": 5.8,
-      "valuation": 2.9,
+      "valuation": 3.0,
       "status": "Overvalued",
-      "peNow": 31.076487,
+      "peNow": 30.220385,
       "drawdown": -24.9
     },
     "SLHN": {
@@ -622,7 +622,7 @@
       "quality": 6.3,
       "valuation": 4.1,
       "status": "Overvalued",
-      "peNow": 27.22408,
+      "peNow": 27.103218,
       "drawdown": -32.9
     },
     "LOGN": {
@@ -676,9 +676,9 @@
     "FHZN": {
       "overall": 4.8,
       "quality": 4.9,
-      "valuation": 4.6,
+      "valuation": 4.7,
       "status": "Neutral",
-      "peNow": 20.33959,
+      "peNow": 20.159433,
       "drawdown": -10.8
     },
     "VZN": {
