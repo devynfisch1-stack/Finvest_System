@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T08:17:47.985545Z",
+  "generated": "2026-09-20T18:28:47.259781Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -783,7 +783,7 @@
       "valuation": 2.5,
       "status": "Overvalued",
       "peNow": 41.974686,
-      "drawdown": -42.2
+      "drawdown": -40.2
     },
     "ROG": {
       "overall": 5.4,
