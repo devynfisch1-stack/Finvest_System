@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T08:57:00.474575Z",
+  "generated": "2026-09-27T19:31:54.968711Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -30,7 +30,7 @@
       "quality": 6.8,
       "valuation": 6.0,
       "status": "Solid",
-      "peNow": 28.723984,
+      "peNow": 28.739979,
       "drawdown": -4.0
     },
     "AMZN": {
@@ -62,7 +62,7 @@
       "quality": 6.1,
       "valuation": 6.0,
       "status": "Solid",
-      "peNow": 44.94395,
+      "peNow": 45.582687,
       "drawdown": -26.5
     },
     "TSLA": {
@@ -102,7 +102,7 @@
       "quality": 5.3,
       "valuation": 3.2,
       "status": "Overvalued",
-      "peNow": 161.7,
+      "peNow": 161.28644,
       "drawdown": 0.0
     },
     "JPM": {
@@ -118,13 +118,13 @@
       "quality": 5.2,
       "valuation": 3.8,
       "status": "Overvalued",
-      "peNow": 38.981953,
+      "peNow": 39.123188,
       "drawdown": -19.3
     },
     "V": {
-      "overall": 4.7,
+      "overall": 4.8,
       "quality": 5.8,
-      "valuation": 3.4,
+      "valuation": 3.5,
       "status": "Overvalued",
       "peNow": 31.239796,
       "drawdown": -4.4
@@ -154,11 +154,11 @@
       "drawdown": -12.7
     },
     "MA": {
-      "overall": 5.8,
+      "overall": 5.7,
       "quality": 7.0,
-      "valuation": 4.1,
+      "valuation": 4.0,
       "status": "Solid",
-      "peNow": 31.18956,
+      "peNow": 31.25826,
       "drawdown": -5.4
     },
     "ABBV": {
@@ -174,7 +174,7 @@
       "quality": 7.5,
       "valuation": 3.9,
       "status": "Solid",
-      "peNow": 162.11111,
+      "peNow": 160.73729,
       "drawdown": -8.5
     },
     "CSCO": {
@@ -206,7 +206,7 @@
       "quality": 5.6,
       "valuation": 5.0,
       "status": "Neutral",
-      "peNow": 19.658655,
+      "peNow": 19.677574,
       "drawdown": -6.1
     },
     "BAC": {
@@ -220,9 +220,9 @@
     "LRCX": {
       "overall": 4.9,
       "quality": 5.8,
-      "valuation": 3.8,
+      "valuation": 3.9,
       "status": "Overvalued",
-      "peNow": 54.81913,
+      "peNow": 54.629116,
       "drawdown": -27.2
     },
     "AMAT": {
@@ -294,7 +294,7 @@
       "quality": 4.9,
       "valuation": 3.4,
       "status": "Overvalued",
-      "peNow": 15.857027,
+      "peNow": 15.844229,
       "drawdown": -13.6
     },
     "PANW": {
@@ -326,7 +326,7 @@
       "quality": 5.8,
       "valuation": 5.7,
       "status": "Solid",
-      "peNow": 20.503496,
+      "peNow": 20.532213,
       "drawdown": -28.8
     },
     "GS": {
@@ -446,7 +446,7 @@
       "quality": 5.6,
       "valuation": 2.9,
       "status": "Overvalued",
-      "peNow": 28.232103,
+      "peNow": 28.248587,
       "drawdown": -32.5
     },
     "ZURN": {
@@ -531,7 +531,7 @@
     },
     "KNIN": {
       "overall": 4.5,
-      "quality": 5.9,
+      "quality": 5.8,
       "valuation": 2.8,
       "status": "Overvalued",
       "peNow": 31.140108,
