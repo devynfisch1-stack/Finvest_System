@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:47:02.094630Z",
+  "generated": "2026-10-18T18:27:05.052095Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -58,11 +58,11 @@
       "drawdown": -9.8
     },
     "AVGO": {
-      "overall": 6.0,
+      "overall": 6.2,
       "quality": 6.1,
-      "valuation": 6.0,
+      "valuation": 6.1,
       "status": "Solid",
-      "peNow": 43.31357,
+      "peNow": 41.98595,
       "drawdown": -31.5
     },
     "TSLA": {
@@ -346,9 +346,9 @@
       "drawdown": -23.1
     },
     "TXN": {
-      "overall": 4.5,
+      "overall": 4.4,
       "quality": 5.0,
-      "valuation": 3.6,
+      "valuation": 3.5,
       "status": "Overvalued",
       "peNow": 42.08219,
       "drawdown": -16.4
