@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T08:06:55.694079Z",
+  "generated": "2026-10-25T18:43:23.187886Z",
   "scores": {
     "NVDA": {
       "overall": 4.0,
@@ -42,11 +42,11 @@
       "drawdown": -12.7
     },
     "SPCX": {
-      "overall": 5.7,
+      "overall": 5.5,
       "quality": 5.9,
-      "valuation": 5.5,
-      "status": "Solid",
-      "peNow": null,
+      "valuation": 5.2,
+      "status": "Neutral",
+      "peNow": 641.26086,
       "drawdown": -30.2
     },
     "META": {
@@ -58,11 +58,11 @@
       "drawdown": -18.3
     },
     "AVGO": {
-      "overall": 5.8,
+      "overall": 5.9,
       "quality": 6.1,
       "valuation": 5.7,
       "status": "Solid",
-      "peNow": 42.94793,
+      "peNow": 41.08301,
       "drawdown": -33.0
     },
     "TSLA": {
@@ -260,7 +260,7 @@
     "CAT": {
       "overall": 4.5,
       "quality": 5.3,
-      "valuation": 3.2,
+      "valuation": 3.3,
       "status": "Overvalued",
       "peNow": 29.573828,
       "drawdown": -35.4
@@ -292,7 +292,7 @@
     "GE": {
       "overall": 4.0,
       "quality": 6.2,
-      "valuation": 3.8,
+      "valuation": 4.0,
       "status": "Overvalued",
       "peNow": 32.644573,
       "drawdown": -25.0
@@ -338,9 +338,9 @@
       "drawdown": -13.9
     },
     "RTX": {
-      "overall": 3.8,
+      "overall": 3.9,
       "quality": 3.5,
-      "valuation": 3.8,
+      "valuation": 3.9,
       "status": "Overvalued",
       "peNow": 31.058535,
       "drawdown": -15.3
