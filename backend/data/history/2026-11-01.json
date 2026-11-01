@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T10:05:28.275399Z",
+  "generated": "2026-11-01T20:10:01.067276Z",
   "scores": {
     "AAPL": {
       "overall": 5.6,
@@ -538,8 +538,8 @@
       "drawdown": -29.6
     },
     "KNIN": {
-      "overall": 4.6,
-      "quality": 5.8,
+      "overall": 4.7,
+      "quality": 5.9,
       "valuation": 3.2,
       "status": "Overvalued",
       "peNow": 28.92683,
