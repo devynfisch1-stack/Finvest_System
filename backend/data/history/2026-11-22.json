@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22T10:43:46.734849Z",
+  "generated": "2026-11-22T21:31:54.331531Z",
   "scores": {
     "AAPL": {
       "overall": 5.4,
@@ -538,8 +538,8 @@
       "drawdown": -48.6
     },
     "KNIN": {
-      "overall": 4.7,
-      "quality": 5.8,
+      "overall": 4.8,
+      "quality": 5.9,
       "valuation": 3.4,
       "status": "Overvalued",
       "peNow": 27.451221,
@@ -658,11 +658,11 @@
       "drawdown": -57.8
     },
     "BEAN": {
-      "overall": 5.6,
+      "overall": 5.5,
       "quality": 7.0,
-      "valuation": 3.6,
+      "valuation": 3.4,
       "status": "Solid",
-      "peNow": 42.217117,
+      "peNow": 44.064747,
       "drawdown": -23.9
     },
     "BARN": {
@@ -756,7 +756,7 @@
     "TEMN": {
       "overall": 5.7,
       "quality": 6.9,
-      "valuation": 3.8,
+      "valuation": 3.9,
       "status": "Solid",
       "peNow": 30.02,
       "drawdown": -54.7
@@ -782,7 +782,7 @@
       "quality": 5.4,
       "valuation": 2.5,
       "status": "Overvalued",
-      "peNow": 40.153847,
+      "peNow": 39.746193,
       "drawdown": -45.4
     },
     "ROG": {
