@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T10:39:19.150819Z",
+  "generated": "2026-11-22T10:43:46.734849Z",
   "regions": {
     "US": [
       {
@@ -3264,7 +3264,7 @@
         "marketCap": 241290559488.0,
         "price": 127.76000213623047,
         "drawdown": -5.9,
-        "peNow": 30.71154,
+        "peNow": 30.63789,
         "peHist": 13.3,
         "peHist3y": 12.0,
         "peHist6y": 13.5,
@@ -3391,7 +3391,7 @@
         "sector": "Industrials",
         "region": "CH",
         "isFin": false,
-        "marketCap": 117943828480.0,
+        "marketCap": 117901967360.0,
         "price": 65.33999633789062,
         "drawdown": -26.2,
         "peNow": 29.699997,
@@ -3409,9 +3409,9 @@
         "events": [],
         "governance_note": null,
         "quality": 6.5,
-        "valuation": 3.0,
+        "valuation": 2.9,
         "dislocation": 5.0,
-        "overall": 4.9,
+        "overall": 4.8,
         "status": "Overvalued",
         "signal": false,
         "verdict": "Juengste Bewegung fundamental gestuetzt.",
@@ -3435,15 +3435,15 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 1,
-          "pe_vs_sector": 6.2,
+          "pe_vs_sector": 5.5,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
           "reverse_dcf": 1.6,
           "margin_of_safety": 1
         },
         "projection": {
-          "annual": 7.6,
-          "base3": 25,
+          "annual": 7.5,
+          "base3": 24,
           "low3": -4,
           "high3": 58,
           "prob": 41
@@ -3799,9 +3799,9 @@
         "events": [],
         "governance_note": null,
         "quality": 5.9,
-        "valuation": 5.9,
-        "dislocation": 5.0,
-        "overall": 5.8,
+        "valuation": 6.0,
+        "dislocation": 6.5,
+        "overall": 6.0,
         "status": "Solid",
         "signal": false,
         "verdict": "Juengste Bewegung fundamental gestuetzt.",
@@ -3825,18 +3825,18 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 5.9,
-          "pe_vs_sector": 9.2,
+          "pe_vs_sector": 10,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
           "reverse_dcf": 4.8,
           "margin_of_safety": null
         },
         "projection": {
-          "annual": 10.5,
-          "base3": 35,
-          "low3": 4,
-          "high3": 70,
-          "prob": 48
+          "annual": 11.3,
+          "base3": 38,
+          "low3": 7,
+          "high3": 74,
+          "prob": 50
         }
       },
       {
@@ -4044,7 +4044,7 @@
         "marketCap": 37012488192.0,
         "price": 714.5,
         "drawdown": -2.7,
-        "peNow": 28.985802,
+        "peNow": 28.602882,
         "peHist": 17.1,
         "peHist3y": 17.4,
         "peHist6y": 16.6,
@@ -4059,9 +4059,9 @@
         "events": [],
         "governance_note": null,
         "quality": 6.4,
-        "valuation": 4.5,
+        "valuation": 4.6,
         "dislocation": 5.0,
-        "overall": 5.4,
+        "overall": 5.5,
         "status": "Neutral",
         "signal": false,
         "verdict": "Juengste Bewegung fundamental gestuetzt.",
@@ -4085,14 +4085,14 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 1,
-          "pe_vs_sector": 5.5,
+          "pe_vs_sector": 5.9,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 3.5,
+          "reverse_dcf": 3.6,
           "margin_of_safety": 9.7
         },
         "projection": {
-          "annual": 9.4,
+          "annual": 9.5,
           "base3": 31,
           "low3": 1,
           "high3": 66,
@@ -4174,7 +4174,7 @@
         "marketCap": 30941380608.0,
         "price": 289.79998779296875,
         "drawdown": -7.2,
-        "peNow": 29.784172,
+        "peNow": 29.6319,
         "peHist": 10.0,
         "peHist3y": 9.6,
         "peHist6y": 10.0,
@@ -4184,12 +4184,12 @@
         "evHist3y": null,
         "evHist6y": null,
         "evHist10y": null,
-        "impliedGrowth": 20,
+        "impliedGrowth": 19,
         "realistic": false,
         "events": [],
         "governance_note": null,
         "quality": 7.1,
-        "valuation": 2.8,
+        "valuation": 2.9,
         "dislocation": 6.5,
         "overall": 5.3,
         "status": "Solid",
@@ -4215,18 +4215,18 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 1,
-          "pe_vs_sector": 5.5,
+          "pe_vs_sector": 6.2,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
           "reverse_dcf": 1,
           "margin_of_safety": 1
         },
         "projection": {
-          "annual": 8.9,
-          "base3": 29,
+          "annual": 9.0,
+          "base3": 30,
           "low3": 0,
           "high3": 64,
-          "prob": 44
+          "prob": 45
         }
       },
       {
@@ -4499,7 +4499,7 @@
         "marketCap": 21605154816.0,
         "price": 218.1999969482422,
         "drawdown": -5.2,
-        "peNow": 41.482887,
+        "peNow": 41.72084,
         "peHist": 29.2,
         "peHist3y": 31.5,
         "peHist6y": 28.8,
@@ -4539,11 +4539,11 @@
           "piotroski": 6.1
         },
         "valuation_sub": {
-          "pe_vs_hist": 1.6,
+          "pe_vs_hist": 1.5,
           "pe_vs_sector": 1.8,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 1.5,
+          "reverse_dcf": 1.4,
           "margin_of_safety": 3.2
         },
         "projection": {
@@ -4889,7 +4889,7 @@
         "marketCap": 15816556544.0,
         "price": 614.0,
         "drawdown": -54.7,
-        "peNow": 13.330439,
+        "peNow": 13.406114,
         "peHist": 22.3,
         "peHist3y": 22.5,
         "peHist6y": 22.3,
@@ -4904,7 +4904,7 @@
         "events": [],
         "governance_note": null,
         "quality": 7.7,
-        "valuation": 8.0,
+        "valuation": 7.9,
         "dislocation": 8.5,
         "overall": 7.9,
         "status": "Outlier",
@@ -4930,17 +4930,17 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 10,
-          "pe_vs_sector": 8.5,
+          "pe_vs_sector": 7.8,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
           "reverse_dcf": 7.0,
           "margin_of_safety": 10
         },
         "projection": {
-          "annual": 17.3,
-          "base3": 62,
+          "annual": 17.2,
+          "base3": 61,
           "low3": 27,
-          "high3": 102,
+          "high3": 101,
           "prob": 65
         }
       },
@@ -5019,7 +5019,7 @@
         "marketCap": 13452852224.0,
         "price": 65.37999725341797,
         "drawdown": -36.6,
-        "peNow": 11.350694,
+        "peNow": 11.801444,
         "peHist": 13.7,
         "peHist3y": 15.3,
         "peHist6y": 13.7,
@@ -5034,7 +5034,7 @@
         "events": [],
         "governance_note": null,
         "quality": 6.7,
-        "valuation": 5.7,
+        "valuation": 5.6,
         "dislocation": 7.0,
         "overall": 6.3,
         "status": "Solid",
@@ -5059,19 +5059,19 @@
           "piotroski": 8.5
         },
         "valuation_sub": {
-          "pe_vs_hist": 6.4,
-          "pe_vs_sector": 10,
+          "pe_vs_hist": 6.2,
+          "pe_vs_sector": 9.2,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 5.2,
+          "reverse_dcf": 5.1,
           "margin_of_safety": 1.9
         },
         "projection": {
-          "annual": 12.3,
+          "annual": 12.1,
           "base3": 41,
-          "low3": 10,
-          "high3": 78,
-          "prob": 53
+          "low3": 9,
+          "high3": 77,
+          "prob": 52
         }
       },
       {
@@ -5929,7 +5929,7 @@
         "marketCap": 6026686976.0,
         "price": 178.0,
         "drawdown": -4.6,
-        "peNow": 19.6468,
+        "peNow": 20.045044,
         "peHist": 25.0,
         "peHist3y": 13.7,
         "peHist6y": 28.0,
@@ -5939,7 +5939,7 @@
         "evHist3y": null,
         "evHist6y": null,
         "evHist10y": null,
-        "impliedGrowth": 10,
+        "impliedGrowth": 11,
         "realistic": false,
         "events": [],
         "governance_note": null,
@@ -5969,17 +5969,17 @@
           "piotroski": 9.0
         },
         "valuation_sub": {
-          "pe_vs_hist": 6.0,
+          "pe_vs_hist": 5.9,
           "pe_vs_sector": 9.2,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 3.8,
+          "reverse_dcf": 3.7,
           "margin_of_safety": 1
         },
         "projection": {
           "annual": 8.8,
           "base3": 29,
-          "low3": 0,
+          "low3": -1,
           "high3": 64,
           "prob": 44
         }
@@ -6124,7 +6124,7 @@
         "marketCap": 5052572672.0,
         "price": 75.05000305175781,
         "drawdown": -54.7,
-        "peNow": 29.202337,
+        "peNow": 30.02,
         "peHist": 26.9,
         "peHist3y": 23.7,
         "peHist6y": 28.8,
@@ -6134,12 +6134,12 @@
         "evHist3y": null,
         "evHist6y": null,
         "evHist10y": null,
-        "impliedGrowth": 19,
+        "impliedGrowth": 20,
         "realistic": false,
         "events": [],
         "governance_note": null,
         "quality": 6.9,
-        "valuation": 4.0,
+        "valuation": 3.8,
         "dislocation": 7.0,
         "overall": 5.7,
         "status": "Solid",
@@ -6164,19 +6164,19 @@
           "piotroski": 8.0
         },
         "valuation_sub": {
-          "pe_vs_hist": 5.0,
-          "pe_vs_sector": 5.3,
+          "pe_vs_hist": 4.9,
+          "pe_vs_sector": 4.6,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
-          "reverse_dcf": 1.9,
+          "reverse_dcf": 1.7,
           "margin_of_safety": 1.0
         },
         "projection": {
-          "annual": 10.4,
+          "annual": 10.2,
           "base3": 34,
           "low3": 4,
-          "high3": 70,
-          "prob": 48
+          "high3": 69,
+          "prob": 47
         }
       },
       {
@@ -6269,7 +6269,7 @@
         "events": [],
         "governance_note": null,
         "quality": 6.4,
-        "valuation": 7.4,
+        "valuation": 7.5,
         "dislocation": 7.0,
         "overall": 6.9,
         "status": "Solid",
@@ -6295,17 +6295,17 @@
         },
         "valuation_sub": {
           "pe_vs_hist": 6.1,
-          "pe_vs_sector": 7.8,
+          "pe_vs_sector": 8.5,
           "ev_vs_hist": null,
           "pfcf_vs_hist": null,
           "reverse_dcf": 9.5,
           "margin_of_safety": 10
         },
         "projection": {
-          "annual": 14.0,
-          "base3": 48,
+          "annual": 14.2,
+          "base3": 49,
           "low3": 16,
-          "high3": 86,
+          "high3": 87,
           "prob": 57
         }
       },
